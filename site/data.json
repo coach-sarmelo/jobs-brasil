@@ -3,33 +3,36 @@
     "total_occupations": 87,
     "total_jobs": 87830902,
     "total_wages": 250374439885.53,
-    "weighted_ai_exposure": 4.03,
+    "weighted_ai_exposure": 4.08,
     "tiers": {
       "Minimal (0-1)": {
-        "jobs": 0,
-        "wages": 0.0,
-        "count": 0
+        "jobs": 12965685,
+        "wages": 20075696922.78,
+        "count": 5
       },
       "Low (2-3)": {
-        "jobs": 18700971,
-        "wages": 40486413029.25,
-        "count": 12
+        "jobs": 22439832,
+        "wages": 51607645051.600006,
+        "count": 31
       },
       "Moderate (4-5)": {
-        "jobs": 61287174,
-        "wages": 182147925940.88,
-        "count": 71
+        "jobs": 33929757,
+        "wages": 97842396434.56,
+        "count": 24
       },
       "High (6-7)": {
-        "jobs": 6863168,
-        "wages": 22038059898.7,
-        "count": 2
+        "jobs": 16021436,
+        "wages": 66231659306.52999,
+        "count": 20
       },
       "Very high (8-10)": {
-        "jobs": 979589,
-        "wages": 5702041016.7,
-        "count": 2
+        "jobs": 2474192,
+        "wages": 14617042170.059998,
+        "count": 7
       }
+    },
+    "scoring_method_counts": {
+      "llm": 87
     }
   },
   "occupations": [
@@ -40,9 +43,10 @@
       "jobs": 5866546,
       "pay": 1902.37,
       "wage_bill": 11160341114.02,
-      "exposure": 2,
-      "rationale": "Atividade física e operational no campo com baixa substituição direta por software de IA.",
-      "tier": "Low (2-3)"
+      "exposure": 1,
+      "rationale": "O manejo de lavouras, pastagens e rebanhos para quase 5,9 milhões de trabalhadores depende de plantio, colheita e tratos físicos no campo, que a IA não executa sem robótica avançada e presença local. A renda média baixa e a sazonalidade reforçam o caráter braçal do trabalho, tornando mínima a substituição cognitiva por software.",
+      "method": "llm",
+      "tier": "Minimal (0-1)"
     },
     {
       "code": "1.02",
@@ -52,7 +56,8 @@
       "pay": 1664.61,
       "wage_bill": 392619908.43,
       "exposure": 2,
-      "rationale": "Atividade física e operational no campo com baixa substituição direta por software de IA.",
+      "rationale": "O corte, a extração e o replantio de madeira em áreas remotas exigem motosserras, máquinas pesadas e deslocamento por terreno acidentado, sem paralelo em home office. Sistemas de IA ajudam no inventário florestal e na otimização do manejo, mas executam apenas uma parcela pequena da rotina do subgrupo.",
+      "method": "llm",
       "tier": "Low (2-3)"
     },
     {
@@ -62,9 +67,10 @@
       "jobs": 332553,
       "pay": 986.41,
       "wage_bill": 328033604.73,
-      "exposure": 2,
-      "rationale": "Atividade física e operational no campo com baixa substituição direta por software de IA.",
-      "tier": "Low (2-3)"
+      "exposure": 1,
+      "rationale": "Pescadores e aquicultores passam longos períodos em embarcações, tanques e açudes manejando redes, rações e equipamentos em contato direto com a água e o clima. A baixa previsibilidade do ambiente e a natureza física da atividade limitam a IA ao apoio de monitoramento de estoques e condições meteorológicas.",
+      "method": "llm",
+      "tier": "Minimal (0-1)"
     },
     {
       "code": "2.05",
@@ -73,9 +79,10 @@
       "jobs": 2578,
       "pay": 2632.36,
       "wage_bill": 6786224.08,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 2,
+      "rationale": "A operação de minas de carvão subterrâneas e a céu aberto envolve perfuração, detonação e movimentação de minério em ambientes insalubres, exigindo presença física constante dos 2,5 mil trabalhadores do setor. Sensoriamento e automação de máquinas reduzem riscos, mas o núcleo do trabalho permanece manual e no local da mina.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "2.06",
@@ -84,9 +91,10 @@
       "jobs": 76872,
       "pay": 8203.85,
       "wage_bill": 630646357.2,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "O setor de petróleo e gás combina plataformas offshore e refinarias onde técnicos operam equipamentos de alta complexidade em regime de embarque e turnos presenciais, apesar da renda média elevada de R$ 8,2 mil. A IA atua no monitoramento de poços e na previsão de produção, porém a execução operacional segue dependente de engenheiros e técnicos em campo.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "2.07",
@@ -95,9 +103,10 @@
       "jobs": 33015,
       "pay": 2855.49,
       "wage_bill": 94274002.35,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 2,
+      "rationale": "A mineração de ferro, ouro e outros metais exige operação de máquinas de grande porte, britagem e transporte de minério nas jazidas, com barreiras físicas e de segurança relevantes. Ferramentas de IA otimizam o planejamento de lavra e a logística, mas não substituem os operadores que atuam na mina.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "2.08",
@@ -106,9 +115,10 @@
       "jobs": 215936,
       "pay": 3517.41,
       "wage_bill": 759535445.76,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 2,
+      "rationale": "Pedreiras e extração de areia, brita e argila demandam operação de britadores, escavadeiras e caminhões em ambiente aberto e poeirento, com mão de obra essencialmente presencial. A digitalização alcança a gestão de estoques e a manutenção preditiva, enquanto a rotina operativa continua física.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "2.09",
@@ -117,9 +127,10 @@
       "jobs": 5173,
       "pay": 7438.19,
       "wage_bill": 38477756.87,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "O apoio à mineração abrange sondagem, amostragem e manutenção de equipamentos em campo, além de técnicos que acompanham lavra e segurança, todos com atuação presencial. Profissionais de geologia e engenharia usam softwares de modelagem, mas a maior parte do efetivo do subgrupo trabalha no local das operações.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.10",
@@ -128,9 +139,10 @@
       "jobs": 1069673,
       "pay": 2244.95,
       "wage_bill": 2401362401.35,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Linhas de abate, moagem e processamento de alimentos operam em ritmo contínuo nas plantas industriais, onde operadores, conferentes e supervisores atuam presencialmente junto às máquinas. A IA penetra no controle de qualidade e na previsão de demanda, mas a transformação física do alimento exige presença fabril.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.11",
@@ -139,9 +151,10 @@
       "jobs": 82082,
       "pay": 3032.26,
       "wage_bill": 248893965.32,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Envasamento, pasteurização e engarrafamento de bebidas ocorrem em plantas com forte automação mecânica, ainda assim supervisionadas por técnicos e operadores no chão de fábrica. Decisões de mix e de logística usam algoritmos, enquanto a operação das linhas permanece presencial.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.12",
@@ -150,9 +163,10 @@
       "jobs": 18232,
       "pay": 2342.22,
       "wage_bill": 42703355.04,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "O processamento do tabaco e a produção de cigarros envolvem máquinas especializadas e controle de qualidade em ambiente industrial fechado, com supervisão presencial de operadores. A automação tradicional já domina o setor, e a IA agrega pouco além de otimização pontual de processos.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.13",
@@ -161,9 +175,10 @@
       "jobs": 437610,
       "pay": 2008.86,
       "wage_bill": 879097224.6,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Fiação, tecelagem e beneficiamento têxtil empregam operadores que acompanham máquinas contínuas e barulhentas em turnos, com abastecimento, troca de rolos e inspeção física. A IA contribui na detecção de defeitos e no design de tecidos, mas a produção em massa segue na planta industrial.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.14",
@@ -172,9 +187,10 @@
       "jobs": 1286582,
       "pay": 1611.59,
       "wage_bill": 2073442685.38,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Corte, costura e acabamento de roupas empregam mais de 1,2 milhão de costureiras e auxiliares, atividade manual e presencial com renda média de apenas R$ 1,6 mil. Robôs de costura ainda são incipientes, e a IA atua principalmente no design e na previsão de moda, não na costura em si.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.15",
@@ -183,9 +199,10 @@
       "jobs": 323687,
       "pay": 1839.21,
       "wage_bill": 595328367.27,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Curtumes e fábricas de calçados dependem de etapas manuais de montagem, costura e acabamento realizadas em galpões com forte concentração de mão de obra. A automação parcial de solas e cortes cresce, mas a montagem final ainda exige trabalhadores presenciais.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.16",
@@ -194,9 +211,10 @@
       "jobs": 160299,
       "pay": 1956.23,
       "wage_bill": 313581712.77,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Serragem, beneficiamento e montagem de madeira ocorrem em serrarias e marcenarias com máquinas de corte e deslocamento físico de peças pesadas. Sistemas de IA ajudam no aproveitamento de toras e na programação da produção, enquanto o núcleo operativo permanece na fábrica.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.17",
@@ -206,7 +224,8 @@
       "pay": 3420.4,
       "wage_bill": 326713187.6,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "A indústria de celulose opera processos químicos contínuos monitorados por técnicos em salas de controle, embora a manutenção e a operação de campo sejam presenciais nas plantas. É um dos setores mais automatizados, com IA melhorando o rendimento de digestores e a qualidade do papel, mas a vigilância física das unidades continua.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -216,8 +235,9 @@
       "jobs": 176989,
       "pay": 2650.79,
       "wage_bill": 469160671.31,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "exposure": 5,
+      "rationale": "O setor de impressão une pré-impressão digital, feita em computadores, com operação de gráficas e gravadoras que exige presença física de operadores e acabadores. A substituição por IA é parcial: design e diagramação são digitalizáveis, enquanto impressão e encadernação permanecem industriais.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -228,7 +248,8 @@
       "pay": 4250.57,
       "wage_bill": 197260452.56,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "Refinarias e usinas de coque operam em regime contínuo com salas de controle avançadas e equipes de campo para manutenção e segurança, em ambiente de alto risco. A otimização de processos por IA é intensa, mas a escala de produção exige operadores e técnicos presenciais.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -239,7 +260,8 @@
       "pay": 4092.28,
       "wage_bill": 747442665.16,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "Plantas químicas combinam reatores, misturadores e embalagem supervisionados por operadores em turnos, com controle de qualidade em laboratório físico. Algoritmos otimizam fórmulas e rotas de produção, porém a operação segura das unidades depende de presença humana.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -249,8 +271,9 @@
       "jobs": 144830,
       "pay": 5071.52,
       "wage_bill": 734508241.6,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "exposure": 5,
+      "rationale": "A produção de medicamentos é fortemente regulada e combina processos fabris em salas limpas com P&D em laboratórios, com equipes técnicas presenciais. A IA acelera a descoberta de fármacos e a análise de lotes, enquanto a fabricação e a validação continuam físicas e auditadas.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -260,9 +283,10 @@
       "jobs": 182141,
       "pay": 2941.4,
       "wage_bill": 535749537.4,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Injeção, extrusão e sopro de plásticos exigem operação de máquinas quentes e moldes em fábricas, com inspeção e acabamento manuais. A automação de máquinas é tradicional, e a IA entra na manutenção preditiva sem mudar a natureza presencial do trabalho.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.23",
@@ -271,9 +295,10 @@
       "jobs": 338414,
       "pay": 2402.95,
       "wage_bill": 813191921.3,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Cimento, vidro, cerâmica e gesso são produzidos em fornos e linhas contínuas, com operadores expostos a calor e poeira no chão de fábrica. A IA melhora a eficiência energética dos fornos e o controle de qualidade, mas o trabalho central continua industrial e presencial.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.24",
@@ -282,9 +307,10 @@
       "jobs": 201439,
       "pay": 3276.22,
       "wage_bill": 659958480.58,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Fundição, laminação e tratamento de metais acontecem em usinas com altos-fornos e lingotamento, operadas por equipes em turnos em ambiente de calor extremo. Sistemas inteligentes otimizam a composição de ligas e o consumo de energia, sem eliminar a presença dos operadores.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.25",
@@ -293,9 +319,10 @@
       "jobs": 1020804,
       "pay": 2757.85,
       "wage_bill": 2815224311.4,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Usinagem, solda, caldeiraria e serralheria empregam mais de 1 milhão de trabalhadores em atividades físicas com máquinas pesadas e chapas metálicas. A digitalização de projetos e a manutenção preditiva crescem, mas a conformação do metal exige presença física na fábrica.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.26",
@@ -304,9 +331,10 @@
       "jobs": 154764,
       "pay": 2610.64,
       "wage_bill": 404033088.96,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "A montagem de placas, componentes eletrônicos e dispositivos ópticos combina linhas de produção automatizadas com teste e inspeção em salas limpas, enquanto engenheiros de produto trabalham em software. O projeto de circuitos e o teste automatizado com IA expõem a parte técnica do subgrupo, mas a manufatura segue presencial.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "3.27",
@@ -316,7 +344,8 @@
       "pay": 3042.73,
       "wage_bill": 199600045.27,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "A produção de motores, transformadores e materiais elétricos envolve bobinagem, montagem e ensaios em bancadas industriais, com engenheiros apoiando projetos por computador. A IA assiste o projeto de componentes e o diagnóstico de falhas, enquanto a fabricação permanece presencial.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -327,7 +356,8 @@
       "pay": 3659.17,
       "wage_bill": 439931031.59,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "A fabricação de máquinas industriais, agrícolas e de construção combina usinagem pesada e montagem em fábrica com engenharia de produto em escritório. Ferramentas de CAD e simulação com IA aceleram o projeto, mas a produção mecânica continua dependente de presença física.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -338,7 +368,8 @@
       "pay": 3693.34,
       "wage_bill": 935220168.12,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "Linhas de montagem automotiva são altamente robotizadas, porém ainda empregam milhares de operadores, soldadores e pintores em turnos nas plantas. A IA domina o projeto de componentes e a logística, enquanto a montagem final e a inspeção seguem presenciais.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -348,9 +379,10 @@
       "jobs": 40020,
       "pay": 3841.6,
       "wage_bill": 153740832.0,
-      "exposure": 3,
-      "rationale": "Operação de veículos e logística física com automação gradual.",
-      "tier": "Low (2-3)"
+      "exposure": 4,
+      "rationale": "A construção de aeronaves, embarcações e material ferroviário exige montagem de estruturas grandes, com trabalho especializado e presencial em hangares e estaleiros. O projeto digital em CAD é intenso, mas a união de estruturas e os ensaios demandam equipes físicas.",
+      "method": "llm",
+      "tier": "Moderate (4-5)"
     },
     {
       "code": "3.31",
@@ -359,9 +391,10 @@
       "jobs": 564227,
       "pay": 2410.64,
       "wage_bill": 1360148175.28,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Marcenarias industriais produzem móveis com cortes automatizados e montagem manual em bancadas, empregando mais de 560 mil trabalhadores em operações físicas. A IA auxilia o design de ambientes e a otimização de corte, sem substituir a montagem e o acabamento presenciais.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.32",
@@ -370,9 +403,10 @@
       "jobs": 1738168,
       "pay": 2663.44,
       "wage_bill": 4629506177.92,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Este subgrupo heterogêneo reúne brinquedos, joias, instrumentos musicais e outros itens, com predomínio de manufatura manual e presencial em pequenas e médias fábricas. A exposição à IA varia entre nichos, mas a média do subgrupo é de trabalho físico industrial de baixa automação cognitiva.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "3.33",
@@ -381,9 +415,10 @@
       "jobs": 277217,
       "pay": 2855.33,
       "wage_bill": 791546016.61,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Técnicos de manutenção atuam em campo e nas fábricas desmontando, ajustando e reinstalando máquinas, com diagnóstico muitas vezes feito por instrumentos físicos. A IA auxilia a manutenção preditiva e a consulta a manuais técnicos, mas a execução do conserto exige presença e habilidade manual.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "4.35",
@@ -392,9 +427,10 @@
       "jobs": 210080,
       "pay": 4381.86,
       "wage_bill": 920541148.8,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Redes de transmissão, usinas e redes de gás demandam técnicos que operam subestações, medidores e linhas em campo, com funções de controle concentradas em centros de operação digitalizados. A automação e a análise preditiva de cargas crescem, mas o efetivo do subgrupo é majoritariamente de campo.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "5.36",
@@ -403,9 +439,10 @@
       "jobs": 142069,
       "pay": 3315.08,
       "wage_bill": 470970100.52,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Estações de tratamento e redes de distribuição de água empregam operadores, encanadores e leituristas que atuam presencialmente em reservatórios, bombas e ruas. Sistemas de telemetria e de detecção de vazamentos com IA reduzem perdas, sem eliminar o trabalho físico de manutenção.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "5.37",
@@ -414,9 +451,10 @@
       "jobs": 6285,
       "pay": 2655.92,
       "wage_bill": 16692457.2,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 2,
+      "rationale": "A operação e a manutenção de redes de esgoto são essencialmente físicas, realizadas em galerias, estações elevatórias e pontos de coleta com condições insalubres. A IA entra no monitoramento de bombas e na previsão de obstruções, enquanto os trabalhadores seguem no campo.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "5.38",
@@ -425,9 +463,10 @@
       "jobs": 558633,
       "pay": 1510.86,
       "wage_bill": 844016254.38,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 1,
+      "rationale": "Catadores, garis e operadores de aterros e usinas de reciclagem realizam trabalho braçal extenuante nas ruas e nos lixões, com renda média de R$ 1,5 mil. Rotas de coleta otimizadas por IA e triagem robótica reduzem a demanda, mas o núcleo do trabalho é físico e presencial.",
+      "method": "llm",
+      "tier": "Minimal (0-1)"
     },
     {
       "code": "5.39",
@@ -436,9 +475,10 @@
       "jobs": 411,
       "pay": 3533.86,
       "wage_bill": 1452416.46,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 2,
+      "rationale": "A remediação de áreas contaminadas e a gestão especializada de resíduos perigosos exigem técnicos com EPI em campo, amostragem física e operação de equipamentos de tratamento. É um serviço de nicho altamente especializado, com a IA limitada ao apoio de mapeamento e planejamento.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "6.41",
@@ -448,7 +488,8 @@
       "pay": 1650.81,
       "wage_bill": 4756992254.91,
       "exposure": 2,
-      "rationale": "Trabalho predominantemente físico, manual e presencial nos canteiros de obras.",
+      "rationale": "Obras de edifícios empregam 2,9 milhões de trabalhadores em alvenaria, concretagem, carpintaria e acabamento, com presença física obrigatória no canteiro. A IA entra no orçamento, no cronograma e no projeto estrutural, enquanto a execução da obra permanece braçal.",
+      "method": "llm",
       "tier": "Low (2-3)"
     },
     {
@@ -459,7 +500,8 @@
       "pay": 2793.84,
       "wage_bill": 369222719.04,
       "exposure": 2,
-      "rationale": "Trabalho predominantemente físico, manual e presencial nos canteiros de obras.",
+      "rationale": "Rodovias, pontes, barragens e ferrovias são construídas com terraplenagem, pavimentação e montagem de estruturas em canteiros abertos, com forte componente físico. Modelos digitais e monitoramento por sensores auxiliam o planejamento, mas a execução exige equipes no local.",
+      "method": "llm",
       "tier": "Low (2-3)"
     },
     {
@@ -470,7 +512,8 @@
       "pay": 2442.41,
       "wage_bill": 9518125503.02,
       "exposure": 2,
-      "rationale": "Trabalho predominantemente físico, manual e presencial nos canteiros de obras.",
+      "rationale": "O subgrupo reúne eletricistas, encanadores, pintores e instaladores que atuam em obras e reformas, com 3,9 milhões de trabalhadores em tarefas manuais e presença obrigatória. A IA oferece apoio em orçamentos e projetos simples, enquanto o serviço técnico manual domina a rotina.",
+      "method": "llm",
       "tier": "Low (2-3)"
     },
     {
@@ -480,8 +523,9 @@
       "jobs": 2278879,
       "pay": 2474.0,
       "wage_bill": 5637946646.0,
-      "exposure": 5,
-      "rationale": "Vendas e atendimento com mix de atendimento presencial e automação e-commerce.",
+      "exposure": 4,
+      "rationale": "Concessionárias, oficinas mecânicas e lojas de peças combinam venda presencial, diagnóstico de veículos e conserto físico por mecânicos e vendedores. O diagnóstico eletrônico assistido por IA cresce, mas o atendimento e a oficina permanecem presenciais.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -492,7 +536,8 @@
       "pay": 2460.86,
       "wage_bill": 31390250292.3,
       "exposure": 5,
-      "rationale": "Vendas e atendimento com mix de atendimento presencial e automação e-commerce.",
+      "rationale": "O varejo e o atacado empregam 12,7 milhões de vendedores, caixas e reposidores em lojas físicas, com atendimento direto ao cliente e rotinas presenciais. O comércio eletrônico e o marketing digital com IA crescem, mas a maior parte do subgrupo atua no balcão.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -503,7 +548,8 @@
       "pay": 2606.56,
       "wage_bill": 9474003681.12,
       "exposure": 3,
-      "rationale": "Operação de veículos e logística física com automação gradual.",
+      "rationale": "Motoristas de caminhão, ônibus e aplicativos passam o dia dirigindo veículos em estradas e cidades, atividade que exige presença física e atenção contínua ao trânsito. O caminhão autônomo e o roteirizador com IA ameaçam parte das funções, mas a direção ainda é humana e presencial.",
+      "method": "llm",
       "tier": "Low (2-3)"
     },
     {
@@ -514,7 +560,8 @@
       "pay": 4082.68,
       "wage_bill": 195605281.48,
       "exposure": 3,
-      "rationale": "Operação de veículos e logística física com automação gradual.",
+      "rationale": "Tripulações de navios, barcos e rebocadores embarcam por longos períodos, operando navegação, máquinas e carga em contato direto com o mar. A automação de embarcações avança lentamente, e a IA auxilia rotas e previsão de manutenção sem mudar o trabalho embarcado.",
+      "method": "llm",
       "tier": "Low (2-3)"
     },
     {
@@ -524,9 +571,10 @@
       "jobs": 51671,
       "pay": 6531.45,
       "wage_bill": 337486552.95,
-      "exposure": 3,
-      "rationale": "Operação de veículos e logística física com automação gradual.",
-      "tier": "Low (2-3)"
+      "exposure": 4,
+      "rationale": "Pilotos, comissários e pessoal de aeroporto atuam presencialmente em voos e terminais, em um setor já fortemente automatizado em navegação e despacho. A IA melhora escalas, manutenção preditiva e atendimento, mas o transporte em si exige tripulação humana a bordo.",
+      "method": "llm",
+      "tier": "Moderate (4-5)"
     },
     {
       "code": "8.52",
@@ -535,9 +583,10 @@
       "jobs": 948514,
       "pay": 2696.66,
       "wage_bill": 2557819763.24,
-      "exposure": 3,
-      "rationale": "Operação de veículos e logística física com automação gradual.",
-      "tier": "Low (2-3)"
+      "exposure": 4,
+      "rationale": "A operação de armazéns, portos e centros de distribuição combina movimentação física de cargas com gestão de estoques em sistemas informatizados. Empilhadeiras autônomas e otimização por IA crescem, porém conferentes e operadores seguem presencialmente no galpão.",
+      "method": "llm",
+      "tier": "Moderate (4-5)"
     },
     {
       "code": "8.53",
@@ -547,7 +596,8 @@
       "pay": 1964.53,
       "wage_bill": 1242421814.31,
       "exposure": 3,
-      "rationale": "Operação de veículos e logística física com automação gradual.",
+      "rationale": "Carteiros e entregadores percorrem ruas diariamente a pé, de bicicleta ou moto, com distribuição de pacotes que exige presença física no endereço final. Drones e robôs de entrega são testes pontuais, e a IA atua mais no roteirizador do que na entrega em si.",
+      "method": "llm",
       "tier": "Low (2-3)"
     },
     {
@@ -558,7 +608,8 @@
       "pay": 2266.13,
       "wage_bill": 719215274.88,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "Hotéis, pousadas e campings empregam recepcionistas, camareiras e porteiros em turnos presenciais, com atendimento e limpeza física de quartos e áreas comuns. Sistemas de reservas e chatbots com IA automatizam parte do front desk, sem eliminar o trabalho presencial de hospedagem.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
@@ -569,425 +620,464 @@
       "pay": 1908.72,
       "wage_bill": 6639123680.64,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "Cozinheiros, garçons e atendentes de restaurantes, bares e lanchonetes trabalham presencialmente em cozinhas e salões, com preparo físico de alimentos e atendimento ao público. Cozinhas robotizadas e cardápios gerados por IA são novidades pontuais, mas o serviço alimentar segue essencialmente humano.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
       "code": "10.58",
       "name": "Edição e edição integrada à de impressão",
-      "section": "Alojamento e alimentação",
+      "section": "Informação e comunicação",
       "jobs": 49152,
       "pay": 4664.37,
       "wage_bill": 229263114.24,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 7,
+      "rationale": "Editores, revisores e designers editoriais produzem livros, jornais e revistas em computadores, com escrita, diagramação e correção majoritariamente digitais. A IA generativa já redige, revisa e diagrama conteúdo, tornando este um dos subgrupos mais expostos do setor editorial.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "10.59",
       "name": "Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e de música",
-      "section": "Alojamento e alimentação",
+      "section": "Informação e comunicação",
       "jobs": 73159,
       "pay": 4482.37,
       "wage_bill": 327925706.83,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "A indústria audiovisual combina set de filmagem presencial com edição de vídeo, som e efeitos digitais feitos em estações de trabalho. A IA gera roteiros, edita imagens e compõe trilhas, aumentando a exposição das etapas de pós-produção, enquanto as gravações seguem físicas.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "10.60",
       "name": "Atividades de rádio e de televisão",
-      "section": "Alojamento e alimentação",
+      "section": "Informação e comunicação",
       "jobs": 63097,
       "pay": 4039.54,
       "wage_bill": 254882855.38,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "Emissoras de rádio e TV unem estúdios e externas presenciais a redações onde jornalistas e editores trabalham em computadores com conteúdo digital. Apresentadores e repórteres seguem necessários, mas locução sintética, notícias geradas por IA e edição automatizada reduzem o trabalho humano nas redações.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "10.61",
       "name": "Telecomunicações",
-      "section": "Alojamento e alimentação",
+      "section": "Informação e comunicação",
       "jobs": 353552,
       "pay": 3314.47,
       "wage_bill": 1171837497.44,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "O setor de telecomunicações combina instalação e manutenção física de redes, antenas e cabos com operação de centrais, monitoramento de rede e atendimento em sistemas digitais. A IA já automatiza o atendimento e o diagnóstico de falhas, elevando a exposição das funções de suporte e operação.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "10.62",
       "name": "Atividades dos serviços de tecnologia da informação",
-      "section": "Alojamento e alimentação",
+      "section": "Informação e comunicação",
       "jobs": 875815,
       "pay": 5940.98,
       "wage_bill": 5203199398.7,
       "exposure": 9,
-      "rationale": "Trabalho 100% digital em computador focado em código, análise de dados e arquitetura, áreas em rápida evolução por IA.",
+      "rationale": "Programadores, analistas, testadores e administradores de sistemas executam praticamente todo o trabalho em computadores, de qualquer lugar, incluindo home office remoto. A IA atua como copiloto de código e automatiza tarefas de infraestrutura, colocando este subgrupo entre os mais expostos do mercado.",
+      "method": "llm",
       "tier": "Very high (8-10)"
     },
     {
       "code": "10.63",
       "name": "Atividades de prestação de serviços de informação",
-      "section": "Alojamento e alimentação",
+      "section": "Informação e comunicação",
       "jobs": 103774,
       "pay": 4807.0,
       "wage_bill": 498841618.0,
       "exposure": 8,
-      "rationale": "Processamento de informação digital, redação e suporte técnico altamente expostos a LLMs.",
+      "rationale": "Portais, agências de notícias, processamento de dados e serviços de busca operam quase inteiramente em computadores, com produção e tratamento digital de informação. A IA generativa escreve notícias, agrega conteúdo e processa dados em escala, ameaçando diretamente grande parte dessas funções.",
+      "method": "llm",
       "tier": "Very high (8-10)"
     },
     {
       "code": "11.64",
       "name": "Atividades de serviços financeiros",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades financeiras, de seguros e serviços relacionados",
       "jobs": 827661,
       "pay": 6381.96,
       "wage_bill": 5282099395.56,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 8,
+      "rationale": "Bancos e corretoras concentram análise de crédito, operações, gestão de investimentos e atendimento em sistemas digitais, com grande parte do trabalho remoto em computador. A IA já classifica risco, responde clientes e automatiza negociações, tornando o setor financeiro altamente exposto.",
+      "method": "llm",
+      "tier": "Very high (8-10)"
     },
     {
       "code": "11.65",
       "name": "Seguros, resseguros, previdência complementar e planos de saúde",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades financeiras, de seguros e serviços relacionados",
       "jobs": 137821,
       "pay": 4758.46,
       "wage_bill": 655815715.66,
-      "exposure": 4,
-      "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais.",
-      "tier": "Moderate (4-5)"
+      "exposure": 7,
+      "rationale": "Seguradoras processam apólices, sinistros e análise de risco em sistemas informatizados, embora parte da venda e da vistoria exija presença no campo. Subscrição automatizada e chatbots de sinistro com IA reduzem a demanda de subscritores e atendentes administrativos.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "11.66",
       "name": "Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades financeiras, de seguros e serviços relacionados",
       "jobs": 171014,
       "pay": 5937.88,
       "wage_bill": 1015460610.32,
-      "exposure": 4,
-      "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais.",
-      "tier": "Moderate (4-5)"
+      "exposure": 8,
+      "rationale": "Corretoras de câmbio, gestoras de cartões, análise de investimentos e back office processam dados financeiros em computadores com trabalho majoritariamente de escritório. A IA automatiza conciliação, análise de investimentos e suporte, elevando a substituibilidade do subgrupo.",
+      "method": "llm",
+      "tier": "Very high (8-10)"
     },
     {
       "code": "12.68",
       "name": "Atividades imobiliárias",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades imobiliárias",
       "jobs": 473598,
       "pay": 4648.19,
       "wage_bill": 2201373487.62,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "Corretores e administradoras de imóveis dividem o tempo entre visitas e vistorias presenciais e negociação, contratos e marketing digital em computadores. Portais com IA, tour virtual e avaliação automatizada de imóveis reduzem etapas, mas a venda presencial ainda protege parte da função.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "13.69",
       "name": "Atividades jurídicas, de contabilidade e de auditoria",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades profissionais, científicas e técnicas",
       "jobs": 1749567,
       "pay": 5866.93,
       "wage_bill": 10264587119.31,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 7,
+      "rationale": "Advogados, contadores e auditores produzem pareceres, demonstrações e relatórios em computadores, com revisão de documentos e análise de números como núcleo da rotina. A IA já pesquisa jurisprudência, concilia contas e redige documentos, elevando muito a exposição do subgrupo.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "13.70",
       "name": "Atividades de consultoria em gestão empresarial",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades profissionais, científicas e técnicas",
       "jobs": 73148,
       "pay": 7027.56,
       "wage_bill": 514051958.88,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 8,
+      "rationale": "Consultores passam o dia analisando dados, construindo apresentações e recomendando estratégias em computadores, com reuniões remotas e entregas digitais. Ferramentas de IA generativa e análise aceleram o trabalho, pressionando funções de análise e elaboração de relatórios.",
+      "method": "llm",
+      "tier": "Very high (8-10)"
     },
     {
       "code": "13.71",
       "name": "Serviços de arquitetura e engenharia; testes e análises técnicas",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades profissionais, científicas e técnicas",
       "jobs": 620102,
       "pay": 5855.57,
       "wage_bill": 3631050668.14,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 7,
+      "rationale": "Arquitetos e engenheiros projetam em CAD, calculam estruturas e emitem laudos em computadores, embora vistorias, obras e ensaios laboratoriais exijam presença física. A IA já gera plantas, simula estruturas e analisa ensaios, expondo fortemente a etapa de projeto e análise.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "13.72",
       "name": "Pesquisa e desenvolvimento científico",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades profissionais, científicas e técnicas",
       "jobs": 49244,
       "pay": 5368.13,
       "wage_bill": 264348193.72,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 8,
+      "rationale": "Pesquisadores e cientistas dedicam grande parte do tempo à revisão de literatura, análise de dados, simulação e escrita de artigos em computadores, com laboratórios e campo complementando o trabalho. A IA automatiza a síntese de conhecimento e a análise de experimentos, aumentando a exposição das etapas cognitivas.",
+      "method": "llm",
+      "tier": "Very high (8-10)"
     },
     {
       "code": "13.73",
       "name": "Publicidade e pesquisas de mercado",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades profissionais, científicas e técnicas",
       "jobs": 373536,
       "pay": 4923.33,
       "wage_bill": 1839040994.88,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 8,
+      "rationale": "Criação publicitária, mídia, análise de audiência e pesquisas de mercado são feitas em computadores, com produção de peças, relatórios e campanhas digitais. A IA generativa já escreve anúncios, gera imagens e segmenta audiências, pressionando fortemente o subgrupo.",
+      "method": "llm",
+      "tier": "Very high (8-10)"
     },
     {
       "code": "13.74",
       "name": "Outras atividades profissionais, científicas e técnicas",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades profissionais, científicas e técnicas",
       "jobs": 467394,
       "pay": 3938.84,
       "wage_bill": 1840990182.96,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "O subgrupo reúne tradutores, designers, fotógrafos e consultores técnicos diversos, com mistura de trabalho digital em computador e atendimento presencial ao cliente. Tradutores e designers estão entre os mais ameaçados pela IA generativa, enquanto serviços presenciais como fotografia mantêm barreiras.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "13.75",
       "name": "Atividades veterinárias",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades profissionais, científicas e técnicas",
       "jobs": 128675,
       "pay": 4418.18,
       "wage_bill": 568509311.5,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "exposure": 5,
+      "rationale": "Médicos veterinários e auxiliares realizam consultas, cirurgias e vacinações em clínicas, fazendas e domicílios, com contato físico direto com os animais. A IA apoia diagnóstico por imagem e gestão de prontuários, mas o cuidado com o animal exige presença e habilidade manual.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
       "code": "14.77",
       "name": "Aluguéis não imobiliários e gestão de ativos intangíveis não financeiros",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades administrativas e serviços complementares",
       "jobs": 66758,
       "pay": 3723.33,
       "wage_bill": 248562064.14,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "A gestão de aluguel de máquinas, veículos e ativos intangíveis é feita em escritórios com contratos, faturas e sistemas de cobrança em computadores. A IA automatiza contratos e análise de inadimplência, enquanto visitas e vistorias pontuais mantêm parte da atividade presencial.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "14.78",
       "name": "Seleção, agenciamento e locação de mão-de-obra",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades administrativas e serviços complementares",
       "jobs": 52619,
       "pay": 3171.54,
       "wage_bill": 166883263.26,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "Agências de emprego e headhunters triam currículos, cadastram candidatos e gerenciam contratos em sistemas digitais, com entrevistas também realizadas de forma remota. A IA já filtra currículos e conduz entrevistas iniciais, automatizando boa parte do recrutamento.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "14.79",
       "name": "Agências de viagens, operadores turísticos e serviços de reservas",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades administrativas e serviços complementares",
       "jobs": 127011,
       "pay": 3662.67,
       "wage_bill": 465199379.37,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 7,
+      "rationale": "Agentes de viagens e operadores turísticos fazem reservas, emitem bilhetes e montam roteiros em computadores, com atendimento presencial e por telefone. Plataformas de reserva com IA e chatbots já substituem a intermediação, tornando o subgrupo bastante exposto.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "14.80",
       "name": "Atividades de vigilância, segurança e investigação",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades administrativas e serviços complementares",
       "jobs": 835384,
       "pay": 2124.39,
       "wage_bill": 1774681415.76,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "Vigilantes, seguranças e investigadores trabalham presencialmente em postos, rondas e investigações de campo, com 835 mil trabalhadores em contato físico com o ambiente. Câmeras inteligentes e análise de imagem por IA aumentam a vigilância remota, mas a presença física de segurança continua exigida.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
       "code": "14.81",
       "name": "Serviços para edificios e atividades paisagisticas",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades administrativas e serviços complementares",
       "jobs": 2473148,
       "pay": 1530.85,
       "wage_bill": 3786018615.8,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 1,
+      "rationale": "Serventes de limpeza, zeladores e jardineiros executam faxina, conservação e jardinagem com trabalho braçal presencial em edifícios e áreas verdes. A renda média de R$ 1,5 mil reflete a baixa qualificação, e a IA tem papel quase nulo na execução dessas tarefas físicas.",
+      "method": "llm",
+      "tier": "Minimal (0-1)"
     },
     {
       "code": "14.82",
       "name": "Serviços de escritório, de apoio administrativo e outros serviços prestados a empresas",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades administrativas e serviços complementares",
       "jobs": 1033243,
       "pay": 2006.15,
       "wage_bill": 2072840444.45,
       "exposure": 7,
-      "rationale": "Rotinas de escritório, fluxo de documentos e atendimento ao cliente suscetíveis à automação por agentes de IA.",
+      "rationale": "Assistentes administrativos, recepcionistas e pessoal de apoio processam documentos, atendem telefone e alimentam planilhas em escritórios, com rotinas repetitivas em computador. A IA e a automação de processos já absorvem digitação, agendamento e atendimento, expondo fortemente o subgrupo.",
+      "method": "llm",
       "tier": "High (6-7)"
     },
     {
       "code": "15.84",
       "name": "Administração pública, defesa e seguridade social",
-      "section": "Alojamento e alimentação",
+      "section": "Administração pública, defesa e seguridade social",
       "jobs": 4101378,
       "pay": 4928.55,
       "wage_bill": 20213846541.9,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "Servidores públicos executam análise de processos, atendimento e gestão de políticas públicas em computadores, embora defesa e segurança pública exijam presença física. A digitalização do governo e a IA em análise documental crescem, expondo as funções administrativas do subgrupo.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "16.85",
       "name": "Educação",
-      "section": "Alojamento e alimentação",
+      "section": "Educação",
       "jobs": 5829925,
       "pay": 3424.61,
       "wage_bill": 19965219454.25,
-      "exposure": 6,
-      "rationale": "Ensino e criação de conteúdo instrucional com alto potencial de suporte por IA, mantendo interação humana.",
+      "exposure": 7,
+      "rationale": "Professores e profissionais da educação preparam aulas, corrigem atividades e geram conteúdo em computadores, embora o ensino presencial em sala de aula continue dominante. Plataformas de ensino com IA personalizam atividades e avaliam redações, aumentando a exposição das tarefas pedagógicas digitais.",
+      "method": "llm",
       "tier": "High (6-7)"
     },
     {
       "code": "17.86",
       "name": "Atividades de atenção à saúde humana",
-      "section": "Alojamento e alimentação",
+      "section": "Saúde humana e serviços sociais",
       "jobs": 4752742,
       "pay": 4501.5,
       "wage_bill": 21394468113.0,
-      "exposure": 4,
-      "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais.",
+      "exposure": 5,
+      "rationale": "Médicos, enfermeiros e técnicos de saúde atuam presencialmente em hospitais, clínicas e prontos-socorros, com contato direto com pacientes e procedimentos físicos. A IA ajuda em diagnóstico por imagem e prontuários, mas o cuidado humano e a execução de procedimentos mantêm forte barreira física.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
       "code": "17.87",
       "name": "Atividades de atenção à saúde humana integradas com assistência social, inclusive prestadas em residências coletivas e particulares",
-      "section": "Alojamento e alimentação",
+      "section": "Saúde humana e serviços sociais",
       "jobs": 522637,
       "pay": 1988.08,
       "wage_bill": 1039044166.96,
       "exposure": 4,
-      "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais.",
+      "rationale": "Cuidadores e auxiliares de saúde prestam assistência domiciliar e em residências coletivas, com tarefas físicas como banho, alimentação e monitoramento de idosos e doentes. A telemedicina e sensores de monitoramento remoto crescem, mas o cuidado pessoal continua essencialmente presencial.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
       "code": "17.88",
       "name": "Serviços de assistência social sem alojamento",
-      "section": "Alojamento e alimentação",
+      "section": "Saúde humana e serviços sociais",
       "jobs": 85982,
       "pay": 2539.88,
       "wage_bill": 218383962.16,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "exposure": 5,
+      "rationale": "Assistentes sociais e agentes comunitários atendem famílias em campo e em centros de referência, com escuta, visitas e orientação presencial às comunidades. Sistemas de cadastro único e análise de vulnerabilidade com IA apoiam o trabalho, mas o vínculo humano presencial é central.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
       "code": "18.90",
       "name": "Atividades artísticas, criativas e de espetáculos",
-      "section": "Alojamento e alimentação",
+      "section": "Artes, cultura, esporte e recreação",
       "jobs": 352100,
       "pay": 3421.81,
       "wage_bill": 1204819301.0,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "Artistas plásticos, atores, músicos e criadores dividem apresentações presenciais com produção digital de obras e portfólios em computadores. A IA gera imagens, música e roteiros, pressionando o lado criativo digital, enquanto o espetáculo ao vivo preserva a presença física.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "18.91",
       "name": "Atividades ligadas ao patrimônio cultural e ambiental",
-      "section": "Alojamento e alimentação",
+      "section": "Artes, cultura, esporte e recreação",
       "jobs": 40135,
       "pay": 3339.55,
       "wage_bill": 134032839.25,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "exposure": 5,
+      "rationale": "Museus, bibliotecas, sítios históricos e unidades de conservação empregam curadores, guias e conservadores com trabalho presencial de acervo e visitação. A digitalização de acervos e as visitas virtuais com IA crescem, mas a conservação física e a mediação humana seguem necessárias.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
       "code": "18.92",
       "name": "Atividades de exploração de jogos de azar e apostas",
-      "section": "Alojamento e alimentação",
+      "section": "Artes, cultura, esporte e recreação",
       "jobs": 31857,
       "pay": 1471.59,
       "wage_bill": 46880442.63,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "Cassinos, bingos e casas de aposta misturam atendimento presencial nas salas com operação de apostas online em plataformas digitais. A IA já opera odds, detecta fraudes e personaliza apostas online, expondo fortemente a parte digital do subgrupo.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "18.93",
       "name": "Atividades esportivas e de recreação e lazer",
-      "section": "Alojamento e alimentação",
+      "section": "Artes, cultura, esporte e recreação",
       "jobs": 433225,
       "pay": 2949.76,
       "wage_bill": 1277909776.0,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "Instrutores, treinadores e profissionais de academias, parques e clubes atuam presencialmente orientando atividades físicas e recreação. Aplicativos de treino e análise de desempenho com IA crescem, mas a condução física das atividades exige o profissional presente.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
       "code": "19.94",
       "name": "Atividades de organizações associativas",
-      "section": "Alojamento e alimentação",
+      "section": "Outras atividades de serviços",
       "jobs": 282234,
       "pay": 2999.36,
       "wage_bill": 846521370.24,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 6,
+      "rationale": "Sindicatos, associações e entidades de classe mantêm equipes administrativas que produzem comunicados, controlam associados e organizam eventos com trabalho de escritório. A IA apoia a comunicação e a gestão de cadastros, enquanto a representação presencial dos associados permanece humana.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "19.95",
       "name": "Reparação e manutenção de equipamentos de informatica e comunicação e de objetos pessoais e domésticos",
-      "section": "Alojamento e alimentação",
+      "section": "Outras atividades de serviços",
       "jobs": 458005,
       "pay": 2106.25,
       "wage_bill": 964673031.25,
       "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "rationale": "Técnicos de reparo de celulares, computadores e eletrodomésticos trabalham em bancadas com ferramentas físicas, desmontando e consertando equipamentos presencialmente. O diagnóstico assistido por IA ajuda na identificação de defeitos, mas o conserto físico mantém a barreira presencial.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     },
     {
       "code": "19.96",
       "name": "Outras atividades de serviços pessoais",
-      "section": "Alojamento e alimentação",
+      "section": "Outras atividades de serviços",
       "jobs": 2585171,
       "pay": 1763.73,
       "wage_bill": 4559543647.83,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 3,
+      "rationale": "Cabeleireiros, manicures, barbeiros e profissionais de estética atendem clientes presencialmente com habilidade manual e contato físico direto. A IA auxilia na gestão de agenda e na indicação de serviços, mas a execução do serviço pessoal é intrinsecamente presencial.",
+      "method": "llm",
+      "tier": "Low (2-3)"
     },
     {
       "code": "20.97",
       "name": "Serviços domésticos",
-      "section": "Alojamento e alimentação",
+      "section": "Serviços domésticos",
       "jobs": 3734805,
       "pay": 1059.57,
       "wage_bill": 3957287333.85,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 1,
+      "rationale": "Empregadas e trabalhadores domésticos executam limpeza, cozinha e cuidados em residências, com 3,7 milhões de trabalhadores em atividades braçais e presenciais. A renda média de R$ 1 mil e a natureza física do serviço deixam a exposição à IA praticamente nula.",
+      "method": "llm",
+      "tier": "Minimal (0-1)"
     },
     {
       "code": "21.99",
       "name": "Organismos internacionais e outras instituições extraterritoriais",
-      "section": "Alojamento e alimentação",
+      "section": "Organismos internacionais e outras instituições extraterritoriais",
       "jobs": 2105,
       "pay": 9086.75,
       "wage_bill": 19127608.75,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
-      "tier": "Moderate (4-5)"
+      "exposure": 7,
+      "rationale": "Diplomatas, analistas e técnicos de organismos internacionais produzem relatórios, negociações e documentos em escritórios, com trabalho majoritariamente digital em computador. A IA já auxilia tradução, análise de políticas e redação oficial, expondo moderadamente o subgrupo.",
+      "method": "llm",
+      "tier": "High (6-7)"
     },
     {
       "code": "22.00",
       "name": "Atividades maldefinidas",
-      "section": "Alojamento e alimentação",
+      "section": "Atividades maldefinidas",
       "jobs": 5716958,
       "pay": 3320.87,
       "wage_bill": 18985274313.46,
-      "exposure": 4,
-      "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas.",
+      "exposure": 5,
+      "rationale": "Este subgrupo residual reúne ocupações não classificadas e heterogêneas, sem rotina ocupacional definida, o que torna a avaliação de exposição incerta. A escala do contingente sugere presença de trabalho informal e manual, resultando em exposição moderada e conservadora.",
+      "method": "llm",
       "tier": "Moderate (4-5)"
     }
   ]

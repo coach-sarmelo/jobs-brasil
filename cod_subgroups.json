@@ -394,7 +394,7 @@
   {
     "code": "10.58",
     "name": "Edição e edição integrada à de impressão",
-    "section": "Alojamento e alimentação",
+    "section": "Informação e comunicação",
     "total_workers": 49152,
     "avg_income": 4664.37,
     "wage_bill": 229263114.24
@@ -402,7 +402,7 @@
   {
     "code": "10.59",
     "name": "Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e de música",
-    "section": "Alojamento e alimentação",
+    "section": "Informação e comunicação",
     "total_workers": 73159,
     "avg_income": 4482.37,
     "wage_bill": 327925706.83
@@ -410,7 +410,7 @@
   {
     "code": "10.60",
     "name": "Atividades de rádio e de televisão",
-    "section": "Alojamento e alimentação",
+    "section": "Informação e comunicação",
     "total_workers": 63097,
     "avg_income": 4039.54,
     "wage_bill": 254882855.38
@@ -418,7 +418,7 @@
   {
     "code": "10.61",
     "name": "Telecomunicações",
-    "section": "Alojamento e alimentação",
+    "section": "Informação e comunicação",
     "total_workers": 353552,
     "avg_income": 3314.47,
     "wage_bill": 1171837497.44
@@ -426,7 +426,7 @@
   {
     "code": "10.62",
     "name": "Atividades dos serviços de tecnologia da informação",
-    "section": "Alojamento e alimentação",
+    "section": "Informação e comunicação",
     "total_workers": 875815,
     "avg_income": 5940.98,
     "wage_bill": 5203199398.7
@@ -434,7 +434,7 @@
   {
     "code": "10.63",
     "name": "Atividades de prestação de serviços de informação",
-    "section": "Alojamento e alimentação",
+    "section": "Informação e comunicação",
     "total_workers": 103774,
     "avg_income": 4807.0,
     "wage_bill": 498841618.0
@@ -442,7 +442,7 @@
   {
     "code": "11.64",
     "name": "Atividades de serviços financeiros",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades financeiras, de seguros e serviços relacionados",
     "total_workers": 827661,
     "avg_income": 6381.96,
     "wage_bill": 5282099395.56
@@ -450,7 +450,7 @@
   {
     "code": "11.65",
     "name": "Seguros, resseguros, previdência complementar e planos de saúde",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades financeiras, de seguros e serviços relacionados",
     "total_workers": 137821,
     "avg_income": 4758.46,
     "wage_bill": 655815715.66
@@ -458,7 +458,7 @@
   {
     "code": "11.66",
     "name": "Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades financeiras, de seguros e serviços relacionados",
     "total_workers": 171014,
     "avg_income": 5937.88,
     "wage_bill": 1015460610.32
@@ -466,7 +466,7 @@
   {
     "code": "12.68",
     "name": "Atividades imobiliárias",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades imobiliárias",
     "total_workers": 473598,
     "avg_income": 4648.19,
     "wage_bill": 2201373487.62
@@ -474,7 +474,7 @@
   {
     "code": "13.69",
     "name": "Atividades jurídicas, de contabilidade e de auditoria",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades profissionais, científicas e técnicas",
     "total_workers": 1749567,
     "avg_income": 5866.93,
     "wage_bill": 10264587119.31
@@ -482,7 +482,7 @@
   {
     "code": "13.70",
     "name": "Atividades de consultoria em gestão empresarial",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades profissionais, científicas e técnicas",
     "total_workers": 73148,
     "avg_income": 7027.56,
     "wage_bill": 514051958.88
@@ -490,7 +490,7 @@
   {
     "code": "13.71",
     "name": "Serviços de arquitetura e engenharia; testes e análises técnicas",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades profissionais, científicas e técnicas",
     "total_workers": 620102,
     "avg_income": 5855.57,
     "wage_bill": 3631050668.14
@@ -498,7 +498,7 @@
   {
     "code": "13.72",
     "name": "Pesquisa e desenvolvimento científico",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades profissionais, científicas e técnicas",
     "total_workers": 49244,
     "avg_income": 5368.13,
     "wage_bill": 264348193.72
@@ -506,7 +506,7 @@
   {
     "code": "13.73",
     "name": "Publicidade e pesquisas de mercado",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades profissionais, científicas e técnicas",
     "total_workers": 373536,
     "avg_income": 4923.33,
     "wage_bill": 1839040994.88
@@ -514,7 +514,7 @@
   {
     "code": "13.74",
     "name": "Outras atividades profissionais, científicas e técnicas",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades profissionais, científicas e técnicas",
     "total_workers": 467394,
     "avg_income": 3938.84,
     "wage_bill": 1840990182.96
@@ -522,7 +522,7 @@
   {
     "code": "13.75",
     "name": "Atividades veterinárias",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades profissionais, científicas e técnicas",
     "total_workers": 128675,
     "avg_income": 4418.18,
     "wage_bill": 568509311.5
@@ -530,7 +530,7 @@
   {
     "code": "14.77",
     "name": "Aluguéis não imobiliários e gestão de ativos intangíveis não financeiros",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades administrativas e serviços complementares",
     "total_workers": 66758,
     "avg_income": 3723.33,
     "wage_bill": 248562064.14
@@ -538,7 +538,7 @@
   {
     "code": "14.78",
     "name": "Seleção, agenciamento e locação de mão-de-obra",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades administrativas e serviços complementares",
     "total_workers": 52619,
     "avg_income": 3171.54,
     "wage_bill": 166883263.26
@@ -546,7 +546,7 @@
   {
     "code": "14.79",
     "name": "Agências de viagens, operadores turísticos e serviços de reservas",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades administrativas e serviços complementares",
     "total_workers": 127011,
     "avg_income": 3662.67,
     "wage_bill": 465199379.37
@@ -554,7 +554,7 @@
   {
     "code": "14.80",
     "name": "Atividades de vigilância, segurança e investigação",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades administrativas e serviços complementares",
     "total_workers": 835384,
     "avg_income": 2124.39,
     "wage_bill": 1774681415.76
@@ -562,7 +562,7 @@
   {
     "code": "14.81",
     "name": "Serviços para edificios e atividades paisagisticas",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades administrativas e serviços complementares",
     "total_workers": 2473148,
     "avg_income": 1530.85,
     "wage_bill": 3786018615.8
@@ -570,7 +570,7 @@
   {
     "code": "14.82",
     "name": "Serviços de escritório, de apoio administrativo e outros serviços prestados a empresas",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades administrativas e serviços complementares",
     "total_workers": 1033243,
     "avg_income": 2006.15,
     "wage_bill": 2072840444.45
@@ -578,7 +578,7 @@
   {
     "code": "15.84",
     "name": "Administração pública, defesa e seguridade social",
-    "section": "Alojamento e alimentação",
+    "section": "Administração pública, defesa e seguridade social",
     "total_workers": 4101378,
     "avg_income": 4928.55,
     "wage_bill": 20213846541.9
@@ -586,7 +586,7 @@
   {
     "code": "16.85",
     "name": "Educação",
-    "section": "Alojamento e alimentação",
+    "section": "Educação",
     "total_workers": 5829925,
     "avg_income": 3424.61,
     "wage_bill": 19965219454.25
@@ -594,7 +594,7 @@
   {
     "code": "17.86",
     "name": "Atividades de atenção à saúde humana",
-    "section": "Alojamento e alimentação",
+    "section": "Saúde humana e serviços sociais",
     "total_workers": 4752742,
     "avg_income": 4501.5,
     "wage_bill": 21394468113.0
@@ -602,7 +602,7 @@
   {
     "code": "17.87",
     "name": "Atividades de atenção à saúde humana integradas com assistência social, inclusive prestadas em residências coletivas e particulares",
-    "section": "Alojamento e alimentação",
+    "section": "Saúde humana e serviços sociais",
     "total_workers": 522637,
     "avg_income": 1988.08,
     "wage_bill": 1039044166.96
@@ -610,7 +610,7 @@
   {
     "code": "17.88",
     "name": "Serviços de assistência social sem alojamento",
-    "section": "Alojamento e alimentação",
+    "section": "Saúde humana e serviços sociais",
     "total_workers": 85982,
     "avg_income": 2539.88,
     "wage_bill": 218383962.16
@@ -618,7 +618,7 @@
   {
     "code": "18.90",
     "name": "Atividades artísticas, criativas e de espetáculos",
-    "section": "Alojamento e alimentação",
+    "section": "Artes, cultura, esporte e recreação",
     "total_workers": 352100,
     "avg_income": 3421.81,
     "wage_bill": 1204819301.0
@@ -626,7 +626,7 @@
   {
     "code": "18.91",
     "name": "Atividades ligadas ao patrimônio cultural e ambiental",
-    "section": "Alojamento e alimentação",
+    "section": "Artes, cultura, esporte e recreação",
     "total_workers": 40135,
     "avg_income": 3339.55,
     "wage_bill": 134032839.25
@@ -634,7 +634,7 @@
   {
     "code": "18.92",
     "name": "Atividades de exploração de jogos de azar e apostas",
-    "section": "Alojamento e alimentação",
+    "section": "Artes, cultura, esporte e recreação",
     "total_workers": 31857,
     "avg_income": 1471.59,
     "wage_bill": 46880442.63
@@ -642,7 +642,7 @@
   {
     "code": "18.93",
     "name": "Atividades esportivas e de recreação e lazer",
-    "section": "Alojamento e alimentação",
+    "section": "Artes, cultura, esporte e recreação",
     "total_workers": 433225,
     "avg_income": 2949.76,
     "wage_bill": 1277909776.0
@@ -650,7 +650,7 @@
   {
     "code": "19.94",
     "name": "Atividades de organizações associativas",
-    "section": "Alojamento e alimentação",
+    "section": "Outras atividades de serviços",
     "total_workers": 282234,
     "avg_income": 2999.36,
     "wage_bill": 846521370.24
@@ -658,7 +658,7 @@
   {
     "code": "19.95",
     "name": "Reparação e manutenção de equipamentos de informatica e comunicação e de objetos pessoais e domésticos",
-    "section": "Alojamento e alimentação",
+    "section": "Outras atividades de serviços",
     "total_workers": 458005,
     "avg_income": 2106.25,
     "wage_bill": 964673031.25
@@ -666,7 +666,7 @@
   {
     "code": "19.96",
     "name": "Outras atividades de serviços pessoais",
-    "section": "Alojamento e alimentação",
+    "section": "Outras atividades de serviços",
     "total_workers": 2585171,
     "avg_income": 1763.73,
     "wage_bill": 4559543647.83
@@ -674,7 +674,7 @@
   {
     "code": "20.97",
     "name": "Serviços domésticos",
-    "section": "Alojamento e alimentação",
+    "section": "Serviços domésticos",
     "total_workers": 3734805,
     "avg_income": 1059.57,
     "wage_bill": 3957287333.85
@@ -682,7 +682,7 @@
   {
     "code": "21.99",
     "name": "Organismos internacionais e outras instituições extraterritoriais",
-    "section": "Alojamento e alimentação",
+    "section": "Organismos internacionais e outras instituições extraterritoriais",
     "total_workers": 2105,
     "avg_income": 9086.75,
     "wage_bill": 19127608.75
@@ -690,7 +690,7 @@
   {
     "code": "22.00",
     "name": "Atividades maldefinidas",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades maldefinidas",
     "total_workers": 5716958,
     "avg_income": 3320.87,
     "wage_bill": 18985274313.46

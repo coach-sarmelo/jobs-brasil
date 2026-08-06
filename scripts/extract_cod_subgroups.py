@@ -3,8 +3,14 @@ import json
 import os
 import re
 
-RENDIMENTO_CSV = "/home/sarmelo/projeto empregos/Rendimento.csv"
-WORKERS_CSV = "/home/sarmelo/projeto empregos/numero-trabalhadores.csv"
+RENDIMENTO_CSV = os.getenv(
+    "RENDIMENTO_CSV",
+    os.path.join(os.path.dirname(__file__), "../data/raw/Rendimento.csv"),
+)
+WORKERS_CSV = os.getenv(
+    "WORKERS_CSV",
+    os.path.join(os.path.dirname(__file__), "../data/raw/numero-trabalhadores.csv"),
+)
 OUTPUT_JSON = os.path.join(os.path.dirname(__file__), "../cod_subgroups.json")
 
 def clean_float(val):
@@ -47,8 +53,10 @@ def extract():
         else:
             code, name = "", activity
 
-        # Detect CNAE / COD Section header
-        if not code or len(code) == 1:
+        # Detect CNAE / COD Section header (sections have no dot in their code,
+        # regardless of being 1 or 2 digits — e.g. "9 Alojamento..." and
+        # "10 Informação...")
+        if not code or '.' not in code:
             current_section = name
             continue
             

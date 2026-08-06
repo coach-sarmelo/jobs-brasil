@@ -12,7 +12,7 @@
     <header>
       <h1>🇧🇷 Jobs BR — Exposição à Inteligência Artificial (IBGE / COD)</h1>
       <p style="color: #94a3b8; font-size: 0.9rem; margin-top: 4px;">
-        Visualização interativa por <a href="https://marcelo.ai/jobs/" style="color: #38bdf8; text-decoration: none;">marcelo.ai/jobs</a> | Réplica original do <a href="https://github.com/karpathy/jobs" target="_blank" style="color: #94a3b8;">karpathy/jobs</a>
+        Visualização interativa por <a href="https://marcelo.ai/jobs/" style="color: #38bdf8; text-decoration: none;">marcelo.ai/jobs</a> | Inspirado em <a href="https://github.com/karpathy/jobs" target="_blank" style="color: #94a3b8;">karpathy/jobs</a>
       </p>
     </header>
 
@@ -50,7 +50,7 @@
     </div>
 
     <div style="margin-bottom: 20px;">
-      <h4 style="font-size: 0.85rem; color: #cbd5e1; margin-bottom: 8px;">Justificativa da IA (Gemini):</h4>
+      <h4 style="font-size: 0.85rem; color: #cbd5e1; margin-bottom: 8px;">Justificativa da IA <span id="d-method" style="color: #64748b; font-weight: 400;"></span>:</h4>
       <p id="d-rationale" style="font-size: 0.85rem; color: #94a3b8; background: #090d16; padding: 12px; border-radius: 8px; border: 1px solid #1e293b;"></p>
     </div>
 
@@ -157,11 +157,18 @@
       });
     }
 
+    function methodLabel(method) {
+      if (method === 'llm') return '(DeepSeek)';
+      if (method && method.startsWith('heuristic')) return '(heurística local)';
+      return '';
+    }
+
     function openDrawer(d) {
       document.getElementById('d-name').innerText = d.name;
       document.getElementById('d-section').innerText = d.section;
       document.getElementById('d-score').innerText = d.exposure + '/10';
       document.getElementById('d-rationale').innerText = d.rationale;
+      document.getElementById('d-method').innerText = methodLabel(d.method);
       document.getElementById('d-jobs').innerText = formatNum(d.jobs);
       document.getElementById('d-pay').innerText = formatBRL(d.pay);
       document.getElementById('drawer').classList.add('open');

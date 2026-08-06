@@ -16,6 +16,7 @@ def build_data():
 
     weighted_exposure_sum = 0.0
     occupations = []
+    method_counts = {}
 
     # Exposure Tiers
     tiers = {
@@ -28,15 +29,17 @@ def build_data():
 
     for item in subgroups:
         code = item["code"] or item["name"]
-        score_data = scores.get(code, {"score": 4, "rationale": "Informação não disponível."})
-        
+        score_data = scores.get(code, {"score": 4, "rationale": "Informação não disponível.", "method": "unavailable"})
+
         score = score_data["score"]
         rationale = score_data["rationale"]
+        method = score_data.get("method", "unknown")
         workers = item["total_workers"]
         wage_bill = item["wage_bill"]
         income = item["avg_income"]
-        
+
         weighted_exposure_sum += score * workers
+        method_counts[method] = method_counts.get(method, 0) + 1
 
         if score <= 1: tier = "Minimal (0-1)"
         elif score <= 3: tier = "Low (2-3)"
@@ -57,6 +60,7 @@ def build_data():
             "wage_bill": wage_bill,
             "exposure": score,
             "rationale": rationale,
+            "method": method,
             "tier": tier
         })
 
@@ -67,7 +71,8 @@ def build_data():
         "total_jobs": total_jobs,
         "total_wages": total_wages,
         "weighted_ai_exposure": weighted_ai_exposure,
-        "tiers": tiers
+        "tiers": tiers,
+        "scoring_method_counts": method_counts
     }
 
     os.makedirs(os.path.dirname(OUTPUT_SITE_DATA), exist_ok=True)

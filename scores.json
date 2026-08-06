@@ -3,609 +3,870 @@
     "code": "1.01",
     "name": "Agricultura, pecuária, caça e serviços relacionados",
     "section": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
-    "score": 2,
-    "rationale": "Atividade física e operational no campo com baixa substituição direta por software de IA."
+    "score": 1,
+    "rationale": "O manejo de lavouras, pastagens e rebanhos para quase 5,9 milhões de trabalhadores depende de plantio, colheita e tratos físicos no campo, que a IA não executa sem robótica avançada e presença local. A renda média baixa e a sazonalidade reforçam o caráter braçal do trabalho, tornando mínima a substituição cognitiva por software.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "1.02": {
     "code": "1.02",
     "name": "Produção florestal",
     "section": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
     "score": 2,
-    "rationale": "Atividade física e operational no campo com baixa substituição direta por software de IA."
+    "rationale": "O corte, a extração e o replantio de madeira em áreas remotas exigem motosserras, máquinas pesadas e deslocamento por terreno acidentado, sem paralelo em home office. Sistemas de IA ajudam no inventário florestal e na otimização do manejo, mas executam apenas uma parcela pequena da rotina do subgrupo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "1.03": {
     "code": "1.03",
     "name": "Pesca e aquicultura",
     "section": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
-    "score": 2,
-    "rationale": "Atividade física e operational no campo com baixa substituição direta por software de IA."
+    "score": 1,
+    "rationale": "Pescadores e aquicultores passam longos períodos em embarcações, tanques e açudes manejando redes, rações e equipamentos em contato direto com a água e o clima. A baixa previsibilidade do ambiente e a natureza física da atividade limitam a IA ao apoio de monitoramento de estoques e condições meteorológicas.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "2.05": {
     "code": "2.05",
     "name": "Extração de carvão mineral",
     "section": "Indústrias extrativas",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 2,
+    "rationale": "A operação de minas de carvão subterrâneas e a céu aberto envolve perfuração, detonação e movimentação de minério em ambientes insalubres, exigindo presença física constante dos 2,5 mil trabalhadores do setor. Sensoriamento e automação de máquinas reduzem riscos, mas o núcleo do trabalho permanece manual e no local da mina.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "2.06": {
     "code": "2.06",
     "name": "Extração de petróleo e gás natural",
     "section": "Indústrias extrativas",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "O setor de petróleo e gás combina plataformas offshore e refinarias onde técnicos operam equipamentos de alta complexidade em regime de embarque e turnos presenciais, apesar da renda média elevada de R$ 8,2 mil. A IA atua no monitoramento de poços e na previsão de produção, porém a execução operacional segue dependente de engenheiros e técnicos em campo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "2.07": {
     "code": "2.07",
     "name": "Extração de minerais metálicos",
     "section": "Indústrias extrativas",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 2,
+    "rationale": "A mineração de ferro, ouro e outros metais exige operação de máquinas de grande porte, britagem e transporte de minério nas jazidas, com barreiras físicas e de segurança relevantes. Ferramentas de IA otimizam o planejamento de lavra e a logística, mas não substituem os operadores que atuam na mina.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "2.08": {
     "code": "2.08",
     "name": "Extração de minerais não metálicos",
     "section": "Indústrias extrativas",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 2,
+    "rationale": "Pedreiras e extração de areia, brita e argila demandam operação de britadores, escavadeiras e caminhões em ambiente aberto e poeirento, com mão de obra essencialmente presencial. A digitalização alcança a gestão de estoques e a manutenção preditiva, enquanto a rotina operativa continua física.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "2.09": {
     "code": "2.09",
     "name": "Atividades de apoio à extração de minerais",
     "section": "Indústrias extrativas",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "O apoio à mineração abrange sondagem, amostragem e manutenção de equipamentos em campo, além de técnicos que acompanham lavra e segurança, todos com atuação presencial. Profissionais de geologia e engenharia usam softwares de modelagem, mas a maior parte do efetivo do subgrupo trabalha no local das operações.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.10": {
     "code": "3.10",
     "name": "Fabricação de produtos alimenticios e bebidas",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Linhas de abate, moagem e processamento de alimentos operam em ritmo contínuo nas plantas industriais, onde operadores, conferentes e supervisores atuam presencialmente junto às máquinas. A IA penetra no controle de qualidade e na previsão de demanda, mas a transformação física do alimento exige presença fabril.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.11": {
     "code": "3.11",
     "name": "Fabricação de bebidas",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Envasamento, pasteurização e engarrafamento de bebidas ocorrem em plantas com forte automação mecânica, ainda assim supervisionadas por técnicos e operadores no chão de fábrica. Decisões de mix e de logística usam algoritmos, enquanto a operação das linhas permanece presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.12": {
     "code": "3.12",
     "name": "Fabricação de produtos do fumo",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "O processamento do tabaco e a produção de cigarros envolvem máquinas especializadas e controle de qualidade em ambiente industrial fechado, com supervisão presencial de operadores. A automação tradicional já domina o setor, e a IA agrega pouco além de otimização pontual de processos.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.13": {
     "code": "3.13",
     "name": "Fabricação de produtos têxteis",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Fiação, tecelagem e beneficiamento têxtil empregam operadores que acompanham máquinas contínuas e barulhentas em turnos, com abastecimento, troca de rolos e inspeção física. A IA contribui na detecção de defeitos e no design de tecidos, mas a produção em massa segue na planta industrial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.14": {
     "code": "3.14",
     "name": "Confecção de artigos do vestuário e acessórios",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Corte, costura e acabamento de roupas empregam mais de 1,2 milhão de costureiras e auxiliares, atividade manual e presencial com renda média de apenas R$ 1,6 mil. Robôs de costura ainda são incipientes, e a IA atua principalmente no design e na previsão de moda, não na costura em si.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.15": {
     "code": "3.15",
     "name": "Preparação de couros e fabricação de artefatos de couro, artigos de viagem e calçados",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Curtumes e fábricas de calçados dependem de etapas manuais de montagem, costura e acabamento realizadas em galpões com forte concentração de mão de obra. A automação parcial de solas e cortes cresce, mas a montagem final ainda exige trabalhadores presenciais.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.16": {
     "code": "3.16",
     "name": "Fabricação de produtos de madeira",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Serragem, beneficiamento e montagem de madeira ocorrem em serrarias e marcenarias com máquinas de corte e deslocamento físico de peças pesadas. Sistemas de IA ajudam no aproveitamento de toras e na programação da produção, enquanto o núcleo operativo permanece na fábrica.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.17": {
     "code": "3.17",
     "name": "Fabricação de celulose, papel e produtos de papel",
     "section": "Indústrias de transformação",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "A indústria de celulose opera processos químicos contínuos monitorados por técnicos em salas de controle, embora a manutenção e a operação de campo sejam presenciais nas plantas. É um dos setores mais automatizados, com IA melhorando o rendimento de digestores e a qualidade do papel, mas a vigilância física das unidades continua.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.18": {
     "code": "3.18",
     "name": "Impressão e reprodução de gravações",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 5,
+    "rationale": "O setor de impressão une pré-impressão digital, feita em computadores, com operação de gráficas e gravadoras que exige presença física de operadores e acabadores. A substituição por IA é parcial: design e diagramação são digitalizáveis, enquanto impressão e encadernação permanecem industriais.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.19": {
     "code": "3.19",
     "name": "Fabricação de coque; produtos derivados de petróleo e de biocombustíveis",
     "section": "Indústrias de transformação",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "Refinarias e usinas de coque operam em regime contínuo com salas de controle avançadas e equipes de campo para manutenção e segurança, em ambiente de alto risco. A otimização de processos por IA é intensa, mas a escala de produção exige operadores e técnicos presenciais.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.20": {
     "code": "3.20",
     "name": "Fabricação de produtos químicos",
     "section": "Indústrias de transformação",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "Plantas químicas combinam reatores, misturadores e embalagem supervisionados por operadores em turnos, com controle de qualidade em laboratório físico. Algoritmos otimizam fórmulas e rotas de produção, porém a operação segura das unidades depende de presença humana.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.21": {
     "code": "3.21",
     "name": "Fabricação de produtos farmoquímicos e farmacêuticos",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 5,
+    "rationale": "A produção de medicamentos é fortemente regulada e combina processos fabris em salas limpas com P&D em laboratórios, com equipes técnicas presenciais. A IA acelera a descoberta de fármacos e a análise de lotes, enquanto a fabricação e a validação continuam físicas e auditadas.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.22": {
     "code": "3.22",
     "name": "Fabricação de produtos de borracha e de material plástico",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Injeção, extrusão e sopro de plásticos exigem operação de máquinas quentes e moldes em fábricas, com inspeção e acabamento manuais. A automação de máquinas é tradicional, e a IA entra na manutenção preditiva sem mudar a natureza presencial do trabalho.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.23": {
     "code": "3.23",
     "name": "Fabricação de produtos de minerais não metálicos",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Cimento, vidro, cerâmica e gesso são produzidos em fornos e linhas contínuas, com operadores expostos a calor e poeira no chão de fábrica. A IA melhora a eficiência energética dos fornos e o controle de qualidade, mas o trabalho central continua industrial e presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.24": {
     "code": "3.24",
     "name": "Metalurgia",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Fundição, laminação e tratamento de metais acontecem em usinas com altos-fornos e lingotamento, operadas por equipes em turnos em ambiente de calor extremo. Sistemas inteligentes otimizam a composição de ligas e o consumo de energia, sem eliminar a presença dos operadores.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.25": {
     "code": "3.25",
     "name": "Fabricação de produtos de metal, exceto máquinas e equipamentos",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Usinagem, solda, caldeiraria e serralheria empregam mais de 1 milhão de trabalhadores em atividades físicas com máquinas pesadas e chapas metálicas. A digitalização de projetos e a manutenção preditiva crescem, mas a conformação do metal exige presença física na fábrica.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.26": {
     "code": "3.26",
     "name": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 6,
+    "rationale": "A montagem de placas, componentes eletrônicos e dispositivos ópticos combina linhas de produção automatizadas com teste e inspeção em salas limpas, enquanto engenheiros de produto trabalham em software. O projeto de circuitos e o teste automatizado com IA expõem a parte técnica do subgrupo, mas a manufatura segue presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.27": {
     "code": "3.27",
     "name": "Fabricação de máquinas, aparelhos e materiais elétricos",
     "section": "Indústrias de transformação",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "A produção de motores, transformadores e materiais elétricos envolve bobinagem, montagem e ensaios em bancadas industriais, com engenheiros apoiando projetos por computador. A IA assiste o projeto de componentes e o diagnóstico de falhas, enquanto a fabricação permanece presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.28": {
     "code": "3.28",
     "name": "Fabricação de máquinas e equipamentos",
     "section": "Indústrias de transformação",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "A fabricação de máquinas industriais, agrícolas e de construção combina usinagem pesada e montagem em fábrica com engenharia de produto em escritório. Ferramentas de CAD e simulação com IA aceleram o projeto, mas a produção mecânica continua dependente de presença física.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.29": {
     "code": "3.29",
     "name": "Fabricação de veículos automotores, reboques e carrocerias",
     "section": "Indústrias de transformação",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "Linhas de montagem automotiva são altamente robotizadas, porém ainda empregam milhares de operadores, soldadores e pintores em turnos nas plantas. A IA domina o projeto de componentes e a logística, enquanto a montagem final e a inspeção seguem presenciais.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.30": {
     "code": "3.30",
     "name": "Fabricação de outros equipamentos de transporte, exceto veículos automotores",
     "section": "Indústrias de transformação",
-    "score": 3,
-    "rationale": "Operação de veículos e logística física com automação gradual."
+    "score": 4,
+    "rationale": "A construção de aeronaves, embarcações e material ferroviário exige montagem de estruturas grandes, com trabalho especializado e presencial em hangares e estaleiros. O projeto digital em CAD é intenso, mas a união de estruturas e os ensaios demandam equipes físicas.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.31": {
     "code": "3.31",
     "name": "Fabricação de móveis",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Marcenarias industriais produzem móveis com cortes automatizados e montagem manual em bancadas, empregando mais de 560 mil trabalhadores em operações físicas. A IA auxilia o design de ambientes e a otimização de corte, sem substituir a montagem e o acabamento presenciais.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.32": {
     "code": "3.32",
     "name": "Fabricação de produtos diversos",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Este subgrupo heterogêneo reúne brinquedos, joias, instrumentos musicais e outros itens, com predomínio de manufatura manual e presencial em pequenas e médias fábricas. A exposição à IA varia entre nichos, mas a média do subgrupo é de trabalho físico industrial de baixa automação cognitiva.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "3.33": {
     "code": "3.33",
     "name": "Manutenção, reparação e instalação de máquinas e equipamentos",
     "section": "Indústrias de transformação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Técnicos de manutenção atuam em campo e nas fábricas desmontando, ajustando e reinstalando máquinas, com diagnóstico muitas vezes feito por instrumentos físicos. A IA auxilia a manutenção preditiva e a consulta a manuais técnicos, mas a execução do conserto exige presença e habilidade manual.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "4.35": {
     "code": "4.35",
     "name": "Eletricidade, gás e outras utilidades",
     "section": "Eletricidade e gás",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Redes de transmissão, usinas e redes de gás demandam técnicos que operam subestações, medidores e linhas em campo, com funções de controle concentradas em centros de operação digitalizados. A automação e a análise preditiva de cargas crescem, mas o efetivo do subgrupo é majoritariamente de campo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "5.36": {
     "code": "5.36",
     "name": "Captação, tratamento e distribuição de água",
     "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 3,
+    "rationale": "Estações de tratamento e redes de distribuição de água empregam operadores, encanadores e leituristas que atuam presencialmente em reservatórios, bombas e ruas. Sistemas de telemetria e de detecção de vazamentos com IA reduzem perdas, sem eliminar o trabalho físico de manutenção.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "5.37": {
     "code": "5.37",
     "name": "Esgoto e atividades relacionadas",
     "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 2,
+    "rationale": "A operação e a manutenção de redes de esgoto são essencialmente físicas, realizadas em galerias, estações elevatórias e pontos de coleta com condições insalubres. A IA entra no monitoramento de bombas e na previsão de obstruções, enquanto os trabalhadores seguem no campo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "5.38": {
     "code": "5.38",
     "name": "Coleta, tratamento e disposição de resíduos; recuperação de materiais",
     "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 1,
+    "rationale": "Catadores, garis e operadores de aterros e usinas de reciclagem realizam trabalho braçal extenuante nas ruas e nos lixões, com renda média de R$ 1,5 mil. Rotas de coleta otimizadas por IA e triagem robótica reduzem a demanda, mas o núcleo do trabalho é físico e presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "5.39": {
     "code": "5.39",
     "name": "Descontaminação e outros serviços de gestão de resíduos",
     "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "score": 2,
+    "rationale": "A remediação de áreas contaminadas e a gestão especializada de resíduos perigosos exigem técnicos com EPI em campo, amostragem física e operação de equipamentos de tratamento. É um serviço de nicho altamente especializado, com a IA limitada ao apoio de mapeamento e planejamento.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "6.41": {
     "code": "6.41",
     "name": "Construção e incorporação de edifícios",
     "section": "Construção",
     "score": 2,
-    "rationale": "Trabalho predominantemente físico, manual e presencial nos canteiros de obras."
+    "rationale": "Obras de edifícios empregam 2,9 milhões de trabalhadores em alvenaria, concretagem, carpintaria e acabamento, com presença física obrigatória no canteiro. A IA entra no orçamento, no cronograma e no projeto estrutural, enquanto a execução da obra permanece braçal.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "6.42": {
     "code": "6.42",
     "name": "Obras de infraestrutura",
     "section": "Construção",
     "score": 2,
-    "rationale": "Trabalho predominantemente físico, manual e presencial nos canteiros de obras."
+    "rationale": "Rodovias, pontes, barragens e ferrovias são construídas com terraplenagem, pavimentação e montagem de estruturas em canteiros abertos, com forte componente físico. Modelos digitais e monitoramento por sensores auxiliam o planejamento, mas a execução exige equipes no local.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "6.43": {
     "code": "6.43",
     "name": "Serviços especializados para construção",
     "section": "Construção",
     "score": 2,
-    "rationale": "Trabalho predominantemente físico, manual e presencial nos canteiros de obras."
+    "rationale": "O subgrupo reúne eletricistas, encanadores, pintores e instaladores que atuam em obras e reformas, com 3,9 milhões de trabalhadores em tarefas manuais e presença obrigatória. A IA oferece apoio em orçamentos e projetos simples, enquanto o serviço técnico manual domina a rotina.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "7.45": {
     "code": "7.45",
     "name": "Comércio e reparação de veículos automotores e motocicletas",
     "section": "Comércio, reparação de veículos automotores e motocicletas",
-    "score": 5,
-    "rationale": "Vendas e atendimento com mix de atendimento presencial e automação e-commerce."
+    "score": 4,
+    "rationale": "Concessionárias, oficinas mecânicas e lojas de peças combinam venda presencial, diagnóstico de veículos e conserto físico por mecânicos e vendedores. O diagnóstico eletrônico assistido por IA cresce, mas o atendimento e a oficina permanecem presenciais.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "7.48": {
     "code": "7.48",
     "name": "Comércio, exceto de veiculos automotores e motocicletas",
     "section": "Comércio, reparação de veículos automotores e motocicletas",
     "score": 5,
-    "rationale": "Vendas e atendimento com mix de atendimento presencial e automação e-commerce."
+    "rationale": "O varejo e o atacado empregam 12,7 milhões de vendedores, caixas e reposidores em lojas físicas, com atendimento direto ao cliente e rotinas presenciais. O comércio eletrônico e o marketing digital com IA crescem, mas a maior parte do subgrupo atua no balcão.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "8.49": {
     "code": "8.49",
     "name": "Transporte terrestre",
     "section": "Transporte, armazenagem e correio",
     "score": 3,
-    "rationale": "Operação de veículos e logística física com automação gradual."
+    "rationale": "Motoristas de caminhão, ônibus e aplicativos passam o dia dirigindo veículos em estradas e cidades, atividade que exige presença física e atenção contínua ao trânsito. O caminhão autônomo e o roteirizador com IA ameaçam parte das funções, mas a direção ainda é humana e presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "8.50": {
     "code": "8.50",
     "name": "Transporte aquaviário",
     "section": "Transporte, armazenagem e correio",
     "score": 3,
-    "rationale": "Operação de veículos e logística física com automação gradual."
+    "rationale": "Tripulações de navios, barcos e rebocadores embarcam por longos períodos, operando navegação, máquinas e carga em contato direto com o mar. A automação de embarcações avança lentamente, e a IA auxilia rotas e previsão de manutenção sem mudar o trabalho embarcado.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "8.51": {
     "code": "8.51",
     "name": "Transporte aéreo",
     "section": "Transporte, armazenagem e correio",
-    "score": 3,
-    "rationale": "Operação de veículos e logística física com automação gradual."
+    "score": 4,
+    "rationale": "Pilotos, comissários e pessoal de aeroporto atuam presencialmente em voos e terminais, em um setor já fortemente automatizado em navegação e despacho. A IA melhora escalas, manutenção preditiva e atendimento, mas o transporte em si exige tripulação humana a bordo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "8.52": {
     "code": "8.52",
     "name": "Armazenamento e atividades auxiliares dos transportes",
     "section": "Transporte, armazenagem e correio",
-    "score": 3,
-    "rationale": "Operação de veículos e logística física com automação gradual."
+    "score": 4,
+    "rationale": "A operação de armazéns, portos e centros de distribuição combina movimentação física de cargas com gestão de estoques em sistemas informatizados. Empilhadeiras autônomas e otimização por IA crescem, porém conferentes e operadores seguem presencialmente no galpão.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "8.53": {
     "code": "8.53",
     "name": "Correio e outras atividades de entrega",
     "section": "Transporte, armazenagem e correio",
     "score": 3,
-    "rationale": "Operação de veículos e logística física com automação gradual."
+    "rationale": "Carteiros e entregadores percorrem ruas diariamente a pé, de bicicleta ou moto, com distribuição de pacotes que exige presença física no endereço final. Drones e robôs de entrega são testes pontuais, e a IA atua mais no roteirizador do que na entrega em si.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "9.55": {
     "code": "9.55",
     "name": "Alojamento",
     "section": "Alojamento e alimentação",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "Hotéis, pousadas e campings empregam recepcionistas, camareiras e porteiros em turnos presenciais, com atendimento e limpeza física de quartos e áreas comuns. Sistemas de reservas e chatbots com IA automatizam parte do front desk, sem eliminar o trabalho presencial de hospedagem.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "9.56": {
     "code": "9.56",
     "name": "Alimentação",
     "section": "Alojamento e alimentação",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "Cozinheiros, garçons e atendentes de restaurantes, bares e lanchonetes trabalham presencialmente em cozinhas e salões, com preparo físico de alimentos e atendimento ao público. Cozinhas robotizadas e cardápios gerados por IA são novidades pontuais, mas o serviço alimentar segue essencialmente humano.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "10.58": {
     "code": "10.58",
     "name": "Edição e edição integrada à de impressão",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Informação e comunicação",
+    "score": 7,
+    "rationale": "Editores, revisores e designers editoriais produzem livros, jornais e revistas em computadores, com escrita, diagramação e correção majoritariamente digitais. A IA generativa já redige, revisa e diagrama conteúdo, tornando este um dos subgrupos mais expostos do setor editorial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "10.59": {
     "code": "10.59",
     "name": "Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e de música",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Informação e comunicação",
+    "score": 6,
+    "rationale": "A indústria audiovisual combina set de filmagem presencial com edição de vídeo, som e efeitos digitais feitos em estações de trabalho. A IA gera roteiros, edita imagens e compõe trilhas, aumentando a exposição das etapas de pós-produção, enquanto as gravações seguem físicas.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "10.60": {
     "code": "10.60",
     "name": "Atividades de rádio e de televisão",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Informação e comunicação",
+    "score": 6,
+    "rationale": "Emissoras de rádio e TV unem estúdios e externas presenciais a redações onde jornalistas e editores trabalham em computadores com conteúdo digital. Apresentadores e repórteres seguem necessários, mas locução sintética, notícias geradas por IA e edição automatizada reduzem o trabalho humano nas redações.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "10.61": {
     "code": "10.61",
     "name": "Telecomunicações",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Informação e comunicação",
+    "score": 6,
+    "rationale": "O setor de telecomunicações combina instalação e manutenção física de redes, antenas e cabos com operação de centrais, monitoramento de rede e atendimento em sistemas digitais. A IA já automatiza o atendimento e o diagnóstico de falhas, elevando a exposição das funções de suporte e operação.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "10.62": {
     "code": "10.62",
     "name": "Atividades dos serviços de tecnologia da informação",
-    "section": "Alojamento e alimentação",
+    "section": "Informação e comunicação",
     "score": 9,
-    "rationale": "Trabalho 100% digital em computador focado em código, análise de dados e arquitetura, áreas em rápida evolução por IA."
+    "rationale": "Programadores, analistas, testadores e administradores de sistemas executam praticamente todo o trabalho em computadores, de qualquer lugar, incluindo home office remoto. A IA atua como copiloto de código e automatiza tarefas de infraestrutura, colocando este subgrupo entre os mais expostos do mercado.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "10.63": {
     "code": "10.63",
     "name": "Atividades de prestação de serviços de informação",
-    "section": "Alojamento e alimentação",
+    "section": "Informação e comunicação",
     "score": 8,
-    "rationale": "Processamento de informação digital, redação e suporte técnico altamente expostos a LLMs."
+    "rationale": "Portais, agências de notícias, processamento de dados e serviços de busca operam quase inteiramente em computadores, com produção e tratamento digital de informação. A IA generativa escreve notícias, agrega conteúdo e processa dados em escala, ameaçando diretamente grande parte dessas funções.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "11.64": {
     "code": "11.64",
     "name": "Atividades de serviços financeiros",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades financeiras, de seguros e serviços relacionados",
+    "score": 8,
+    "rationale": "Bancos e corretoras concentram análise de crédito, operações, gestão de investimentos e atendimento em sistemas digitais, com grande parte do trabalho remoto em computador. A IA já classifica risco, responde clientes e automatiza negociações, tornando o setor financeiro altamente exposto.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "11.65": {
     "code": "11.65",
     "name": "Seguros, resseguros, previdência complementar e planos de saúde",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais."
+    "section": "Atividades financeiras, de seguros e serviços relacionados",
+    "score": 7,
+    "rationale": "Seguradoras processam apólices, sinistros e análise de risco em sistemas informatizados, embora parte da venda e da vistoria exija presença no campo. Subscrição automatizada e chatbots de sinistro com IA reduzem a demanda de subscritores e atendentes administrativos.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "11.66": {
     "code": "11.66",
     "name": "Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais."
+    "section": "Atividades financeiras, de seguros e serviços relacionados",
+    "score": 8,
+    "rationale": "Corretoras de câmbio, gestoras de cartões, análise de investimentos e back office processam dados financeiros em computadores com trabalho majoritariamente de escritório. A IA automatiza conciliação, análise de investimentos e suporte, elevando a substituibilidade do subgrupo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "12.68": {
     "code": "12.68",
     "name": "Atividades imobiliárias",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades imobiliárias",
+    "score": 6,
+    "rationale": "Corretores e administradoras de imóveis dividem o tempo entre visitas e vistorias presenciais e negociação, contratos e marketing digital em computadores. Portais com IA, tour virtual e avaliação automatizada de imóveis reduzem etapas, mas a venda presencial ainda protege parte da função.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "13.69": {
     "code": "13.69",
     "name": "Atividades jurídicas, de contabilidade e de auditoria",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades profissionais, científicas e técnicas",
+    "score": 7,
+    "rationale": "Advogados, contadores e auditores produzem pareceres, demonstrações e relatórios em computadores, com revisão de documentos e análise de números como núcleo da rotina. A IA já pesquisa jurisprudência, concilia contas e redige documentos, elevando muito a exposição do subgrupo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "13.70": {
     "code": "13.70",
     "name": "Atividades de consultoria em gestão empresarial",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades profissionais, científicas e técnicas",
+    "score": 8,
+    "rationale": "Consultores passam o dia analisando dados, construindo apresentações e recomendando estratégias em computadores, com reuniões remotas e entregas digitais. Ferramentas de IA generativa e análise aceleram o trabalho, pressionando funções de análise e elaboração de relatórios.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "13.71": {
     "code": "13.71",
     "name": "Serviços de arquitetura e engenharia; testes e análises técnicas",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades profissionais, científicas e técnicas",
+    "score": 7,
+    "rationale": "Arquitetos e engenheiros projetam em CAD, calculam estruturas e emitem laudos em computadores, embora vistorias, obras e ensaios laboratoriais exijam presença física. A IA já gera plantas, simula estruturas e analisa ensaios, expondo fortemente a etapa de projeto e análise.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "13.72": {
     "code": "13.72",
     "name": "Pesquisa e desenvolvimento científico",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades profissionais, científicas e técnicas",
+    "score": 8,
+    "rationale": "Pesquisadores e cientistas dedicam grande parte do tempo à revisão de literatura, análise de dados, simulação e escrita de artigos em computadores, com laboratórios e campo complementando o trabalho. A IA automatiza a síntese de conhecimento e a análise de experimentos, aumentando a exposição das etapas cognitivas.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "13.73": {
     "code": "13.73",
     "name": "Publicidade e pesquisas de mercado",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades profissionais, científicas e técnicas",
+    "score": 8,
+    "rationale": "Criação publicitária, mídia, análise de audiência e pesquisas de mercado são feitas em computadores, com produção de peças, relatórios e campanhas digitais. A IA generativa já escreve anúncios, gera imagens e segmenta audiências, pressionando fortemente o subgrupo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "13.74": {
     "code": "13.74",
     "name": "Outras atividades profissionais, científicas e técnicas",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades profissionais, científicas e técnicas",
+    "score": 6,
+    "rationale": "O subgrupo reúne tradutores, designers, fotógrafos e consultores técnicos diversos, com mistura de trabalho digital em computador e atendimento presencial ao cliente. Tradutores e designers estão entre os mais ameaçados pela IA generativa, enquanto serviços presenciais como fotografia mantêm barreiras.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "13.75": {
     "code": "13.75",
     "name": "Atividades veterinárias",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades profissionais, científicas e técnicas",
+    "score": 5,
+    "rationale": "Médicos veterinários e auxiliares realizam consultas, cirurgias e vacinações em clínicas, fazendas e domicílios, com contato físico direto com os animais. A IA apoia diagnóstico por imagem e gestão de prontuários, mas o cuidado com o animal exige presença e habilidade manual.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "14.77": {
     "code": "14.77",
     "name": "Aluguéis não imobiliários e gestão de ativos intangíveis não financeiros",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades administrativas e serviços complementares",
+    "score": 6,
+    "rationale": "A gestão de aluguel de máquinas, veículos e ativos intangíveis é feita em escritórios com contratos, faturas e sistemas de cobrança em computadores. A IA automatiza contratos e análise de inadimplência, enquanto visitas e vistorias pontuais mantêm parte da atividade presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "14.78": {
     "code": "14.78",
     "name": "Seleção, agenciamento e locação de mão-de-obra",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades administrativas e serviços complementares",
+    "score": 6,
+    "rationale": "Agências de emprego e headhunters triam currículos, cadastram candidatos e gerenciam contratos em sistemas digitais, com entrevistas também realizadas de forma remota. A IA já filtra currículos e conduz entrevistas iniciais, automatizando boa parte do recrutamento.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "14.79": {
     "code": "14.79",
     "name": "Agências de viagens, operadores turísticos e serviços de reservas",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades administrativas e serviços complementares",
+    "score": 7,
+    "rationale": "Agentes de viagens e operadores turísticos fazem reservas, emitem bilhetes e montam roteiros em computadores, com atendimento presencial e por telefone. Plataformas de reserva com IA e chatbots já substituem a intermediação, tornando o subgrupo bastante exposto.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "14.80": {
     "code": "14.80",
     "name": "Atividades de vigilância, segurança e investigação",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades administrativas e serviços complementares",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "Vigilantes, seguranças e investigadores trabalham presencialmente em postos, rondas e investigações de campo, com 835 mil trabalhadores em contato físico com o ambiente. Câmeras inteligentes e análise de imagem por IA aumentam a vigilância remota, mas a presença física de segurança continua exigida.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "14.81": {
     "code": "14.81",
     "name": "Serviços para edificios e atividades paisagisticas",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades administrativas e serviços complementares",
+    "score": 1,
+    "rationale": "Serventes de limpeza, zeladores e jardineiros executam faxina, conservação e jardinagem com trabalho braçal presencial em edifícios e áreas verdes. A renda média de R$ 1,5 mil reflete a baixa qualificação, e a IA tem papel quase nulo na execução dessas tarefas físicas.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "14.82": {
     "code": "14.82",
     "name": "Serviços de escritório, de apoio administrativo e outros serviços prestados a empresas",
-    "section": "Alojamento e alimentação",
+    "section": "Atividades administrativas e serviços complementares",
     "score": 7,
-    "rationale": "Rotinas de escritório, fluxo de documentos e atendimento ao cliente suscetíveis à automação por agentes de IA."
+    "rationale": "Assistentes administrativos, recepcionistas e pessoal de apoio processam documentos, atendem telefone e alimentam planilhas em escritórios, com rotinas repetitivas em computador. A IA e a automação de processos já absorvem digitação, agendamento e atendimento, expondo fortemente o subgrupo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "15.84": {
     "code": "15.84",
     "name": "Administração pública, defesa e seguridade social",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Administração pública, defesa e seguridade social",
+    "score": 6,
+    "rationale": "Servidores públicos executam análise de processos, atendimento e gestão de políticas públicas em computadores, embora defesa e segurança pública exijam presença física. A digitalização do governo e a IA em análise documental crescem, expondo as funções administrativas do subgrupo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "16.85": {
     "code": "16.85",
     "name": "Educação",
-    "section": "Alojamento e alimentação",
-    "score": 6,
-    "rationale": "Ensino e criação de conteúdo instrucional com alto potencial de suporte por IA, mantendo interação humana."
+    "section": "Educação",
+    "score": 7,
+    "rationale": "Professores e profissionais da educação preparam aulas, corrigem atividades e geram conteúdo em computadores, embora o ensino presencial em sala de aula continue dominante. Plataformas de ensino com IA personalizam atividades e avaliam redações, aumentando a exposição das tarefas pedagógicas digitais.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "17.86": {
     "code": "17.86",
     "name": "Atividades de atenção à saúde humana",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais."
+    "section": "Saúde humana e serviços sociais",
+    "score": 5,
+    "rationale": "Médicos, enfermeiros e técnicos de saúde atuam presencialmente em hospitais, clínicas e prontos-socorros, com contato direto com pacientes e procedimentos físicos. A IA ajuda em diagnóstico por imagem e prontuários, mas o cuidado humano e a execução de procedimentos mantêm forte barreira física.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "17.87": {
     "code": "17.87",
     "name": "Atividades de atenção à saúde humana integradas com assistência social, inclusive prestadas em residências coletivas e particulares",
-    "section": "Alojamento e alimentação",
+    "section": "Saúde humana e serviços sociais",
     "score": 4,
-    "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais."
+    "rationale": "Cuidadores e auxiliares de saúde prestam assistência domiciliar e em residências coletivas, com tarefas físicas como banho, alimentação e monitoramento de idosos e doentes. A telemedicina e sensores de monitoramento remoto crescem, mas o cuidado pessoal continua essencialmente presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "17.88": {
     "code": "17.88",
     "name": "Serviços de assistência social sem alojamento",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Saúde humana e serviços sociais",
+    "score": 5,
+    "rationale": "Assistentes sociais e agentes comunitários atendem famílias em campo e em centros de referência, com escuta, visitas e orientação presencial às comunidades. Sistemas de cadastro único e análise de vulnerabilidade com IA apoiam o trabalho, mas o vínculo humano presencial é central.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "18.90": {
     "code": "18.90",
     "name": "Atividades artísticas, criativas e de espetáculos",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Artes, cultura, esporte e recreação",
+    "score": 6,
+    "rationale": "Artistas plásticos, atores, músicos e criadores dividem apresentações presenciais com produção digital de obras e portfólios em computadores. A IA gera imagens, música e roteiros, pressionando o lado criativo digital, enquanto o espetáculo ao vivo preserva a presença física.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "18.91": {
     "code": "18.91",
     "name": "Atividades ligadas ao patrimônio cultural e ambiental",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Artes, cultura, esporte e recreação",
+    "score": 5,
+    "rationale": "Museus, bibliotecas, sítios históricos e unidades de conservação empregam curadores, guias e conservadores com trabalho presencial de acervo e visitação. A digitalização de acervos e as visitas virtuais com IA crescem, mas a conservação física e a mediação humana seguem necessárias.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "18.92": {
     "code": "18.92",
     "name": "Atividades de exploração de jogos de azar e apostas",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Artes, cultura, esporte e recreação",
+    "score": 6,
+    "rationale": "Cassinos, bingos e casas de aposta misturam atendimento presencial nas salas com operação de apostas online em plataformas digitais. A IA já opera odds, detecta fraudes e personaliza apostas online, expondo fortemente a parte digital do subgrupo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "18.93": {
     "code": "18.93",
     "name": "Atividades esportivas e de recreação e lazer",
-    "section": "Alojamento e alimentação",
+    "section": "Artes, cultura, esporte e recreação",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "Instrutores, treinadores e profissionais de academias, parques e clubes atuam presencialmente orientando atividades físicas e recreação. Aplicativos de treino e análise de desempenho com IA crescem, mas a condução física das atividades exige o profissional presente.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "19.94": {
     "code": "19.94",
     "name": "Atividades de organizações associativas",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Outras atividades de serviços",
+    "score": 6,
+    "rationale": "Sindicatos, associações e entidades de classe mantêm equipes administrativas que produzem comunicados, controlam associados e organizam eventos com trabalho de escritório. A IA apoia a comunicação e a gestão de cadastros, enquanto a representação presencial dos associados permanece humana.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "19.95": {
     "code": "19.95",
     "name": "Reparação e manutenção de equipamentos de informatica e comunicação e de objetos pessoais e domésticos",
-    "section": "Alojamento e alimentação",
+    "section": "Outras atividades de serviços",
     "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "rationale": "Técnicos de reparo de celulares, computadores e eletrodomésticos trabalham em bancadas com ferramentas físicas, desmontando e consertando equipamentos presencialmente. O diagnóstico assistido por IA ajuda na identificação de defeitos, mas o conserto físico mantém a barreira presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "19.96": {
     "code": "19.96",
     "name": "Outras atividades de serviços pessoais",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Outras atividades de serviços",
+    "score": 3,
+    "rationale": "Cabeleireiros, manicures, barbeiros e profissionais de estética atendem clientes presencialmente com habilidade manual e contato físico direto. A IA auxilia na gestão de agenda e na indicação de serviços, mas a execução do serviço pessoal é intrinsecamente presencial.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "20.97": {
     "code": "20.97",
     "name": "Serviços domésticos",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Serviços domésticos",
+    "score": 1,
+    "rationale": "Empregadas e trabalhadores domésticos executam limpeza, cozinha e cuidados em residências, com 3,7 milhões de trabalhadores em atividades braçais e presenciais. A renda média de R$ 1 mil e a natureza física do serviço deixam a exposição à IA praticamente nula.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "21.99": {
     "code": "21.99",
     "name": "Organismos internacionais e outras instituições extraterritoriais",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Organismos internacionais e outras instituições extraterritoriais",
+    "score": 7,
+    "rationale": "Diplomatas, analistas e técnicos de organismos internacionais produzem relatórios, negociações e documentos em escritórios, com trabalho majoritariamente digital em computador. A IA já auxilia tradução, análise de políticas e redação oficial, expondo moderadamente o subgrupo.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   },
   "22.00": {
     "code": "22.00",
     "name": "Atividades maldefinidas",
-    "section": "Alojamento e alimentação",
-    "score": 4,
-    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+    "section": "Atividades maldefinidas",
+    "score": 5,
+    "rationale": "Este subgrupo residual reúne ocupações não classificadas e heterogêneas, sem rotina ocupacional definida, o que torna a avaliação de exposição incerta. A escala do contingente sugere presença de trabalho informal e manual, resultando em exposição moderada e conservadora.",
+    "method": "llm",
+    "model": "opencode-go/deepseek-v4-flash",
+    "generated_at": "2026-08-06T21:01:28.481318+00:00"
   }
 }

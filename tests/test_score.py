@@ -11,10 +11,13 @@ def test_scores_json_structure():
         
     assert isinstance(scores, dict)
     assert len(scores) > 50
-    
-    sample_key = list(scores.keys())[0]
-    entry = scores[sample_key]
-    assert "score" in entry
-    assert "rationale" in entry
-    assert 0 <= entry["score"] <= 10
-    assert len(entry["rationale"]) > 10
+
+    for entry in scores.values():
+        assert "score" in entry
+        assert "rationale" in entry
+        assert 0 <= entry["score"] <= 10
+        assert len(entry["rationale"]) > 10
+        assert entry.get("method") in ("llm", "heuristic-keyword-v1"), (
+            f"Missing or unknown scoring method for '{entry.get('name')}': {entry.get('method')!r}"
+        )
+        assert "generated_at" in entry
