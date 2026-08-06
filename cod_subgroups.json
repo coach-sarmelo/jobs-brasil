@@ -1,0 +1,698 @@
+[
+  {
+    "code": "1.01",
+    "name": "Agricultura, pecuária, caça e serviços relacionados",
+    "section": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+    "total_workers": 5866546,
+    "avg_income": 1902.37,
+    "wage_bill": 11160341114.02
+  },
+  {
+    "code": "1.02",
+    "name": "Produção florestal",
+    "section": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+    "total_workers": 235863,
+    "avg_income": 1664.61,
+    "wage_bill": 392619908.43
+  },
+  {
+    "code": "1.03",
+    "name": "Pesca e aquicultura",
+    "section": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+    "total_workers": 332553,
+    "avg_income": 986.41,
+    "wage_bill": 328033604.73
+  },
+  {
+    "code": "2.05",
+    "name": "Extração de carvão mineral",
+    "section": "Indústrias extrativas",
+    "total_workers": 2578,
+    "avg_income": 2632.36,
+    "wage_bill": 6786224.08
+  },
+  {
+    "code": "2.06",
+    "name": "Extração de petróleo e gás natural",
+    "section": "Indústrias extrativas",
+    "total_workers": 76872,
+    "avg_income": 8203.85,
+    "wage_bill": 630646357.2
+  },
+  {
+    "code": "2.07",
+    "name": "Extração de minerais metálicos",
+    "section": "Indústrias extrativas",
+    "total_workers": 33015,
+    "avg_income": 2855.49,
+    "wage_bill": 94274002.35
+  },
+  {
+    "code": "2.08",
+    "name": "Extração de minerais não metálicos",
+    "section": "Indústrias extrativas",
+    "total_workers": 215936,
+    "avg_income": 3517.41,
+    "wage_bill": 759535445.76
+  },
+  {
+    "code": "2.09",
+    "name": "Atividades de apoio à extração de minerais",
+    "section": "Indústrias extrativas",
+    "total_workers": 5173,
+    "avg_income": 7438.19,
+    "wage_bill": 38477756.87
+  },
+  {
+    "code": "3.10",
+    "name": "Fabricação de produtos alimenticios e bebidas",
+    "section": "Indústrias de transformação",
+    "total_workers": 1069673,
+    "avg_income": 2244.95,
+    "wage_bill": 2401362401.35
+  },
+  {
+    "code": "3.11",
+    "name": "Fabricação de bebidas",
+    "section": "Indústrias de transformação",
+    "total_workers": 82082,
+    "avg_income": 3032.26,
+    "wage_bill": 248893965.32
+  },
+  {
+    "code": "3.12",
+    "name": "Fabricação de produtos do fumo",
+    "section": "Indústrias de transformação",
+    "total_workers": 18232,
+    "avg_income": 2342.22,
+    "wage_bill": 42703355.04
+  },
+  {
+    "code": "3.13",
+    "name": "Fabricação de produtos têxteis",
+    "section": "Indústrias de transformação",
+    "total_workers": 437610,
+    "avg_income": 2008.86,
+    "wage_bill": 879097224.6
+  },
+  {
+    "code": "3.14",
+    "name": "Confecção de artigos do vestuário e acessórios",
+    "section": "Indústrias de transformação",
+    "total_workers": 1286582,
+    "avg_income": 1611.59,
+    "wage_bill": 2073442685.38
+  },
+  {
+    "code": "3.15",
+    "name": "Preparação de couros e fabricação de artefatos de couro, artigos de viagem e calçados",
+    "section": "Indústrias de transformação",
+    "total_workers": 323687,
+    "avg_income": 1839.21,
+    "wage_bill": 595328367.27
+  },
+  {
+    "code": "3.16",
+    "name": "Fabricação de produtos de madeira",
+    "section": "Indústrias de transformação",
+    "total_workers": 160299,
+    "avg_income": 1956.23,
+    "wage_bill": 313581712.77
+  },
+  {
+    "code": "3.17",
+    "name": "Fabricação de celulose, papel e produtos de papel",
+    "section": "Indústrias de transformação",
+    "total_workers": 95519,
+    "avg_income": 3420.4,
+    "wage_bill": 326713187.6
+  },
+  {
+    "code": "3.18",
+    "name": "Impressão e reprodução de gravações",
+    "section": "Indústrias de transformação",
+    "total_workers": 176989,
+    "avg_income": 2650.79,
+    "wage_bill": 469160671.31
+  },
+  {
+    "code": "3.19",
+    "name": "Fabricação de coque; produtos derivados de petróleo e de biocombustíveis",
+    "section": "Indústrias de transformação",
+    "total_workers": 46408,
+    "avg_income": 4250.57,
+    "wage_bill": 197260452.56
+  },
+  {
+    "code": "3.20",
+    "name": "Fabricação de produtos químicos",
+    "section": "Indústrias de transformação",
+    "total_workers": 182647,
+    "avg_income": 4092.28,
+    "wage_bill": 747442665.16
+  },
+  {
+    "code": "3.21",
+    "name": "Fabricação de produtos farmoquímicos e farmacêuticos",
+    "section": "Indústrias de transformação",
+    "total_workers": 144830,
+    "avg_income": 5071.52,
+    "wage_bill": 734508241.6
+  },
+  {
+    "code": "3.22",
+    "name": "Fabricação de produtos de borracha e de material plástico",
+    "section": "Indústrias de transformação",
+    "total_workers": 182141,
+    "avg_income": 2941.4,
+    "wage_bill": 535749537.4
+  },
+  {
+    "code": "3.23",
+    "name": "Fabricação de produtos de minerais não metálicos",
+    "section": "Indústrias de transformação",
+    "total_workers": 338414,
+    "avg_income": 2402.95,
+    "wage_bill": 813191921.3
+  },
+  {
+    "code": "3.24",
+    "name": "Metalurgia",
+    "section": "Indústrias de transformação",
+    "total_workers": 201439,
+    "avg_income": 3276.22,
+    "wage_bill": 659958480.58
+  },
+  {
+    "code": "3.25",
+    "name": "Fabricação de produtos de metal, exceto máquinas e equipamentos",
+    "section": "Indústrias de transformação",
+    "total_workers": 1020804,
+    "avg_income": 2757.85,
+    "wage_bill": 2815224311.4
+  },
+  {
+    "code": "3.26",
+    "name": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+    "section": "Indústrias de transformação",
+    "total_workers": 154764,
+    "avg_income": 2610.64,
+    "wage_bill": 404033088.96
+  },
+  {
+    "code": "3.27",
+    "name": "Fabricação de máquinas, aparelhos e materiais elétricos",
+    "section": "Indústrias de transformação",
+    "total_workers": 65599,
+    "avg_income": 3042.73,
+    "wage_bill": 199600045.27
+  },
+  {
+    "code": "3.28",
+    "name": "Fabricação de máquinas e equipamentos",
+    "section": "Indústrias de transformação",
+    "total_workers": 120227,
+    "avg_income": 3659.17,
+    "wage_bill": 439931031.59
+  },
+  {
+    "code": "3.29",
+    "name": "Fabricação de veículos automotores, reboques e carrocerias",
+    "section": "Indústrias de transformação",
+    "total_workers": 253218,
+    "avg_income": 3693.34,
+    "wage_bill": 935220168.12
+  },
+  {
+    "code": "3.30",
+    "name": "Fabricação de outros equipamentos de transporte, exceto veículos automotores",
+    "section": "Indústrias de transformação",
+    "total_workers": 40020,
+    "avg_income": 3841.6,
+    "wage_bill": 153740832.0
+  },
+  {
+    "code": "3.31",
+    "name": "Fabricação de móveis",
+    "section": "Indústrias de transformação",
+    "total_workers": 564227,
+    "avg_income": 2410.64,
+    "wage_bill": 1360148175.28
+  },
+  {
+    "code": "3.32",
+    "name": "Fabricação de produtos diversos",
+    "section": "Indústrias de transformação",
+    "total_workers": 1738168,
+    "avg_income": 2663.44,
+    "wage_bill": 4629506177.92
+  },
+  {
+    "code": "3.33",
+    "name": "Manutenção, reparação e instalação de máquinas e equipamentos",
+    "section": "Indústrias de transformação",
+    "total_workers": 277217,
+    "avg_income": 2855.33,
+    "wage_bill": 791546016.61
+  },
+  {
+    "code": "4.35",
+    "name": "Eletricidade, gás e outras utilidades",
+    "section": "Eletricidade e gás",
+    "total_workers": 210080,
+    "avg_income": 4381.86,
+    "wage_bill": 920541148.8
+  },
+  {
+    "code": "5.36",
+    "name": "Captação, tratamento e distribuição de água",
+    "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+    "total_workers": 142069,
+    "avg_income": 3315.08,
+    "wage_bill": 470970100.52
+  },
+  {
+    "code": "5.37",
+    "name": "Esgoto e atividades relacionadas",
+    "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+    "total_workers": 6285,
+    "avg_income": 2655.92,
+    "wage_bill": 16692457.2
+  },
+  {
+    "code": "5.38",
+    "name": "Coleta, tratamento e disposição de resíduos; recuperação de materiais",
+    "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+    "total_workers": 558633,
+    "avg_income": 1510.86,
+    "wage_bill": 844016254.38
+  },
+  {
+    "code": "5.39",
+    "name": "Descontaminação e outros serviços de gestão de resíduos",
+    "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+    "total_workers": 411,
+    "avg_income": 3533.86,
+    "wage_bill": 1452416.46
+  },
+  {
+    "code": "6.41",
+    "name": "Construção e incorporação de edifícios",
+    "section": "Construção",
+    "total_workers": 2881611,
+    "avg_income": 1650.81,
+    "wage_bill": 4756992254.91
+  },
+  {
+    "code": "6.42",
+    "name": "Obras de infraestrutura",
+    "section": "Construção",
+    "total_workers": 132156,
+    "avg_income": 2793.84,
+    "wage_bill": 369222719.04
+  },
+  {
+    "code": "6.43",
+    "name": "Serviços especializados para construção",
+    "section": "Construção",
+    "total_workers": 3897022,
+    "avg_income": 2442.41,
+    "wage_bill": 9518125503.02
+  },
+  {
+    "code": "7.45",
+    "name": "Comércio e reparação de veículos automotores e motocicletas",
+    "section": "Comércio, reparação de veículos automotores e motocicletas",
+    "total_workers": 2278879,
+    "avg_income": 2474.0,
+    "wage_bill": 5637946646.0
+  },
+  {
+    "code": "7.48",
+    "name": "Comércio, exceto de veiculos automotores e motocicletas",
+    "section": "Comércio, reparação de veículos automotores e motocicletas",
+    "total_workers": 12755805,
+    "avg_income": 2460.86,
+    "wage_bill": 31390250292.3
+  },
+  {
+    "code": "8.49",
+    "name": "Transporte terrestre",
+    "section": "Transporte, armazenagem e correio",
+    "total_workers": 3634677,
+    "avg_income": 2606.56,
+    "wage_bill": 9474003681.12
+  },
+  {
+    "code": "8.50",
+    "name": "Transporte aquaviário",
+    "section": "Transporte, armazenagem e correio",
+    "total_workers": 47911,
+    "avg_income": 4082.68,
+    "wage_bill": 195605281.48
+  },
+  {
+    "code": "8.51",
+    "name": "Transporte aéreo",
+    "section": "Transporte, armazenagem e correio",
+    "total_workers": 51671,
+    "avg_income": 6531.45,
+    "wage_bill": 337486552.95
+  },
+  {
+    "code": "8.52",
+    "name": "Armazenamento e atividades auxiliares dos transportes",
+    "section": "Transporte, armazenagem e correio",
+    "total_workers": 948514,
+    "avg_income": 2696.66,
+    "wage_bill": 2557819763.24
+  },
+  {
+    "code": "8.53",
+    "name": "Correio e outras atividades de entrega",
+    "section": "Transporte, armazenagem e correio",
+    "total_workers": 632427,
+    "avg_income": 1964.53,
+    "wage_bill": 1242421814.31
+  },
+  {
+    "code": "9.55",
+    "name": "Alojamento",
+    "section": "Alojamento e alimentação",
+    "total_workers": 317376,
+    "avg_income": 2266.13,
+    "wage_bill": 719215274.88
+  },
+  {
+    "code": "9.56",
+    "name": "Alimentação",
+    "section": "Alojamento e alimentação",
+    "total_workers": 3478312,
+    "avg_income": 1908.72,
+    "wage_bill": 6639123680.64
+  },
+  {
+    "code": "10.58",
+    "name": "Edição e edição integrada à de impressão",
+    "section": "Alojamento e alimentação",
+    "total_workers": 49152,
+    "avg_income": 4664.37,
+    "wage_bill": 229263114.24
+  },
+  {
+    "code": "10.59",
+    "name": "Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e de música",
+    "section": "Alojamento e alimentação",
+    "total_workers": 73159,
+    "avg_income": 4482.37,
+    "wage_bill": 327925706.83
+  },
+  {
+    "code": "10.60",
+    "name": "Atividades de rádio e de televisão",
+    "section": "Alojamento e alimentação",
+    "total_workers": 63097,
+    "avg_income": 4039.54,
+    "wage_bill": 254882855.38
+  },
+  {
+    "code": "10.61",
+    "name": "Telecomunicações",
+    "section": "Alojamento e alimentação",
+    "total_workers": 353552,
+    "avg_income": 3314.47,
+    "wage_bill": 1171837497.44
+  },
+  {
+    "code": "10.62",
+    "name": "Atividades dos serviços de tecnologia da informação",
+    "section": "Alojamento e alimentação",
+    "total_workers": 875815,
+    "avg_income": 5940.98,
+    "wage_bill": 5203199398.7
+  },
+  {
+    "code": "10.63",
+    "name": "Atividades de prestação de serviços de informação",
+    "section": "Alojamento e alimentação",
+    "total_workers": 103774,
+    "avg_income": 4807.0,
+    "wage_bill": 498841618.0
+  },
+  {
+    "code": "11.64",
+    "name": "Atividades de serviços financeiros",
+    "section": "Alojamento e alimentação",
+    "total_workers": 827661,
+    "avg_income": 6381.96,
+    "wage_bill": 5282099395.56
+  },
+  {
+    "code": "11.65",
+    "name": "Seguros, resseguros, previdência complementar e planos de saúde",
+    "section": "Alojamento e alimentação",
+    "total_workers": 137821,
+    "avg_income": 4758.46,
+    "wage_bill": 655815715.66
+  },
+  {
+    "code": "11.66",
+    "name": "Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",
+    "section": "Alojamento e alimentação",
+    "total_workers": 171014,
+    "avg_income": 5937.88,
+    "wage_bill": 1015460610.32
+  },
+  {
+    "code": "12.68",
+    "name": "Atividades imobiliárias",
+    "section": "Alojamento e alimentação",
+    "total_workers": 473598,
+    "avg_income": 4648.19,
+    "wage_bill": 2201373487.62
+  },
+  {
+    "code": "13.69",
+    "name": "Atividades jurídicas, de contabilidade e de auditoria",
+    "section": "Alojamento e alimentação",
+    "total_workers": 1749567,
+    "avg_income": 5866.93,
+    "wage_bill": 10264587119.31
+  },
+  {
+    "code": "13.70",
+    "name": "Atividades de consultoria em gestão empresarial",
+    "section": "Alojamento e alimentação",
+    "total_workers": 73148,
+    "avg_income": 7027.56,
+    "wage_bill": 514051958.88
+  },
+  {
+    "code": "13.71",
+    "name": "Serviços de arquitetura e engenharia; testes e análises técnicas",
+    "section": "Alojamento e alimentação",
+    "total_workers": 620102,
+    "avg_income": 5855.57,
+    "wage_bill": 3631050668.14
+  },
+  {
+    "code": "13.72",
+    "name": "Pesquisa e desenvolvimento científico",
+    "section": "Alojamento e alimentação",
+    "total_workers": 49244,
+    "avg_income": 5368.13,
+    "wage_bill": 264348193.72
+  },
+  {
+    "code": "13.73",
+    "name": "Publicidade e pesquisas de mercado",
+    "section": "Alojamento e alimentação",
+    "total_workers": 373536,
+    "avg_income": 4923.33,
+    "wage_bill": 1839040994.88
+  },
+  {
+    "code": "13.74",
+    "name": "Outras atividades profissionais, científicas e técnicas",
+    "section": "Alojamento e alimentação",
+    "total_workers": 467394,
+    "avg_income": 3938.84,
+    "wage_bill": 1840990182.96
+  },
+  {
+    "code": "13.75",
+    "name": "Atividades veterinárias",
+    "section": "Alojamento e alimentação",
+    "total_workers": 128675,
+    "avg_income": 4418.18,
+    "wage_bill": 568509311.5
+  },
+  {
+    "code": "14.77",
+    "name": "Aluguéis não imobiliários e gestão de ativos intangíveis não financeiros",
+    "section": "Alojamento e alimentação",
+    "total_workers": 66758,
+    "avg_income": 3723.33,
+    "wage_bill": 248562064.14
+  },
+  {
+    "code": "14.78",
+    "name": "Seleção, agenciamento e locação de mão-de-obra",
+    "section": "Alojamento e alimentação",
+    "total_workers": 52619,
+    "avg_income": 3171.54,
+    "wage_bill": 166883263.26
+  },
+  {
+    "code": "14.79",
+    "name": "Agências de viagens, operadores turísticos e serviços de reservas",
+    "section": "Alojamento e alimentação",
+    "total_workers": 127011,
+    "avg_income": 3662.67,
+    "wage_bill": 465199379.37
+  },
+  {
+    "code": "14.80",
+    "name": "Atividades de vigilância, segurança e investigação",
+    "section": "Alojamento e alimentação",
+    "total_workers": 835384,
+    "avg_income": 2124.39,
+    "wage_bill": 1774681415.76
+  },
+  {
+    "code": "14.81",
+    "name": "Serviços para edificios e atividades paisagisticas",
+    "section": "Alojamento e alimentação",
+    "total_workers": 2473148,
+    "avg_income": 1530.85,
+    "wage_bill": 3786018615.8
+  },
+  {
+    "code": "14.82",
+    "name": "Serviços de escritório, de apoio administrativo e outros serviços prestados a empresas",
+    "section": "Alojamento e alimentação",
+    "total_workers": 1033243,
+    "avg_income": 2006.15,
+    "wage_bill": 2072840444.45
+  },
+  {
+    "code": "15.84",
+    "name": "Administração pública, defesa e seguridade social",
+    "section": "Alojamento e alimentação",
+    "total_workers": 4101378,
+    "avg_income": 4928.55,
+    "wage_bill": 20213846541.9
+  },
+  {
+    "code": "16.85",
+    "name": "Educação",
+    "section": "Alojamento e alimentação",
+    "total_workers": 5829925,
+    "avg_income": 3424.61,
+    "wage_bill": 19965219454.25
+  },
+  {
+    "code": "17.86",
+    "name": "Atividades de atenção à saúde humana",
+    "section": "Alojamento e alimentação",
+    "total_workers": 4752742,
+    "avg_income": 4501.5,
+    "wage_bill": 21394468113.0
+  },
+  {
+    "code": "17.87",
+    "name": "Atividades de atenção à saúde humana integradas com assistência social, inclusive prestadas em residências coletivas e particulares",
+    "section": "Alojamento e alimentação",
+    "total_workers": 522637,
+    "avg_income": 1988.08,
+    "wage_bill": 1039044166.96
+  },
+  {
+    "code": "17.88",
+    "name": "Serviços de assistência social sem alojamento",
+    "section": "Alojamento e alimentação",
+    "total_workers": 85982,
+    "avg_income": 2539.88,
+    "wage_bill": 218383962.16
+  },
+  {
+    "code": "18.90",
+    "name": "Atividades artísticas, criativas e de espetáculos",
+    "section": "Alojamento e alimentação",
+    "total_workers": 352100,
+    "avg_income": 3421.81,
+    "wage_bill": 1204819301.0
+  },
+  {
+    "code": "18.91",
+    "name": "Atividades ligadas ao patrimônio cultural e ambiental",
+    "section": "Alojamento e alimentação",
+    "total_workers": 40135,
+    "avg_income": 3339.55,
+    "wage_bill": 134032839.25
+  },
+  {
+    "code": "18.92",
+    "name": "Atividades de exploração de jogos de azar e apostas",
+    "section": "Alojamento e alimentação",
+    "total_workers": 31857,
+    "avg_income": 1471.59,
+    "wage_bill": 46880442.63
+  },
+  {
+    "code": "18.93",
+    "name": "Atividades esportivas e de recreação e lazer",
+    "section": "Alojamento e alimentação",
+    "total_workers": 433225,
+    "avg_income": 2949.76,
+    "wage_bill": 1277909776.0
+  },
+  {
+    "code": "19.94",
+    "name": "Atividades de organizações associativas",
+    "section": "Alojamento e alimentação",
+    "total_workers": 282234,
+    "avg_income": 2999.36,
+    "wage_bill": 846521370.24
+  },
+  {
+    "code": "19.95",
+    "name": "Reparação e manutenção de equipamentos de informatica e comunicação e de objetos pessoais e domésticos",
+    "section": "Alojamento e alimentação",
+    "total_workers": 458005,
+    "avg_income": 2106.25,
+    "wage_bill": 964673031.25
+  },
+  {
+    "code": "19.96",
+    "name": "Outras atividades de serviços pessoais",
+    "section": "Alojamento e alimentação",
+    "total_workers": 2585171,
+    "avg_income": 1763.73,
+    "wage_bill": 4559543647.83
+  },
+  {
+    "code": "20.97",
+    "name": "Serviços domésticos",
+    "section": "Alojamento e alimentação",
+    "total_workers": 3734805,
+    "avg_income": 1059.57,
+    "wage_bill": 3957287333.85
+  },
+  {
+    "code": "21.99",
+    "name": "Organismos internacionais e outras instituições extraterritoriais",
+    "section": "Alojamento e alimentação",
+    "total_workers": 2105,
+    "avg_income": 9086.75,
+    "wage_bill": 19127608.75
+  },
+  {
+    "code": "22.00",
+    "name": "Atividades maldefinidas",
+    "section": "Alojamento e alimentação",
+    "total_workers": 5716958,
+    "avg_income": 3320.87,
+    "wage_bill": 18985274313.46
+  }
+]
