@@ -36,9 +36,16 @@ def run_scoring():
         
     scores = {}
     api_key = os.getenv("GEMINI_API_KEY")
-    
+    client = None
+    if api_key:
+        try:
+            from google import genai
+            client = genai.Client(api_key=api_key)
+        except Exception as e:
+            print(f"Could not initialize Gemini Client: {e}")
+
     print(f"Scoring {len(subgroups)} COD subgroups...")
-    
+
     for item in subgroups:
         code = item["code"] or item["name"]
         name = item["name"]
@@ -47,10 +54,8 @@ def run_scoring():
         score, rationale = get_heuristic_score(name, section)
         
         # If Gemini API key is available, score via Gemini API
-        if api_key:
+        if client:
             try:
-                from google import genai
-                client = genai.Client(api_key=api_key)
                 prompt = f"""Avalie a exposição à Inteligência Artificial (0 a 10) para a seguinte ocupação no Brasil:
 Ocupação: {name} (Setor: {section})
 
@@ -77,6 +82,7 @@ Responda EXATAMENTE neste formato JSON:
                     rationale = res.get("rationale", rationale)
             except Exception as e:
                 print(f"Fallback for {name}: {e}")
+
 
         scores[code] = {
             "code": code,

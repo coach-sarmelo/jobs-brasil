@@ -133,8 +133,21 @@
         div.style.color = '#ffffff';
 
         if ((leaf.x1 - leaf.x0) > 40 && (leaf.y1 - leaf.y0) > 25) {
-          div.innerHTML = `<div style="font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${d.name}</div><div style="opacity:0.8">${d.exposure}/10</div>`;
+          const titleDiv = document.createElement('div');
+          titleDiv.style.fontWeight = '700';
+          titleDiv.style.overflow = 'hidden';
+          titleDiv.style.textOverflow = 'ellipsis';
+          titleDiv.style.whiteSpace = 'nowrap';
+          titleDiv.textContent = d.name;
+
+          const scoreDiv = document.createElement('div');
+          scoreDiv.style.opacity = '0.8';
+          scoreDiv.textContent = `${d.exposure}/10`;
+
+          div.appendChild(titleDiv);
+          div.appendChild(scoreDiv);
         }
+
 
         div.onclick = () => openDrawer(d);
         container.appendChild(div);
