@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jobs BR - AI Exposure of the Brazilian Job Market</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🇧🇷 Jobs BR — Exposição à Inteligência Artificial (IBGE / COD)</h1>
+      <p style="color: #94a3b8; font-size: 0.9rem; margin-top: 4px;">Réplica original do projeto karpathy/jobs com 96 subgrupos da COD</p>
+    </header>
+
+    <div class="stats-grid">
+      <div class="stat-card"><div class="label">Total de Ocupações</div><div class="val" id="stat-occupations">-</div></div>
+      <div class="stat-card"><div class="label">Trabalhadores Totais</div><div class="val" id="stat-jobs">-</div></div>
+      <div class="stat-card"><div class="label">Massa Salarial Mensal</div><div class="val" id="stat-wages">-</div></div>
+      <div class="stat-card"><div class="label">Exposição Média à IA</div><div class="val" id="stat-exposure" style="color: #f59e0b;">-</div></div>
+    </div>
+
+    <div class="controls-bar">
+      <div class="layer-buttons">
+        <span style="font-size: 0.8rem; color: #94a3b8; margin-right: 4px; align-self: center;">Camada de Cor:</span>
+        <button class="btn active" data-layer="exposure">🔴 Exposição IA (0-10)</button>
+        <button class="btn" data-layer="pay">🟢 Rendimento Médio (R$)</button>
+        <button class="btn" data-layer="jobs">🔵 Nº de Trabalhadores</button>
+        <button class="btn" data-layer="wages">🟣 Massa Salarial</button>
+      </div>
+
+      <input type="text" id="search-input" placeholder="Pesquisar ocupação (ex: TI, Saúde)...">
+    </div>
+
+    <div id="treemap-container"></div>
+  </div>
+
+  <div id="drawer" class="drawer">
+    <button class="close-drawer" id="close-drawer">&times;</button>
+    <h2 id="d-name" style="font-size: 1.3rem; margin-bottom: 6px; color: white;">-</h2>
+    <p id="d-section" style="font-size: 0.8rem; color: #38bdf8; margin-bottom: 20px;">-</p>
+
+    <div style="background: #1e293b; padding: 12px; border-radius: 8px; margin-bottom: 16px;">
+      <div style="font-size: 0.75rem; color: #94a3b8;">Score de Exposição à IA</div>
+      <div id="d-score" style="font-size: 2rem; font-weight: 800; color: #f59e0b;">-/10</div>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <h4 style="font-size: 0.85rem; color: #cbd5e1; margin-bottom: 8px;">Justificativa da IA (Gemini):</h4>
+      <p id="d-rationale" style="font-size: 0.85rem; color: #94a3b8; background: #090d16; padding: 12px; border-radius: 8px; border: 1px solid #1e293b;"></p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+      <div style="background: #1e293b; padding: 10px; border-radius: 8px;">
+        <div style="font-size: 0.7rem; color: #94a3b8;">Trabalhadores</div>
+        <div id="d-jobs" style="font-weight: 700; color: white;">-</div>
+      </div>
+      <div style="background: #1e293b; padding: 10px; border-radius: 8px;">
+        <div style="font-size: 0.7rem; color: #94a3b8;">Rendimento Médio</div>
+        <div id="d-pay" style="font-weight: 700; color: white;">-</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let siteData = null;
+    let currentLayer = 'exposure';
+    let searchQuery = '';
+
+    function formatBRL(v) { return new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v); }
+    function formatNum(v) { return new Intl.NumberFormat('pt-BR').format(v); }
+
+    fetch('data.json')
+      .then(res => res.json())
+      .then(data => {
+        siteData = data;
+        renderStats();
+        renderTreemap();
+      });
+
+    function renderStats() {
+      const m = siteData.meta;
+      document.getElementById('stat-occupations').innerText = m.total_occupations;
+      document.getElementById('stat-jobs').innerText = formatNum(m.total_jobs);
+      document.getElementById('stat-wages').innerText = 'R$ ' + (m.total_wages / 1e9).toFixed(1) + ' Bi/mês';
+      document.getElementById('stat-exposure').innerText = m.weighted_ai_exposure + '/10';
+    }
+
+    function getColor(d, layer) {
+      if (layer === 'exposure') {
+        const s = d.exposure;
+        if (s <= 2) return '#1e3a8a';
+        if (s <= 4) return '#047857';
+        if (s <= 6) return '#b45309';
+        if (s <= 8) return '#c2410c';
+        return '#b91c1c';
+      }
+      if (layer === 'pay') {
+        return d3.scaleSequential(d3.interpolateViridis).domain([1000, 10000])(d.pay);
+      }
+      if (layer === 'jobs') {
+        return d3.scaleSequential(d3.interpolateBlues).domain([10000, 2000000])(d.jobs);
+      }
+      return d3.scaleSequential(d3.interpolatePurples).domain([1e7, 1e10])(d.wage_bill);
+    }
+
+    function renderTreemap() {
+      const container = document.getElementById('treemap-container');
+      container.innerHTML = '';
+      const w = container.clientWidth;
+      const h = container.clientHeight;
+
+      const filtered = siteData.occupations.filter(d => 
+        !searchQuery || d.name.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+
+      const root = d3.hierarchy({ children: filtered })
+        .sum(d => d.jobs)
+        .sort((a, b) => b.value - a.value);
+
+      d3.treemap().size([w, h]).padding(2)(root);
+
+      root.leaves().forEach(leaf => {
+        const d = leaf.data;
+        const div = document.createElement('div');
+        div.className = 'node';
+        div.style.left = leaf.x0 + 'px';
+        div.style.top = leaf.y0 + 'px';
+        div.style.width = (leaf.x1 - leaf.x0) + 'px';
+        div.style.height = (leaf.y1 - leaf.y0) + 'px';
+        div.style.backgroundColor = getColor(d, currentLayer);
+        div.style.color = '#ffffff';
+
+        if ((leaf.x1 - leaf.x0) > 40 && (leaf.y1 - leaf.y0) > 25) {
+          div.innerHTML = `<div style="font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${d.name}</div><div style="opacity:0.8">${d.exposure}/10</div>`;
+        }
+
+        div.onclick = () => openDrawer(d);
+        container.appendChild(div);
+      });
+    }
+
+    function openDrawer(d) {
+      document.getElementById('d-name').innerText = d.name;
+      document.getElementById('d-section').innerText = d.section;
+      document.getElementById('d-score').innerText = d.exposure + '/10';
+      document.getElementById('d-rationale').innerText = d.rationale;
+      document.getElementById('d-jobs').innerText = formatNum(d.jobs);
+      document.getElementById('d-pay').innerText = formatBRL(d.pay);
+      document.getElementById('drawer').classList.add('open');
+    }
+
+    document.getElementById('close-drawer').onclick = () => document.getElementById('drawer').classList.remove('open');
+
+    document.querySelectorAll('.layer-buttons button').forEach(btn => {
+      btn.onclick = (e) => {
+        document.querySelectorAll('.layer-buttons button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentLayer = btn.dataset.layer;
+        renderTreemap();
+      };
+    });
+
+    document.getElementById('search-input').oninput = (e) => {
+      searchQuery = e.target.value;
+      renderTreemap();
+    };
+  </script>
+</body>
+</html>
