@@ -10,11 +10,10 @@
 
 ---
 
-## 🌐 URLs de Acesso Público
+## 🌐 Links do Projeto
 
-- 🖥️ **Aplicação Web Interativa (Live Site):** [https://coach-sarmelo.github.io/jobs-brasil/](https://coach-sarmelo.github.io/jobs-brasil/)
+- 🖥️ **Aplicação Web Interativa (Live Site):** [https://marcelo.ai/jobs/](https://marcelo.ai/jobs/) *(ou [coach-sarmelo.github.io/jobs-brasil](https://coach-sarmelo.github.io/jobs-brasil/))*
 - 📦 **Repositório do Código-Fonte no GitHub:** [https://github.com/coach-sarmelo/jobs-brasil](https://github.com/coach-sarmelo/jobs-brasil)
-- 🏠 **Servidor Local / Rede Privada:** [http://192.168.68.130:3015/](http://192.168.68.130:3015/)
 
 ---
 
@@ -28,8 +27,7 @@
 - [Arquitetura do Sistema](#-arquitetura-do-sistema)
 - [Estrutura do Repositório](#-estrutura-do-repositório)
 - [Pré-requisitos](#-pré-requisitos)
-- [Guia de Instalação e Execução Local](#-guia-de-instalação-e-execução-local)
-- [Execução via Docker](#-execução-via-docker)
+- [Guia de Instalação e Execução](#-guia-de-instalação-e-execução)
 - [Implantação e Publicação (CI/CD)](#-implantação-e-publicação-cicd)
 - [Variáveis de Ambiente](#-variáveis-de-ambiente)
 - [Comandos e Scripts Disponíveis](#-comandos-e-scripts-disponíveis)
@@ -131,7 +129,7 @@ Cada ocupação foi pontuada em uma escala contínua de **0 a 10**, medindo a ta
                                          v
                            +---------------------------+
                            | site/index.html (D3.js)   |
-                           | GitHub Pages / Servidor   |
+                           | marcelo.ai/jobs           |
                            +---------------------------+
 ```
 
@@ -160,11 +158,7 @@ jobs-brasil/
 ├── score.py                       # Script Python para scoring via Gemini API com fallback
 ├── scores.json                    # Cache de notas e justificativas dos 87 subgrupos
 ├── build_site_data.py             # Compilador dos dados agregados para o site
-├── server.py                      # Servidor HTTP leve em Python (porta 3015)
-├── Dockerfile                     # Container multi-stage para deploy em produção
-├── docker-compose.yml             # Orquestração do container Docker
-├── package.json                   # Dependências Node.js / Vite (opcional)
-├── vite.config.js                 # Configuração do Vite
+├── server.py                      # Servidor HTTP leve em Python
 └── README.md                      # Documentação completa do projeto
 ```
 
@@ -176,13 +170,11 @@ Antes de iniciar, certifique-se de ter instalado em sua máquina:
 
 - **Python 3.10 ou superior**
 - **pip** (Gerenciador de pacotes do Python)
-- **Node.js 20+ / npm** (Opcional, apenas se for utilizar o servidor Vite)
-- **Docker & Docker Compose** (Opcional, para execução em container)
 - **Chave de API do Google Gemini (`GEMINI_API_KEY`)** (Opcional; caso não informada, o sistema utiliza o motor heurístico em Português)
 
 ---
 
-## 🚀 Guia de Instalação e Execução Local
+## 🚀 Guia de Instalação e Execução
 
 ### 1. Clonar o Repositório
 
@@ -223,26 +215,6 @@ python3 build_site_data.py
 python3 server.py
 ```
 
-Acesse no seu navegador: **[http://localhost:3015](http://localhost:3015)** ou **[http://192.168.68.130:3015](http://192.168.68.130:3015)**
-
----
-
-## 🐳 Execução via Docker
-
-Para rodar a aplicação em um container isolado:
-
-```bash
-# Build e execução do container
-docker-compose up -d --build
-```
-
-Acesse em: **[http://localhost:3015](http://localhost:3015)**
-
-Para parar o container:
-```bash
-docker-compose down
-```
-
 ---
 
 ## 🌐 Implantação e Publicação (CI/CD)
@@ -252,7 +224,7 @@ O projeto possui um workflow configurado no **GitHub Actions** (`.github/workflo
 ### Como Funciona o Deploy Automático:
 1. Cada `git push` na branch `master` ou `main` dispara o workflow de implantação.
 2. O GitHub Actions faz o upload automático dos arquivos estáticos da pasta `site/`.
-3. A aplicação entra no ar instantaneamente em **`https://coach-sarmelo.github.io/jobs-brasil/`**.
+3. A aplicação entra no ar instantaneamente em **`https://marcelo.ai/jobs/`** (via GitHub Pages / custom domain).
 
 ---
 
@@ -261,7 +233,6 @@ O projeto possui um workflow configurado no **GitHub Actions** (`.github/workflo
 | Variável | Descrição | Exemplo | Obrigatório |
 |---|---|---|---|
 | `GEMINI_API_KEY` | Chave da API do Google Gemini para scoring LLM | `AIzaSy...` | Não (possui fallback local) |
-| `PORT` | Porta do servidor web local | `3015` | Não (default: 3015) |
 
 ---
 
@@ -273,7 +244,7 @@ O projeto possui um workflow configurado no **GitHub Actions** (`.github/workflo
 | `python3 score.py` | Gera o arquivo `scores.json` avaliando as ocupações via Gemini API. |
 | `python3 build_site_data.py` | Cruza as estatísticas e gera o arquivo `site/data.json`. |
 | `python3 scripts/generate_readme_report.py` | Atualiza o relatório do `README.md` com os dados atuais. |
-| `python3 server.py` | Inicia o servidor HTTP em Python na porta 3015. |
+| `python3 server.py` | Inicia o servidor HTTP em Python. |
 | `python3 -m pytest tests/` | Executa a suíte de testes automatizados do projeto. |
 
 ---
@@ -293,26 +264,9 @@ python3 -m pytest tests/ -v
 
 ---
 
-## 🔧 Solução de Problemas (Troubleshooting)
-
-### 1. Erro `Address already in use` na porta 3015
-Se a porta 3015 estiver ocupada por outro processo:
-```bash
-fuser -k 3015/tcp
-```
-Ou altere a variável `PORT` dentro de `server.py`.
-
-### 2. Chave de API do Gemini inválida ou quota estourada
-O script `score.py` possui fallback automático. Se a API falhar ou não houver chave configurada, o script utilizará o motor heurístico integrado em Português sem interromper o pipeline.
-
-### 3. Erro de CORS ao abrir `index.html` direto via arquivo local (`file://`)
-Navegadores bloqueiam a requisição `fetch('data.json')` por política de segurança se aberto como arquivo local. **Sempre utilize um servidor HTTP local** (`python3 server.py`) ou o link do GitHub Pages.
-
----
-
 ## ⚖️ Créditos e Licença
 
-- **Autor do Projeto Brasil:** sarmelo / coach-sarmelo
+- **Autor do Projeto Brasil:** Marcelo (marcelo.ai)
 - **Inspiração e Arquitetura:** Andrej Karpathy ([karpathy/jobs](https://github.com/karpathy/jobs))
 - **Fonte dos Dados:** IBGE — Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua 2022) / Tabela 10287 (COD).
 - **Licença:** MIT License

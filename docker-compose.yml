@@ -1,9 +1,0 @@
-version: '3.8'
-services:
-  jobs-brasil:
-    build: .
-    container_name: jobs-brasil
-    ports:
-      - "3015:80"
-    restart: unless-stopped
-
