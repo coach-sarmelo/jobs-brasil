@@ -1,0 +1,611 @@
+{
+  "1.01": {
+    "code": "1.01",
+    "name": "Agricultura, pecuária, caça e serviços relacionados",
+    "section": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+    "score": 2,
+    "rationale": "Atividade física e operational no campo com baixa substituição direta por software de IA."
+  },
+  "1.02": {
+    "code": "1.02",
+    "name": "Produção florestal",
+    "section": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+    "score": 2,
+    "rationale": "Atividade física e operational no campo com baixa substituição direta por software de IA."
+  },
+  "1.03": {
+    "code": "1.03",
+    "name": "Pesca e aquicultura",
+    "section": "Agricultura, pecuária, produção florestal, pesca e aquicultura",
+    "score": 2,
+    "rationale": "Atividade física e operational no campo com baixa substituição direta por software de IA."
+  },
+  "2.05": {
+    "code": "2.05",
+    "name": "Extração de carvão mineral",
+    "section": "Indústrias extrativas",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "2.06": {
+    "code": "2.06",
+    "name": "Extração de petróleo e gás natural",
+    "section": "Indústrias extrativas",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "2.07": {
+    "code": "2.07",
+    "name": "Extração de minerais metálicos",
+    "section": "Indústrias extrativas",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "2.08": {
+    "code": "2.08",
+    "name": "Extração de minerais não metálicos",
+    "section": "Indústrias extrativas",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "2.09": {
+    "code": "2.09",
+    "name": "Atividades de apoio à extração de minerais",
+    "section": "Indústrias extrativas",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.10": {
+    "code": "3.10",
+    "name": "Fabricação de produtos alimenticios e bebidas",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.11": {
+    "code": "3.11",
+    "name": "Fabricação de bebidas",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.12": {
+    "code": "3.12",
+    "name": "Fabricação de produtos do fumo",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.13": {
+    "code": "3.13",
+    "name": "Fabricação de produtos têxteis",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.14": {
+    "code": "3.14",
+    "name": "Confecção de artigos do vestuário e acessórios",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.15": {
+    "code": "3.15",
+    "name": "Preparação de couros e fabricação de artefatos de couro, artigos de viagem e calçados",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.16": {
+    "code": "3.16",
+    "name": "Fabricação de produtos de madeira",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.17": {
+    "code": "3.17",
+    "name": "Fabricação de celulose, papel e produtos de papel",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.18": {
+    "code": "3.18",
+    "name": "Impressão e reprodução de gravações",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.19": {
+    "code": "3.19",
+    "name": "Fabricação de coque; produtos derivados de petróleo e de biocombustíveis",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.20": {
+    "code": "3.20",
+    "name": "Fabricação de produtos químicos",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.21": {
+    "code": "3.21",
+    "name": "Fabricação de produtos farmoquímicos e farmacêuticos",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.22": {
+    "code": "3.22",
+    "name": "Fabricação de produtos de borracha e de material plástico",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.23": {
+    "code": "3.23",
+    "name": "Fabricação de produtos de minerais não metálicos",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.24": {
+    "code": "3.24",
+    "name": "Metalurgia",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.25": {
+    "code": "3.25",
+    "name": "Fabricação de produtos de metal, exceto máquinas e equipamentos",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.26": {
+    "code": "3.26",
+    "name": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.27": {
+    "code": "3.27",
+    "name": "Fabricação de máquinas, aparelhos e materiais elétricos",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.28": {
+    "code": "3.28",
+    "name": "Fabricação de máquinas e equipamentos",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.29": {
+    "code": "3.29",
+    "name": "Fabricação de veículos automotores, reboques e carrocerias",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.30": {
+    "code": "3.30",
+    "name": "Fabricação de outros equipamentos de transporte, exceto veículos automotores",
+    "section": "Indústrias de transformação",
+    "score": 3,
+    "rationale": "Operação de veículos e logística física com automação gradual."
+  },
+  "3.31": {
+    "code": "3.31",
+    "name": "Fabricação de móveis",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.32": {
+    "code": "3.32",
+    "name": "Fabricação de produtos diversos",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "3.33": {
+    "code": "3.33",
+    "name": "Manutenção, reparação e instalação de máquinas e equipamentos",
+    "section": "Indústrias de transformação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "4.35": {
+    "code": "4.35",
+    "name": "Eletricidade, gás e outras utilidades",
+    "section": "Eletricidade e gás",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "5.36": {
+    "code": "5.36",
+    "name": "Captação, tratamento e distribuição de água",
+    "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "5.37": {
+    "code": "5.37",
+    "name": "Esgoto e atividades relacionadas",
+    "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "5.38": {
+    "code": "5.38",
+    "name": "Coleta, tratamento e disposição de resíduos; recuperação de materiais",
+    "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "5.39": {
+    "code": "5.39",
+    "name": "Descontaminação e outros serviços de gestão de resíduos",
+    "section": "Água, esgoto, atividades de gestão de resíduos e descontaminação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "6.41": {
+    "code": "6.41",
+    "name": "Construção e incorporação de edifícios",
+    "section": "Construção",
+    "score": 2,
+    "rationale": "Trabalho predominantemente físico, manual e presencial nos canteiros de obras."
+  },
+  "6.42": {
+    "code": "6.42",
+    "name": "Obras de infraestrutura",
+    "section": "Construção",
+    "score": 2,
+    "rationale": "Trabalho predominantemente físico, manual e presencial nos canteiros de obras."
+  },
+  "6.43": {
+    "code": "6.43",
+    "name": "Serviços especializados para construção",
+    "section": "Construção",
+    "score": 2,
+    "rationale": "Trabalho predominantemente físico, manual e presencial nos canteiros de obras."
+  },
+  "7.45": {
+    "code": "7.45",
+    "name": "Comércio e reparação de veículos automotores e motocicletas",
+    "section": "Comércio, reparação de veículos automotores e motocicletas",
+    "score": 5,
+    "rationale": "Vendas e atendimento com mix de atendimento presencial e automação e-commerce."
+  },
+  "7.48": {
+    "code": "7.48",
+    "name": "Comércio, exceto de veiculos automotores e motocicletas",
+    "section": "Comércio, reparação de veículos automotores e motocicletas",
+    "score": 5,
+    "rationale": "Vendas e atendimento com mix de atendimento presencial e automação e-commerce."
+  },
+  "8.49": {
+    "code": "8.49",
+    "name": "Transporte terrestre",
+    "section": "Transporte, armazenagem e correio",
+    "score": 3,
+    "rationale": "Operação de veículos e logística física com automação gradual."
+  },
+  "8.50": {
+    "code": "8.50",
+    "name": "Transporte aquaviário",
+    "section": "Transporte, armazenagem e correio",
+    "score": 3,
+    "rationale": "Operação de veículos e logística física com automação gradual."
+  },
+  "8.51": {
+    "code": "8.51",
+    "name": "Transporte aéreo",
+    "section": "Transporte, armazenagem e correio",
+    "score": 3,
+    "rationale": "Operação de veículos e logística física com automação gradual."
+  },
+  "8.52": {
+    "code": "8.52",
+    "name": "Armazenamento e atividades auxiliares dos transportes",
+    "section": "Transporte, armazenagem e correio",
+    "score": 3,
+    "rationale": "Operação de veículos e logística física com automação gradual."
+  },
+  "8.53": {
+    "code": "8.53",
+    "name": "Correio e outras atividades de entrega",
+    "section": "Transporte, armazenagem e correio",
+    "score": 3,
+    "rationale": "Operação de veículos e logística física com automação gradual."
+  },
+  "9.55": {
+    "code": "9.55",
+    "name": "Alojamento",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "9.56": {
+    "code": "9.56",
+    "name": "Alimentação",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "10.58": {
+    "code": "10.58",
+    "name": "Edição e edição integrada à de impressão",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "10.59": {
+    "code": "10.59",
+    "name": "Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e de música",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "10.60": {
+    "code": "10.60",
+    "name": "Atividades de rádio e de televisão",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "10.61": {
+    "code": "10.61",
+    "name": "Telecomunicações",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "10.62": {
+    "code": "10.62",
+    "name": "Atividades dos serviços de tecnologia da informação",
+    "section": "Alojamento e alimentação",
+    "score": 9,
+    "rationale": "Trabalho 100% digital em computador focado em código, análise de dados e arquitetura, áreas em rápida evolução por IA."
+  },
+  "10.63": {
+    "code": "10.63",
+    "name": "Atividades de prestação de serviços de informação",
+    "section": "Alojamento e alimentação",
+    "score": 8,
+    "rationale": "Processamento de informação digital, redação e suporte técnico altamente expostos a LLMs."
+  },
+  "11.64": {
+    "code": "11.64",
+    "name": "Atividades de serviços financeiros",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "11.65": {
+    "code": "11.65",
+    "name": "Seguros, resseguros, previdência complementar e planos de saúde",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais."
+  },
+  "11.66": {
+    "code": "11.66",
+    "name": "Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais."
+  },
+  "12.68": {
+    "code": "12.68",
+    "name": "Atividades imobiliárias",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "13.69": {
+    "code": "13.69",
+    "name": "Atividades jurídicas, de contabilidade e de auditoria",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "13.70": {
+    "code": "13.70",
+    "name": "Atividades de consultoria em gestão empresarial",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "13.71": {
+    "code": "13.71",
+    "name": "Serviços de arquitetura e engenharia; testes e análises técnicas",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "13.72": {
+    "code": "13.72",
+    "name": "Pesquisa e desenvolvimento científico",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "13.73": {
+    "code": "13.73",
+    "name": "Publicidade e pesquisas de mercado",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "13.74": {
+    "code": "13.74",
+    "name": "Outras atividades profissionais, científicas e técnicas",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "13.75": {
+    "code": "13.75",
+    "name": "Atividades veterinárias",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "14.77": {
+    "code": "14.77",
+    "name": "Aluguéis não imobiliários e gestão de ativos intangíveis não financeiros",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "14.78": {
+    "code": "14.78",
+    "name": "Seleção, agenciamento e locação de mão-de-obra",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "14.79": {
+    "code": "14.79",
+    "name": "Agências de viagens, operadores turísticos e serviços de reservas",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "14.80": {
+    "code": "14.80",
+    "name": "Atividades de vigilância, segurança e investigação",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "14.81": {
+    "code": "14.81",
+    "name": "Serviços para edificios e atividades paisagisticas",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "14.82": {
+    "code": "14.82",
+    "name": "Serviços de escritório, de apoio administrativo e outros serviços prestados a empresas",
+    "section": "Alojamento e alimentação",
+    "score": 7,
+    "rationale": "Rotinas de escritório, fluxo de documentos e atendimento ao cliente suscetíveis à automação por agentes de IA."
+  },
+  "15.84": {
+    "code": "15.84",
+    "name": "Administração pública, defesa e seguridade social",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "16.85": {
+    "code": "16.85",
+    "name": "Educação",
+    "section": "Alojamento e alimentação",
+    "score": 6,
+    "rationale": "Ensino e criação de conteúdo instrucional com alto potencial de suporte por IA, mantendo interação humana."
+  },
+  "17.86": {
+    "code": "17.86",
+    "name": "Atividades de atenção à saúde humana",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais."
+  },
+  "17.87": {
+    "code": "17.87",
+    "name": "Atividades de atenção à saúde humana integradas com assistência social, inclusive prestadas em residências coletivas e particulares",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Atendimento presencial e cuidados médicos com barreira física, combinando diagnósticos digitais."
+  },
+  "17.88": {
+    "code": "17.88",
+    "name": "Serviços de assistência social sem alojamento",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "18.90": {
+    "code": "18.90",
+    "name": "Atividades artísticas, criativas e de espetáculos",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "18.91": {
+    "code": "18.91",
+    "name": "Atividades ligadas ao patrimônio cultural e ambiental",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "18.92": {
+    "code": "18.92",
+    "name": "Atividades de exploração de jogos de azar e apostas",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "18.93": {
+    "code": "18.93",
+    "name": "Atividades esportivas e de recreação e lazer",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "19.94": {
+    "code": "19.94",
+    "name": "Atividades de organizações associativas",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "19.95": {
+    "code": "19.95",
+    "name": "Reparação e manutenção de equipamentos de informatica e comunicação e de objetos pessoais e domésticos",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "19.96": {
+    "code": "19.96",
+    "name": "Outras atividades de serviços pessoais",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "20.97": {
+    "code": "20.97",
+    "name": "Serviços domésticos",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "21.99": {
+    "code": "21.99",
+    "name": "Organismos internacionais e outras instituições extraterritoriais",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  },
+  "22.00": {
+    "code": "22.00",
+    "name": "Atividades maldefinidas",
+    "section": "Alojamento e alimentação",
+    "score": 4,
+    "rationale": "Ocupação com combinação de tarefas físicas presenciais e rotinas administrativas moderadas."
+  }
+}
