@@ -264,6 +264,7 @@ jobs-brasil/
 │       ├── Rendimento.csv         # Extrato IBGE PNAD 2022 (Tabela 10287) — renda média
 │       └── numero-trabalhadores.csv # Extrato IBGE PNAD 2022 (Tabela 10287) — nº de trabalhadores
 ├── scripts/
+│   ├── fetch_ibge_data.py         # Busca os CSVs brutos direto da API do SIDRA/IBGE
 │   ├── extract_cod_subgroups.py  # Extrai e limpa os subgrupos da COD a partir dos CSVs do IBGE
 │   ├── generate_readme_report.py # Atualiza a seção auto-gerada do README.md
 │   └── OPENCODE_SCORING_PROMPT.md # Prompt versionado usado no opencode + DeepSeek
@@ -314,7 +315,21 @@ pip install -r requirements.txt
 
 ### 3. Executar o Pipeline de Dados (baseline heurístico)
 
-Os CSVs brutos do IBGE (PNAD Contínua 2022, Tabela 10287) já estão incluídos em `data/raw/`. Para usar sua própria extração, aponte `RENDIMENTO_CSV` e `WORKERS_CSV` para os arquivos desejados.
+Os CSVs brutos do IBGE (PNAD Contínua 2022, Tabela 10287) já estão incluídos em `data/raw/`. Para buscá-los novamente diretamente da [API do SIDRA/IBGE](https://apisidra.ibge.gov.br/) (sem download manual):
+
+```bash
+python3 scripts/fetch_ibge_data.py
+```
+
+> **Nota:** a Tabela 10287 do SIDRA só tem o período de **2022** publicado —
+> o IBGE não lançou uma edição mais recente dessa tabela específica (outras
+> tabelas do PNAD Contínua têm dados trimestrais até 2026, mas com uma
+> granularidade ocupacional bem menor — só ~12 categorias amplas em vez dos
+> 87 subgrupos COD detalhados usados aqui). O script já busca o período mais
+> recente disponível (configurável via `IBGE_PERIOD`), então volta a
+> funcionar automaticamente se o IBGE algum dia publicar um ano novo.
+
+Para usar sua própria extração/arquivo, aponte `RENDIMENTO_CSV` e `WORKERS_CSV` para os arquivos desejados.
 
 ```bash
 # Etapa 1: Extrair subgrupos da COD
@@ -368,7 +383,8 @@ A chave de API do DeepSeek é configurada dentro do próprio opencode (`opencode
 
 | Comando | Descrição |
 |---|---|
-| `python3 scripts/extract_cod_subgroups.py` | Extrai os subgrupos da COD dos CSVs originais do IBGE. |
+| `python3 scripts/fetch_ibge_data.py` | Busca os CSVs brutos direto da API do SIDRA/IBGE (Tabela 10287), sobrescrevendo `data/raw/`. |
+| `python3 scripts/extract_cod_subgroups.py` | Extrai os subgrupos da COD dos CSVs em `data/raw/`. |
 | `python3 score.py` | Gera/reseta `scores.json` com o baseline heurístico local (sem LLM). |
 | *(manual, via opencode)* [`scripts/OPENCODE_SCORING_PROMPT.md`](scripts/OPENCODE_SCORING_PROMPT.md) | Prompt para gerar scores `method: "llm"` numa sessão opencode + DeepSeek, editando `scores.json` diretamente. |
 | `python3 build_site_data.py` | Cruza as estatísticas e gera o arquivo `site/data.json`. |
@@ -397,5 +413,5 @@ python3 -m pytest tests/ -v
 
 - **Autor do Projeto Brasil:** Marcelo (marcelo.ai)
 - **Inspiração e Arquitetura:** Andrej Karpathy ([karpathy/jobs](https://github.com/karpathy/jobs))
-- **Fonte dos Dados:** IBGE — Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua 2022) / Tabela 10287 (COD).
+- **Fonte dos Dados:** IBGE — Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua 2022) / [Tabela 10287 (SIDRA)](https://sidra.ibge.gov.br/tabela/10287), buscável automaticamente via `scripts/fetch_ibge_data.py`.
 - **Licença:** [MIT License](./LICENSE)
