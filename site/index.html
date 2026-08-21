@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exposição à IA em um mercado de trabalho informal | Marcelo Moura Freire</title>
+  <meta name="description" content="Quem está exposto à inteligência artificial no Brasil e por que a informalidade amortece essa exposição. Teoria, evidências e dados a partir dos microdados da PNAD Contínua (2026Q1)." />
+  <meta property="og:title" content="Exposição à IA em um mercado de trabalho informal" />
+  <meta property="og:description" content="Teoria e evidências para o Brasil: gradiente escolaridade-exposição, mediação pela informalidade e heterogeneidade regional nas 27 UFs." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip" href="#pergunta">Pular para o conteúdo</a>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#topo">Mapa do Trabalho Brasileiro</a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="paper.pdf">Artigo (PDF)</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#dados">Dados e método</a>
+        <a href="#explorador">Explorador</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="topo">
+
+    <!-- ============================= HERO ============================= -->
+    <section class="hero">
+      <p class="hero-kicker">Pesquisa em economia do trabalho</p>
+      <h1 class="hero-title">Exposição à inteligência artificial em um mercado de trabalho informal</h1>
+      <p class="hero-sub">Quem está exposto à IA no Brasil e por que a informalidade amortece essa exposição. Teoria e evidências com microdados da PNAD Contínua.</p>
+      <p class="hero-byline"><span class="js-meta" data-key="author">Marcelo Moura Freire</span> · Bacharel em Economia pela Universidade de Coimbra</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="paper.pdf">Ler o artigo</a>
+        <a class="btn btn-ghost" href="#explorador">Explorar os dados</a>
+      </div>
+      <p class="hero-meta">PNAD Contínua, 1º trimestre de 2026. N = <span class="js-meta" data-key="n"></span> trabalhadores, <span class="js-meta" data-key="n_occupations"></span> ocupações.</p>
+    </section>
+
+    <!-- ========================== STAT BAND =========================== -->
+    <section class="stats" aria-label="Números principais">
+      <div class="stat">
+        <p class="stat-num"><span class="js-meta" data-key="share_low_exposure"></span>%</p>
+        <p class="stat-cap">da força de trabalho em exposição quase nula (θ ≤ 2). <span class="js-meta" data-key="low_exposure_jobs_m"></span> milhões de postos.</p>
+      </div>
+      <div class="stat">
+        <p class="stat-num">+<span class="js-meta" data-key="s1_beta"></span></p>
+        <p class="stat-cap">pontos de exposição por ano adicional de estudo, com controles mincerianos completos (EP 0,03).</p>
+      </div>
+      <div class="stat">
+        <p class="stat-num">−<span class="js-meta" data-key="s3a_beta"></span> p.p.</p>
+        <p class="stat-cap">de informalidade por ponto de exposição, na relação incondicional.</p>
+      </div>
+      <div class="stat">
+        <p class="stat-num"><span class="js-meta" data-key="coverage"></span>%</p>
+        <p class="stat-cap">do emprego observado coberto pelo índice de exposição, calculado por cruzamento determinístico COD-ISCO-SOC.</p>
+      </div>
+    </section>
+
+    <!-- ========================== A PERGUNTA ========================== -->
+    <section class="prose" id="pergunta">
+      <h2 class="sec-title">A pergunta</h2>
+      <p class="lead">Trinta e cinco milhões de brasileiros trabalham em ocupações com exposição quase nula à inteligência artificial. Não é a sofisticação das tarefas que os isola, mas o caráter predominantemente manual, presencial e informal delas.</p>
+      <p>Nos Estados Unidos, o índice de Eloundou et al. (2024) indica que cerca de 80% da força de trabalho tem ao menos 10% das tarefas afetadas por grandes modelos de linguagem. No Brasil, a mesma métrica revela um padrão assimétrico: a exposição é positivamente associada à escolaridade e à renda, concentrando-se no emprego formal. O mercado de trabalho brasileiro conta com um amortecedor ausente nas economias avançadas, a informalidade, e esse amortecedor situa-se exatamente na base do espectro de exposição.</p>
+      <div class="contrast" role="table" aria-label="Contraste entre grandes ocupações: emprego e exposição à IA">
+        <div class="contrast-row contrast-head" role="row">
+          <span role="columnheader">Ocupação</span>
+          <span role="columnheader">Empregos</span>
+          <span role="columnheader">Exposição θ</span>
+        </div>
+        <div class="contrast-row" role="row">
+          <span role="cell">Trabalhadores domésticos</span>
+          <span role="cell">6,73 mi</span>
+          <span role="cell" class="num">0,1</span>
+        </div>
+        <div class="contrast-row" role="row">
+          <span role="cell">Construção civil em obras estruturais</span>
+          <span role="cell">3,24 mi</span>
+          <span role="cell" class="num">0,9</span>
+        </div>
+        <div class="contrast-row" role="row">
+          <span role="cell">Desenvolvedores e analistas de software</span>
+          <span role="cell">0,75 mi</span>
+          <span role="cell" class="num">7,5</span>
+        </div>
+        <div class="contrast-row" role="row">
+          <span role="cell">Operadores de máquinas de escritório</span>
+          <span role="cell">26 mil</span>
+          <span role="cell" class="num">8,6</span>
+        </div>
+      </div>
+      <p class="footnote" id="fn-contraste">O trabalho doméstico e a construção estrutural somam mais empregos do que todas as ocupações de tecnologia, finanças e administração juntas, com exposição quase nula. A distância entre a base e o topo do espectro é o objeto deste estudo.</p>
+    </section>
+
+    <!-- ============================ O MODELO =========================== -->
+    <section class="prose" id="modelo">
+      <h2 class="sec-title">O modelo em um minuto</h2>
+      <p>Modelo estático de designação de tarefas com dois setores contratuais, formal e informal. Ferramentas individuais de IA são universalmente disponíveis; a integração corporativa exige capital organizacional restrito ao setor formal, com prêmio Δκ &gt; 0, e a formalização impõe custo de conformidade c &gt; 0 por trabalhador. Dentro da ocupação <em>j</em>, o trabalhador escolhe o arranjo formal quando <em>g</em>(<em>e</em>)·Δκ·θ<sub>j</sub> ≥ <em>c</em>, o que define um limiar único de escolaridade</p>
+      <p class="formula">e*<sub>j</sub> = g<sup>−1</sup>(<em>c</em> / Δκ·θ<sub>j</sub>)</p>
+      <p>Quanto maior a exposição da ocupação, mais baixo o limiar de formalização. O modelo gera quatro previsões testáveis, cada uma mapeada a uma especificação econométrica.</p>
+      <ol class="props">
+        <li>
+          <h3>Proposição 1. Gradiente escolaridade-exposição</h3>
+          <p>Pareamento seletivo positivo: trabalhadores mais escolarizados têm vantagem comparativa em tarefas cognitivas complementares à IA e se auto-selecionam nas ocupações mais expostas.</p>
+          <p class="pred">Prevê: β₁ &gt; 0 na regressão de exposição sobre escolaridade (S1).</p>
+        </li>
+        <li>
+          <h3>Proposição 2. Complementaridade exposição-formalidade</h3>
+          <p>O limiar e*<sub>j</sub> cai com θ<sub>j</sub>: em ocupações altamente expostas, o prêmio de capital organizacional compensa o custo regulatório para uma faixa mais ampla de escolaridade.</p>
+          <p class="pred">Prevê: coeficiente negativo da exposição sobre a informalidade na relação incondicional (S3a).</p>
+        </li>
+        <li>
+          <h3>Corolário. Mediação parcial pela composição educacional</h3>
+          <p>A associação bruta entre exposição e informalidade se atenua ao condicionar na escolaridade do trabalhador, mas persiste um canal autônomo: tarefas expostas exigem infraestrutura e governança corporativa que demandam contratos formais.</p>
+          <p class="pred">Prevê: atenuação expressiva, porém parcial, de δ₁ entre S3a e S3.</p>
+        </li>
+        <li>
+          <h3>Proposição 3. Heterogeneidade regional</h3>
+          <p>Em mercados com setor formal mais profundo (Δκ<sub>u</sub> maior), a supermodularidade entre escolaridade e exposição é amplificada.</p>
+          <p class="pred">Prevê: interação positiva entre escolaridade e formalidade média da UF (S4).</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ======================== DADOS E MÉTODO ======================== -->
+    <section class="prose" id="dados">
+      <h2 class="sec-title">Dados e método</h2>
+      <dl class="defs">
+        <dt>Fontes</dt>
+        <dd>Microdados trimestrais da PNAD Contínua (IBGE), 1º trimestre de 2026, com pesos amostrais oficiais (V1028); o índice ocupacional de exposição à IA de Eloundou et al. (2024), escala 0 a 10; e os cruzamentos oficiais ISCO-08 ↔ SOC do Bureau of Labor Statistics.</dd>
+        <dt>Construção do índice</dt>
+        <dd>A exposição de cada ocupação brasileira é a média ponderada dos escores das ocupações SOC mapeadas por cruzamento determinístico COD → ISCO-08 → SOC, calibrada pela estrutura de postos observada. Ocupações fora do escopo do índice recebem valor nulo explícito, sem imputação.</dd>
+        <dt>Amostra</dt>
+        <dd>227.629 trabalhadores ocupados em 122 ocupações com escore válido e covariáveis completas. Variáveis centrais: exposição θ<sub>j</sub>, anos de estudo, indicador de informalidade (critério oficial do IBGE) e formalidade da UF calculada por leave-one-out.</dd>
+        <dt>Inferência</dt>
+        <dd>Mínimos quadrados ponderados pelos pesos amostrais, com controles mincerianos (idade, idade ao quadrado, gênero e raça) e erros-padrão agrupados por ocupação, 122 clusters.</dd>
+        <dt>Cobertura</dt>
+        <dd><span class="js-meta" data-key="coverage"></span>% do emprego observado. Cálculo estritamente determinístico, reproduzível e sem geração probabilística de conteúdo por LLMs.</dd>
+        <dt>Interpretação</dt>
+        <dd>Os coeficientes descrevem o sorting ocupacional de equilíbrio em 2026Q1. Não identificam impactos causais da difusão tecnológica sobre salários ou transições ocupacionais.</dd>
+      </dl>
+      <aside class="aside">
+        <h3>Limitações metodológicas</h3>
+        <p>A exposição é medida no nível ocupacional, sem heterogeneidade intra-ocupacional. O escore O*NET reflete a estrutura tecnológica americana e pode superestimar a exposição efetiva brasileira (task downgrading). Os dados capturam um corte transversal de alocação.</p>
+      </aside>
+    </section>
+
+    <!-- =========================== RESULTADOS =========================== -->
+    <section class="results" id="resultados">
+      <h2 class="sec-title">Resultados</h2>
+
+      <article class="exhibit exhibit-alt">
+        <div class="exhibit-copy">
+          <h3>O gradiente escolaridade-exposição</h3>
+          <p class="big-num">β̂ = 0,23 <span class="unit">ponto por ano de estudo</span></p>
+          <p>Erro-padrão 0,03 agrupado em 122 ocupações; p &lt; 0,001; R² = 0,246; N = 227.629. A diferença entre ensino fundamental completo (8 anos) e superior completo (16 anos) equivale a cerca de 1,84 ponto no escore de exposição.</p>
+          <p>O coeficiente permanece estável em 0,21 ao acrescentar o rendimento habitual (S2): a escolaridade captura a alocação a tarefas cognitivas, e não um mero efeito de renda.</p>
+        </div>
+        <div class="exhibit-chart">
+          <div id="chart-gradient" class="chart" role="img" aria-label="Dispersão ponderada entre escolaridade média e exposição à IA, com reta ajustada de inclinação 0,23"></div>
+          <p class="chart-note">Células ocupação × grande região, área proporcional ao emprego. Reta da especificação S1 no nível individual. Fonte: PNAD Contínua 2026Q1.</p>
+        </div>
+      </article>
+
+      <article class="exhibit">
+        <div class="exhibit-copy">
+          <h3>Exposição e informalidade: mediação pela escolaridade</h3>
+          <p>Na relação incondicional, cada ponto de exposição associa-se a −6,23 p.p. de probabilidade de informalidade (EP 0,99). Ao condicionar nos anos de estudo, o coeficiente se atenua 37,2%, para −3,91 p.p. (EP 0,96), enquanto cada ano de escolaridade reduz a informalidade em 2,61 p.p.</p>
+          <p>A composição educacional responde por boa parte do contraste. O coeficiente residual significante corrobora a mediação parcial: ocupações expostas dependem de infraestrutura corporativa que exige formalidade além do atributo educacional.</p>
+        </div>
+        <div class="exhibit-chart">
+          <div id="chart-mediation" class="chart" role="img" aria-label="Associação entre exposição à IA e informalidade por ocupação, com as inclinações das especificações S3a e S3"></div>
+          <p class="chart-note">Bolsas proporcionais ao emprego. As duas retas usam as inclinações estimadas no nível individual. Fonte: PNAD Contínua 2026Q1.</p>
+        </div>
+      </article>
+
+      <article class="exhibit exhibit-alt">
+        <div class="exhibit-copy">
+          <h3>O gradiente é mais íngreme onde o formal é mais profundo</h3>
+          <p>Em São Paulo e Santa Catarina, com formalidade próxima de 65%, a inclinação do gradiente é de aproximadamente 0,25. No Maranhão e no Pará, com cerca de 40% de formalidade, a inclinação cai para 0,18.</p>
+          <p>O padrão é o previsto pela Proposição 3: onde a infraestrutura corporativa é mais madura, o retorno do capital humano em tarefas expostas é maior.</p>
+        </div>
+        <div class="exhibit-chart">
+          <div id="chart-regions" class="chart" role="img" aria-label="Gradiente escolaridade-exposição por grande região, cinco retas ancoradas nas médias regionais com inclinações previstas pela interação de S4"></div>
+          <p class="chart-note">Células ocupação × região, área proporcional ao emprego. As retas usam a inclinação prevista pela interação de S4 (0,07 + 0,28 × formalidade), ancoradas na média ponderada de cada região. Fonte: PNAD Contínua 2026Q1.</p>
+        </div>
+      </article>
+
+      <article class="exhibit">
+        <div class="exhibit-copy">
+          <h3>Heterogeneidade nas 27 Unidades da Federação</h3>
+          <p>A interação entre escolaridade e formalidade da UF (leave-one-out) é 0,28 (EP 0,06; p &lt; 0,001), com efeito principal da formalidade regional de −3,10.</p>
+          <p>Para e = 8 anos, maior maturidade formal associa-se a −0,86 ponto de exposição; para e = 16 anos, a +1,38 ponto. Mercados regionais mais formais ampliam a distância de exposição entre o topo e a base educacional.</p>
+        </div>
+        <div class="exhibit-chart">
+          <div id="chart-ufs" class="chart" role="img" aria-label="Exposição média ponderada das 27 UFs contra a taxa de formalidade, com a derivada marginal da especificação S4"></div>
+          <p class="chart-note">Cada ponto é uma UF: formalidade do emprego contra exposição média ponderada, área proporcional ao emprego. Anotação com a derivada marginal de S4. Fonte: PNAD Contínua 2026Q1.</p>
+        </div>
+      </article>
+
+      <article class="exhibit exhibit-full">
+        <div class="exhibit-copy">
+          <h3>Robustez do gradiente</h3>
+          <p>O coeficiente permanece entre 0,19 e 0,26 nas nove exclusões sequenciais de grandes grupos ocupacionais e se preserva sem ponderação (OLS), sob winsorização a 1%/99% e com a exclusão do percentil superior da exposição.</p>
+        </div>
+        <div class="exhibit-chart">
+          <div id="chart-forest" class="chart" role="img" aria-label="Gráfico de floresta com o coeficiente de escolaridade e intervalos de confiança de 95% em 13 especificações"></div>
+          <p class="chart-note">Intervalos de confiança de 95% com erros-padrão agrupados por ocupação. Fonte: PNAD Contínua 2026Q1.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- =========================== EXPLORADOR =========================== -->
+    <section class="explorer" id="explorador">
+      <p class="kicker">Ferramenta</p>
+      <h2 class="sec-title">Explorar as 122 ocupações</h2>
+      <div class="explorer-grid">
+        <div class="explorer-panel">
+          <div class="explorer-controls">
+            <input id="search" type="search" placeholder="Buscar ocupação (ex.: saúde, comércio)" aria-label="Buscar ocupação" />
+            <label class="check"><input id="show-null" type="checkbox" /> incluir ocupações sem escore de exposição</label>
+          </div>
+          <div class="table-wrap">
+            <table id="occ-table" aria-label="Tabela de ocupações">
+              <thead>
+                <tr>
+                  <th data-sort="name">Ocupação</th>
+                  <th data-sort="jobs" class="num">Empregos</th>
+                  <th data-sort="exposure" class="num">θ IA</th>
+                  <th data-sort="informality" class="num">Informal.</th>
+                  <th data-sort="schooling" class="num">Estudo</th>
+                  <th data-sort="income" class="num">Renda</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <p class="explorer-count" id="occ-count" aria-live="polite"></p>
+        </div>
+        <div class="explorer-side">
+          <div id="chart-scatter" class="chart" role="img" aria-label="Dispersão exposição versus informalidade por ocupação, com destaque para a ocupação selecionada"></div>
+          <div class="occ-detail" id="occ-detail" aria-live="polite">
+            <p class="occ-detail-empty">Selecione uma linha da tabela para ver o detalhe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= POLÍTICA PÚBLICA ========================= -->
+    <section class="prose" id="politica">
+      <h2 class="sec-title">O que isso significa para política pública</h2>
+      <p>Se a informalidade amortece a exposição, as agendas de formalização do trabalho e de capacitação digital interagem de forma estratégica. Formalizar sem capacitar pode expor trabalhadores a choques tecnológicos sem ferramentas adaptativas; capacitar sem expandir o setor formal restringe os ganhos de escala corporativa.</p>
+      <p>O público prioritário de programas de requalificação e adaptação à IA não está na base vulnerável do trabalho informal, mas no segmento médio formalizado: técnicos, analistas e trabalhadores de apoio administrativo, hoje os mais expostos às transformações da automação informacional.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h2 class="visually-hidden">Citação e créditos</h2>
+    <div class="cite">
+      <p class="cite-label">Como citar</p>
+      <pre id="bibtex"><code>@techreport{freire2026exposicao,
+  author = {Freire, Marcelo Moura},
+  title  = {Exposição à Inteligência Artificial em um Mercado de
+            Trabalho Informal: Teoria e Evidências para o Brasil},
+  year   = {2026},
+  note   = {Microdados da PNAD Contínua (IBGE), 1º trimestre}
+}</code></pre>
+      <button class="btn btn-small" id="copy-bib">Copiar citação</button>
+    </div>
+    <div class="footer-meta">
+      <p>Licença MIT. Dados públicos do IBGE (PNAD Contínua) e índice de exposição de Eloundou et al. (2024). As estimativas descrevem o sorting ocupacional de equilíbrio e não constituem evidência causal.</p>
+      <p>Código de replicação, pipeline e dados em <code>data/output/</code> no repositório do projeto.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.playwright-cli/
+
+# Microdados brutos do IBGE são baixados sob demanda por
+# scripts/fetch_ibge_microdata.py (centenas de MB/GB) — não versionar.
+data/microdata/
+
+
+# Checkpoints/respostas brutas do GABRIEL (score_llm_gabriel.py) — cache de
+# chamadas de API, não versionar (recriável a qualquer momento).
+data/gabriel_runs/
+
+.dmux/
+.claude/
+.ecc/
+.vscode/
+.serena/
+.codegraph
+
+# impeccable-ignore-start
+# Ephemeral output, runtime state, and per-dev overrides.
+# Unanchored: .impeccable may sit at the repo root or under a nested
+# workspace (apps/web/.impeccable/...); anchored patterns would miss it.
+# Shared artifacts stay tracked: config.json, live/config.json,
+# design.json, critique/*.md.
+.impeccable/config.local.json
+.impeccable/hook.cache.json
+.impeccable/hook.pending.json
+.impeccable/*.png
+.impeccable/live/server.json
+.impeccable/live/sessions/
+.impeccable/live/previews/
+.impeccable/live/annotations/
+.impeccable/live/cache/
+.impeccable/live/manual-edit-apply-transaction.json
+.impeccable/live/manual-edit-events.jsonl
+.impeccable/live/manual-edit-evidence/
+.impeccable/live/pending-manual-edits.json
+.impeccable/live/deferred-svelte-component-accepts.json
+.impeccable/live/*.png
+# impeccable-ignore-end
+
+# MemPalace per-project files (issue #185)
+mempalace.yaml
+entities.json
+
+# LaTeX: artefatos de compilação do paper/ — não versionar.
+review/
+paper/build/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.pdf
+paper.zip
+*.zip
+.agents/skills/
+.opencode/
+skills-lock.json

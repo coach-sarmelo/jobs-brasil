@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "survey_year": 2026,
+    "survey_quarter": 1,
+    "source": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Microdados",
+    "generated_at": "2026-08-20T20:19:36.703540+00:00",
+    "coverage_definition": "Ocupacoes sem correspondencia O*NET-SOC ficam com exposicao null",
+    "sample_suppression_thresholds": {
+      "min_sample_ocupacao": 20,
+      "min_sample_grupo": 15
+    }
+  },
+  "AC": 322163,
+  "AL": 1186818,
+  "AM": 1762178,
+  "AP": 343608,
+  "BA": 6450133,
+  "CE": 3602567,
+  "DF": 1560762,
+  "ES": 2008004,
+  "GO": 3838103,
+  "MA": 2656982,
+  "MG": 10758117,
+  "MS": 1425937,
+  "MT": 1998630,
+  "PA": 3667222,
+  "PB": 1708729,
+  "PE": 3716922,
+  "PI": 1336661,
+  "PR": 6256853,
+  "RJ": 8191244,
+  "RN": 1374184,
+  "RO": 812583,
+  "RR": 307304,
+  "RS": 5894711,
+  "SC": 4505761,
+  "SE": 959278,
+  "SP": 24552908,
+  "TO": 762517
+}

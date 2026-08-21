@@ -1,0 +1,1075 @@
+{
+  "subgrupos": {
+    "111": {
+      "name": "Membros superiores do poder executivo e legislativo",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "DIRETORES EXECUTIVOS, DIRIGENTES DA ADMINISTRAÇÃO PÚBLICA E MEMBROS DO PODER EXECUTIVO E LEGISLATIVO"
+    },
+    "112": {
+      "name": "Diretores gerais e gerentes gerais",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "DIRETORES EXECUTIVOS, DIRIGENTES DA ADMINISTRAÇÃO PÚBLICA E MEMBROS DO PODER EXECUTIVO E LEGISLATIVO"
+    },
+    "121": {
+      "name": "Dirigentes de administração e de serviços",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "DIRIGENTES ADMINISTRATIVOS E COMERCIAIS"
+    },
+    "122": {
+      "name": "Dirigentes de vendas, comercialização e desenvolvimento",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "DIRIGENTES ADMINISTRATIVOS E COMERCIAIS"
+    },
+    "131": {
+      "name": "Dirigentes de produção agropecuária, silvicultura, aquicultura e pesca",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "DIRIGENTES E GERENTES DE PRODUÇÃO E OPERAÇÃO"
+    },
+    "132": {
+      "name": "Dirigentes de indústria de transformação, mineração, construção e distribuição",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "DIRIGENTES E GERENTES DE PRODUÇÃO E OPERAÇÃO"
+    },
+    "133": {
+      "name": "Dirigentes de serviços de tecnologia da informação e comunicações",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "DIRIGENTES E GERENTES DE PRODUÇÃO E OPERAÇÃO"
+    },
+    "134": {
+      "name": "Dirigentes e gerentes de serviços profissionais",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "DIRIGENTES E GERENTES DE PRODUÇÃO E OPERAÇÃO"
+    },
+    "141": {
+      "name": "Gerentes de hotéis e restaurantes",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "GERENTES DE HOTÉIS, RESTAURANTES, COMÉRCIOS E OUTROS SERVIÇOS"
+    },
+    "142": {
+      "name": "Gerentes de comércios atacadistas e varejistas",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "GERENTES DE HOTÉIS, RESTAURANTES, COMÉRCIOS E OUTROS SERVIÇOS"
+    },
+    "143": {
+      "name": "Outros gerentes de serviços",
+      "grande_grupo": "DIRETORES E GERENTES",
+      "subgrupo_principal": "GERENTES DE HOTÉIS, RESTAURANTES, COMÉRCIOS E OUTROS SERVIÇOS"
+    },
+    "211": {
+      "name": "Físicos, químicos e afins",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "212": {
+      "name": "Matemáticos, atuários e estatísticos",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "213": {
+      "name": "Profissionais em ciências biológicas",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "214": {
+      "name": "Engenheiros (exclusive eletrotecnólogos)",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "215": {
+      "name": "Engenheiros eletrotécnicos",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "216": {
+      "name": "Arquitetos, urbanistas, agrimensores e desenhistas",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "221": {
+      "name": "Médicos",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DA SAÚDE"
+    },
+    "222": {
+      "name": "Profissionais de enfermagem e partos",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DA SAÚDE"
+    },
+    "223": {
+      "name": "Profissionais da medicina tradicional e alternativa",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DA SAÚDE"
+    },
+    "224": {
+      "name": "Paramédicos",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DA SAÚDE"
+    },
+    "225": {
+      "name": "Veterinários",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DA SAÚDE"
+    },
+    "226": {
+      "name": "Outros profissionais da saúde",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DA SAÚDE"
+    },
+    "231": {
+      "name": "Professores de universidades e do ensino superior",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DO ENSINO"
+    },
+    "232": {
+      "name": "Professores de formação profissional",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DO ENSINO"
+    },
+    "233": {
+      "name": "Professores do ensino médio",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DO ENSINO"
+    },
+    "234": {
+      "name": "Professores do ensino fundamental e pré-escolar",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DO ENSINO"
+    },
+    "235": {
+      "name": "Outros profissionais do ensino",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DO ENSINO"
+    },
+    "241": {
+      "name": "Especialistas em finanças",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "ESPECIALISTAS EM ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS"
+    },
+    "242": {
+      "name": "Especialistas em organização de administração",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "ESPECIALISTAS EM ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS"
+    },
+    "243": {
+      "name": "Profissionais de vendas, comercialização e relações públicas",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "ESPECIALISTAS EM ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS"
+    },
+    "251": {
+      "name": "Desenvolvedores e analistas de programas e aplicativos (software) e multimídia",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÕES"
+    },
+    "252": {
+      "name": "Especialistas em base de dados e em redes de computadores",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÕES"
+    },
+    "261": {
+      "name": "Profissionais em direito",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS  EM DIREITO, EM CIÊNCIAS SOCIAIS E CULTURAIS"
+    },
+    "262": {
+      "name": "Arquivologistas, curadores de museus, bibliotecários e afins",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS  EM DIREITO, EM CIÊNCIAS SOCIAIS E CULTURAIS"
+    },
+    "263": {
+      "name": "Especialistas em ciências sociais e teologia",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS  EM DIREITO, EM CIÊNCIAS SOCIAIS E CULTURAIS"
+    },
+    "264": {
+      "name": "Escritores, jornalistas e linguistas",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS  EM DIREITO, EM CIÊNCIAS SOCIAIS E CULTURAIS"
+    },
+    "265": {
+      "name": "Artistas criativos e interpretativos",
+      "grande_grupo": "PROFISSIONAIS DAS CIÊNCIAS E INTELECTUAIS",
+      "subgrupo_principal": "PROFISSIONAIS  EM DIREITO, EM CIÊNCIAS SOCIAIS E CULTURAIS"
+    },
+    "311": {
+      "name": "Técnicos em ciências físicas e da engenharia",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "312": {
+      "name": "Supervisores em engenharia de minas, de indústrias de transformação e da construção",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "313": {
+      "name": "Técnicos em controle de processos",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "314": {
+      "name": "Técnicos e profissionais de nível médio em ciências biológicas e afins",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "315": {
+      "name": "Técnicos e controladores da navegação marítima e aeronáutica",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DAS CIÊNCIAS E DA ENGENHARIA"
+    },
+    "321": {
+      "name": "Técnicos médicos e farmacêuticos",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DA SAÚDE E AFINS"
+    },
+    "322": {
+      "name": "Profissionais de nível médio de enfermagem e partos",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DA SAÚDE E AFINS"
+    },
+    "323": {
+      "name": "Profissionais de nível médio de medicina tradicional e alternativa",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DA SAÚDE E AFINS"
+    },
+    "324": {
+      "name": "Técnicos e assistentes veterinários",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DA SAÚDE E AFINS"
+    },
+    "325": {
+      "name": "Outros profissionais de nível médio da saúde",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DA SAÚDE E AFINS"
+    },
+    "331": {
+      "name": "Profissionais de nível médio em finanças e matemática",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO EM OPERAÇÕES FINANCEIRAS E ADMINISTRATIVAS"
+    },
+    "332": {
+      "name": "Agentes e corretores comerciais",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO EM OPERAÇÕES FINANCEIRAS E ADMINISTRATIVAS"
+    },
+    "333": {
+      "name": "Agentes de serviços comerciais",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO EM OPERAÇÕES FINANCEIRAS E ADMINISTRATIVAS"
+    },
+    "334": {
+      "name": "Secretários administrativos e especializados",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO EM OPERAÇÕES FINANCEIRAS E ADMINISTRATIVAS"
+    },
+    "335": {
+      "name": "Agentes da administração pública para aplicação da lei e afins",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO EM OPERAÇÕES FINANCEIRAS E ADMINISTRATIVAS"
+    },
+    "341": {
+      "name": "Profissionais de nível médio de serviços jurídicos, sociais e religiosos",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DE SERVIÇOS JURÍDICOS, SOCIAIS, CULTURAIS E AFINS"
+    },
+    "342": {
+      "name": "Trabalhadores do esporte e condicionamento físico",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DE SERVIÇOS JURÍDICOS, SOCIAIS, CULTURAIS E AFINS"
+    },
+    "343": {
+      "name": "Profissionais de nível médio em atividades culturais, artísticas e culinárias",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "PROFISSIONAIS DE NÍVEL MÉDIO DE SERVIÇOS JURÍDICOS, SOCIAIS, CULTURAIS E AFINS"
+    },
+    "351": {
+      "name": "Técnicos em operações de tecnologia da informação e das comunicações e assistência ao usuário",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "TÉCNICOS DE NÍVEL MÉDIO DA TECNOLOGIA DA INFORMAÇÃO E DAS COMUNICAÇÕES"
+    },
+    "352": {
+      "name": "Técnicos em telecomunicações e radiodifusão",
+      "grande_grupo": "TÉCNICOS E PROFISSIONAIS DE NÍVEL MÉDIO",
+      "subgrupo_principal": "TÉCNICOS DE NÍVEL MÉDIO DA TECNOLOGIA DA INFORMAÇÃO E DAS COMUNICAÇÕES"
+    },
+    "411": {
+      "name": "Escriturários gerais",
+      "grande_grupo": "TRABALHADORES DE APOIO ADMINISTRATIVO",
+      "subgrupo_principal": "ESCRITURÁRIOS"
+    },
+    "412": {
+      "name": "Secretários (geral)",
+      "grande_grupo": "TRABALHADORES DE APOIO ADMINISTRATIVO",
+      "subgrupo_principal": "ESCRITURÁRIOS"
+    },
+    "413": {
+      "name": "Operadores de máquinas de escritório",
+      "grande_grupo": "TRABALHADORES DE APOIO ADMINISTRATIVO",
+      "subgrupo_principal": "ESCRITURÁRIOS"
+    },
+    "421": {
+      "name": "Caixas de banco, cobradores, pagadores e afins",
+      "grande_grupo": "TRABALHADORES DE APOIO ADMINISTRATIVO",
+      "subgrupo_principal": "TRABALHADORES DE ATENDIMENTO DIRETO AO PÚBLICO"
+    },
+    "422": {
+      "name": "Trabalhadores de serviços de informação ao cliente",
+      "grande_grupo": "TRABALHADORES DE APOIO ADMINISTRATIVO",
+      "subgrupo_principal": "TRABALHADORES DE ATENDIMENTO DIRETO AO PÚBLICO"
+    },
+    "431": {
+      "name": "Auxiliares contábeis e financeiros",
+      "grande_grupo": "TRABALHADORES DE APOIO ADMINISTRATIVO",
+      "subgrupo_principal": "TRABALHADORES DE CÁLCULOS NUMÉRICOS E ENCARREGADOS DO REGISTRO DE MATERIAIS"
+    },
+    "432": {
+      "name": "Trabalhadores encarregados de registros de materiais e de transportes",
+      "grande_grupo": "TRABALHADORES DE APOIO ADMINISTRATIVO",
+      "subgrupo_principal": "TRABALHADORES DE CÁLCULOS NUMÉRICOS E ENCARREGADOS DO REGISTRO DE MATERIAIS"
+    },
+    "441": {
+      "name": "Outros trabalhadores de apoio administrativo",
+      "grande_grupo": "TRABALHADORES DE APOIO ADMINISTRATIVO",
+      "subgrupo_principal": "OUTROS TRABALHADORES DE APOIO ADMINISTRATIVO"
+    },
+    "511": {
+      "name": "Trabalhadores do serviço direto aos passageiros",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "TRABALHADORES DOS SERVIÇOS PESSOAIS"
+    },
+    "512": {
+      "name": "Cozinheiros",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "TRABALHADORES DOS SERVIÇOS PESSOAIS"
+    },
+    "513": {
+      "name": "Garçons e atendentes de bar",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "TRABALHADORES DOS SERVIÇOS PESSOAIS"
+    },
+    "514": {
+      "name": "Cabeleireiros, especialistas em tratamento de beleza e afins",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "TRABALHADORES DOS SERVIÇOS PESSOAIS"
+    },
+    "515": {
+      "name": "Supervisores de manutenção e limpeza de edifícios",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "TRABALHADORES DOS SERVIÇOS PESSOAIS"
+    },
+    "516": {
+      "name": "Outros trabalhadores de serviços pessoais",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "TRABALHADORES DOS SERVIÇOS PESSOAIS"
+    },
+    "521": {
+      "name": "Vendedores de rua e postos de mercado",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "VENDEDORES"
+    },
+    "522": {
+      "name": "Comerciantes e vendedores de lojas",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "VENDEDORES"
+    },
+    "523": {
+      "name": "Caixas e expedidores de bilhetes",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "VENDEDORES"
+    },
+    "524": {
+      "name": "Outros vendedores",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "VENDEDORES"
+    },
+    "531": {
+      "name": "Cuidadores de crianças e ajudantes de professores",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "TRABALHADORES DOS CUIDADOS PESSOAIS"
+    },
+    "532": {
+      "name": "Trabalhadores de cuidados pessoais nos serviços de saúde",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "TRABALHADORES DOS CUIDADOS PESSOAIS"
+    },
+    "541": {
+      "name": "Trabalhadores dos serviços de proteção e segurança",
+      "grande_grupo": "TRABALHADORES DOS SERVIÇOS, VENDEDORES DOS COMÉRCIOS E MERCADOS",
+      "subgrupo_principal": "TRABALHADORES DOS SERVIÇOS DE PROTEÇÃO E SEGURANÇA"
+    },
+    "611": {
+      "name": "Agricultores e trabalhadores qualificados em atividades da agricultura",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS DA AGROPECUÁRIA, FLORESTAIS, DA CAÇA E DA PESCA",
+      "subgrupo_principal": "AGRICULTORES E TRABALHADORES QUALIFICADOS DA AGROPECUÁRIA"
+    },
+    "612": {
+      "name": "Criadores e trabalhadores qualificados da pecuária",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS DA AGROPECUÁRIA, FLORESTAIS, DA CAÇA E DA PESCA",
+      "subgrupo_principal": "AGRICULTORES E TRABALHADORES QUALIFICADOS DA AGROPECUÁRIA"
+    },
+    "613": {
+      "name": "Produtores e trabalhadores qualificados de exploração agropecuária mista",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS DA AGROPECUÁRIA, FLORESTAIS, DA CAÇA E DA PESCA",
+      "subgrupo_principal": "AGRICULTORES E TRABALHADORES QUALIFICADOS DA AGROPECUÁRIA"
+    },
+    "621": {
+      "name": "Trabalhadores florestais qualificados e afins",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS DA AGROPECUÁRIA, FLORESTAIS, DA CAÇA E DA PESCA",
+      "subgrupo_principal": "TRABALHADORES FLORESTAIS QUALIFICADOS, PESCADORES E CAÇADORES"
+    },
+    "622": {
+      "name": "Pescadores e caçadores",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS DA AGROPECUÁRIA, FLORESTAIS, DA CAÇA E DA PESCA",
+      "subgrupo_principal": "TRABALHADORES FLORESTAIS QUALIFICADOS, PESCADORES E CAÇADORES"
+    },
+    "711": {
+      "name": "Trabalhadores da construção civil em obras estruturais",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "TRABALHADORES QUALIFICADOS E OPERÁRIOS DA CONSTRUÇÃO EXCLUSIVE ELETRICISTAS"
+    },
+    "712": {
+      "name": "Trabalhadores qualificados da construção (acabamento)",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "TRABALHADORES QUALIFICADOS E OPERÁRIOS DA CONSTRUÇÃO EXCLUSIVE ELETRICISTAS"
+    },
+    "713": {
+      "name": "Pintores, limpadores de fachadas e afins",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "TRABALHADORES QUALIFICADOS E OPERÁRIOS DA CONSTRUÇÃO EXCLUSIVE ELETRICISTAS"
+    },
+    "721": {
+      "name": "Moldadores, soldadores, chapistas, caldeireiros, montadores de estruturas metálicas e afins",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "TRABALHADORES QUALIFICADOS E OPERÁRIOS DA METALURGIA, DA CONSTRUÇÃO MECÂNICA E AFINS"
+    },
+    "722": {
+      "name": "Ferreiros, ferramenteiros e afins",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "TRABALHADORES QUALIFICADOS E OPERÁRIOS DA METALURGIA, DA CONSTRUÇÃO MECÂNICA E AFINS"
+    },
+    "723": {
+      "name": "Mecânicos e reparadores de máquinas",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "TRABALHADORES QUALIFICADOS E OPERÁRIOS DA METALURGIA, DA CONSTRUÇÃO MECÂNICA E AFINS"
+    },
+    "731": {
+      "name": "Artesãos",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "ARTESÃOS E OPERÁRIOS DAS ARTES GRÁFICAS"
+    },
+    "732": {
+      "name": "Trabalhadores qualificados e operários das artes gráficas",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "ARTESÃOS E OPERÁRIOS DAS ARTES GRÁFICAS"
+    },
+    "741": {
+      "name": "Instaladores e reparadores de equipamentos elétricos",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "TRABALHADORES ESPECIALIZADOS EM ELETRICIDADE E ELETRÔNICA"
+    },
+    "742": {
+      "name": "Instaladores e reparadores de equipamentos eletrônicos e de telecomunicações",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "TRABALHADORES ESPECIALIZADOS EM ELETRICIDADE E ELETRÔNICA"
+    },
+    "751": {
+      "name": "Trabalhadores qualificados do processamento de alimentos e afins",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "OPERÁRIOS E OFICIAIS DE PROCESSAMENTO DE ALIMENTOS, DA MADEIRA, DA CONFECÇÃO E AFINS"
+    },
+    "752": {
+      "name": "Trabalhadores qualificados do tratamento da madeira, marceneiros e afins",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "OPERÁRIOS E OFICIAIS DE PROCESSAMENTO DE ALIMENTOS, DA MADEIRA, DA CONFECÇÃO E AFINS"
+    },
+    "753": {
+      "name": "Trabalhadores qualificados e operários da confecção de roupas, calçados e acessórios",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "OPERÁRIOS E OFICIAIS DE PROCESSAMENTO DE ALIMENTOS, DA MADEIRA, DA CONFECÇÃO E AFINS"
+    },
+    "754": {
+      "name": "Outros trabalhadores qualificados e operários da indústria e do artesanato",
+      "grande_grupo": "TRABALHADORES QUALIFICADOS, OPERÁRIOS E ARTESÃOS DA CONSTRUÇÃO, DAS ARTES MECÂNICAS E OUTROS OFÍCIOS",
+      "subgrupo_principal": "OPERÁRIOS E OFICIAIS DE PROCESSAMENTO DE ALIMENTOS, DA MADEIRA, DA CONFECÇÃO E AFINS"
+    },
+    "811": {
+      "name": "Operadores de instalações mineradoras e de extração e processamento de minerais",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "OPERADORES DE INSTALAÇÕES FIXAS E MÁQUINAS"
+    },
+    "812": {
+      "name": "Operadores de instalações de processamento e recobridoras de metais",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "OPERADORES DE INSTALAÇÕES FIXAS E MÁQUINAS"
+    },
+    "813": {
+      "name": "Operadores de instalações e máquinas de produtos químicos e fotográficos",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "OPERADORES DE INSTALAÇÕES FIXAS E MÁQUINAS"
+    },
+    "814": {
+      "name": "Operadores de máquinas para fabricar produtos de borracha, de papel e de material plástico",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "OPERADORES DE INSTALAÇÕES FIXAS E MÁQUINAS"
+    },
+    "815": {
+      "name": "Operadores de máquinas para fabricar produtos de têxteis e artigos de couro e pele",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "OPERADORES DE INSTALAÇÕES FIXAS E MÁQUINAS"
+    },
+    "816": {
+      "name": "Operadores de máquinas para elaborar alimentos e produtos afins",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "OPERADORES DE INSTALAÇÕES FIXAS E MÁQUINAS"
+    },
+    "817": {
+      "name": "Operadores de instalações para a preparação de papel e de processamento de madeira",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "OPERADORES DE INSTALAÇÕES FIXAS E MÁQUINAS"
+    },
+    "818": {
+      "name": "Outros operadores de instalações fixas e máquinas",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "OPERADORES DE INSTALAÇÕES FIXAS E MÁQUINAS"
+    },
+    "821": {
+      "name": "Montadores",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "MONTADORES"
+    },
+    "831": {
+      "name": "Maquinistas de locomotivas e afins",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "CONDUTORES DE VEÍCULOS E OPERADORES DE EQUIPAMENTOS MÓVEIS PESADOS"
+    },
+    "832": {
+      "name": "Condutores de automóveis, caminhonetes e motocicletas",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "CONDUTORES DE VEÍCULOS E OPERADORES DE EQUIPAMENTOS MÓVEIS PESADOS"
+    },
+    "833": {
+      "name": "Condutores de caminhões pesados e ônibus",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "CONDUTORES DE VEÍCULOS E OPERADORES DE EQUIPAMENTOS MÓVEIS PESADOS"
+    },
+    "834": {
+      "name": "Operadores de equipamentos móveis pesados",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "CONDUTORES DE VEÍCULOS E OPERADORES DE EQUIPAMENTOS MÓVEIS PESADOS"
+    },
+    "835": {
+      "name": "Marinheiros de coberta e afins",
+      "grande_grupo": "OPERADORES DE INSTALAÇÕES E MÁQUINAS E MONTADORES",
+      "subgrupo_principal": "CONDUTORES DE VEÍCULOS E OPERADORES DE EQUIPAMENTOS MÓVEIS PESADOS"
+    },
+    "911": {
+      "name": "Trabalhadores domésticos e outros trabalhadores de limpeza de interior de edifícios",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "TRABALHADORES DOMÉSTICOS E OUTROS TRABALHADORES DE LIMPEZA DE INTERIOR DE EDIFÍCIOS"
+    },
+    "912": {
+      "name": "Lavadores de veículos, janelas, roupas e outras limpezas  manuais",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "TRABALHADORES DOMÉSTICOS E OUTROS TRABALHADORES DE LIMPEZA DE INTERIOR DE EDIFÍCIOS"
+    },
+    "921": {
+      "name": "Trabalhadores elementares da agropecuária, da pesca e florestais",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "TRABALHADORES ELEMENTARES DA AGROPECUÁRIA, DA PESCA E FLORESTAIS"
+    },
+    "931": {
+      "name": "Trabalhadores elementares da mineração e da construção",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "TRABALHADORES ELEMENTARES DA MINERAÇÃO, DA CONSTRUÇÃO, DA INDÚSTRIA DE TRANSFORMAÇÃO E DO TRANSPORTE"
+    },
+    "932": {
+      "name": "Trabalhadores elementares da indústria de transformação",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "TRABALHADORES ELEMENTARES DA MINERAÇÃO, DA CONSTRUÇÃO, DA INDÚSTRIA DE TRANSFORMAÇÃO E DO TRANSPORTE"
+    },
+    "933": {
+      "name": "Trabalhadores elementares do transporte e armazenamento",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "TRABALHADORES ELEMENTARES DA MINERAÇÃO, DA CONSTRUÇÃO, DA INDÚSTRIA DE TRANSFORMAÇÃO E DO TRANSPORTE"
+    },
+    "941": {
+      "name": "Ajudantes de preparação de alimentos",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "AJUDANTES DE PREPARAÇÃO DE ALIMENTOS"
+    },
+    "951": {
+      "name": "Trabalhadores ambulantes dos serviços e afins",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "TRABALHADORES AMBULANTES DOS SERVIÇOS E AFINS"
+    },
+    "952": {
+      "name": "Vendedores ambulantes (exclusive de serviços de alimentação)",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "TRABALHADORES AMBULANTES DOS SERVIÇOS E AFINS"
+    },
+    "961": {
+      "name": "Coletores de lixo",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "COLETORES DE LIXO E OUTRAS OCUPAÇÕES ELEMENTARES"
+    },
+    "962": {
+      "name": "Outras ocupações elementares",
+      "grande_grupo": "OCUPAÇÕES ELEMENTARES",
+      "subgrupo_principal": "COLETORES DE LIXO E OUTRAS OCUPAÇÕES ELEMENTARES"
+    },
+    "11": {
+      "name": "Oficiais das forças armadas",
+      "grande_grupo": "MEMBROS DAS FORÇAS ARMADAS, POLICIAIS E BOMBEIROS MILITARES",
+      "subgrupo_principal": "OFICIAIS DAS FORÇAS ARMADAS"
+    },
+    "21": {
+      "name": "Graduados e praças das forças armadas",
+      "grande_grupo": "MEMBROS DAS FORÇAS ARMADAS, POLICIAIS E BOMBEIROS MILITARES",
+      "subgrupo_principal": "GRADUADOS E PRAÇAS DAS FORÇAS ARMADAS"
+    },
+    "41": {
+      "name": "Policiais militares",
+      "grande_grupo": "MEMBROS DAS FORÇAS ARMADAS, POLICIAIS E BOMBEIROS MILITARES",
+      "subgrupo_principal": "POLICIAIS MILITARES"
+    },
+    "51": {
+      "name": "Bombeiros militares",
+      "grande_grupo": "MEMBROS DAS FORÇAS ARMADAS, POLICIAIS E BOMBEIROS MILITARES",
+      "subgrupo_principal": "BOMBEIROS MILITARES"
+    }
+  },
+  "grupo_base_to_subgrupo": {
+    "1111": "111",
+    "1112": "111",
+    "1113": "111",
+    "1114": "111",
+    "1120": "112",
+    "1211": "121",
+    "1212": "121",
+    "1213": "121",
+    "1219": "121",
+    "1221": "122",
+    "1222": "122",
+    "1223": "122",
+    "1311": "131",
+    "1312": "131",
+    "1321": "132",
+    "1322": "132",
+    "1323": "132",
+    "1324": "132",
+    "1330": "133",
+    "1341": "134",
+    "1342": "134",
+    "1343": "134",
+    "1344": "134",
+    "1345": "134",
+    "1346": "134",
+    "1349": "134",
+    "1411": "141",
+    "1412": "141",
+    "1420": "142",
+    "1431": "143",
+    "1439": "143",
+    "2111": "211",
+    "2112": "211",
+    "2113": "211",
+    "2114": "211",
+    "2120": "212",
+    "2131": "213",
+    "2132": "213",
+    "2133": "213",
+    "2141": "214",
+    "2142": "214",
+    "2143": "214",
+    "2144": "214",
+    "2145": "214",
+    "2146": "214",
+    "2149": "214",
+    "2151": "215",
+    "2152": "215",
+    "2153": "215",
+    "2161": "216",
+    "2162": "216",
+    "2163": "216",
+    "2164": "216",
+    "2165": "216",
+    "2166": "216",
+    "2211": "221",
+    "2212": "221",
+    "2221": "222",
+    "2222": "222",
+    "2230": "223",
+    "2240": "224",
+    "2250": "225",
+    "2261": "226",
+    "2262": "226",
+    "2263": "226",
+    "2264": "226",
+    "2265": "226",
+    "2266": "226",
+    "2267": "226",
+    "2269": "226",
+    "2310": "231",
+    "2320": "232",
+    "2330": "233",
+    "2341": "234",
+    "2342": "234",
+    "2351": "235",
+    "2352": "235",
+    "2353": "235",
+    "2354": "235",
+    "2355": "235",
+    "2356": "235",
+    "2359": "235",
+    "2411": "241",
+    "2412": "241",
+    "2413": "241",
+    "2421": "242",
+    "2422": "242",
+    "2423": "242",
+    "2424": "242",
+    "2431": "243",
+    "2432": "243",
+    "2433": "243",
+    "2434": "243",
+    "2511": "251",
+    "2512": "251",
+    "2513": "251",
+    "2514": "251",
+    "2519": "251",
+    "2521": "252",
+    "2522": "252",
+    "2523": "252",
+    "2529": "252",
+    "2611": "261",
+    "2612": "261",
+    "2619": "261",
+    "2621": "262",
+    "2622": "262",
+    "2631": "263",
+    "2632": "263",
+    "2633": "263",
+    "2634": "263",
+    "2635": "263",
+    "2636": "263",
+    "2641": "264",
+    "2642": "264",
+    "2643": "264",
+    "2651": "265",
+    "2652": "265",
+    "2653": "265",
+    "2654": "265",
+    "2655": "265",
+    "2656": "265",
+    "2659": "265",
+    "3111": "311",
+    "3112": "311",
+    "3113": "311",
+    "3114": "311",
+    "3115": "311",
+    "3116": "311",
+    "3117": "311",
+    "3118": "311",
+    "3119": "311",
+    "3121": "312",
+    "3122": "312",
+    "3123": "312",
+    "3131": "313",
+    "3132": "313",
+    "3133": "313",
+    "3134": "313",
+    "3135": "313",
+    "3139": "313",
+    "3141": "314",
+    "3142": "314",
+    "3143": "314",
+    "3151": "315",
+    "3152": "315",
+    "3153": "315",
+    "3154": "315",
+    "3155": "315",
+    "3211": "321",
+    "3212": "321",
+    "3213": "321",
+    "3214": "321",
+    "3221": "322",
+    "3222": "322",
+    "3230": "323",
+    "3240": "324",
+    "3251": "325",
+    "3252": "325",
+    "3253": "325",
+    "3254": "325",
+    "3255": "325",
+    "3256": "325",
+    "3257": "325",
+    "3258": "325",
+    "3259": "325",
+    "3311": "331",
+    "3312": "331",
+    "3313": "331",
+    "3314": "331",
+    "3315": "331",
+    "3321": "332",
+    "3322": "332",
+    "3323": "332",
+    "3324": "332",
+    "3331": "333",
+    "3332": "333",
+    "3333": "333",
+    "3334": "333",
+    "3339": "333",
+    "3341": "334",
+    "3342": "334",
+    "3343": "334",
+    "3344": "334",
+    "3351": "335",
+    "3352": "335",
+    "3353": "335",
+    "3354": "335",
+    "3355": "335",
+    "3359": "335",
+    "3411": "341",
+    "3412": "341",
+    "3413": "341",
+    "3421": "342",
+    "3422": "342",
+    "3423": "342",
+    "3431": "343",
+    "3432": "343",
+    "3433": "343",
+    "3434": "343",
+    "3435": "343",
+    "3511": "351",
+    "3512": "351",
+    "3513": "351",
+    "3514": "351",
+    "3521": "352",
+    "3522": "352",
+    "4110": "411",
+    "4120": "412",
+    "4131": "413",
+    "4132": "413",
+    "4211": "421",
+    "4212": "421",
+    "4213": "421",
+    "4214": "421",
+    "4221": "422",
+    "4222": "422",
+    "4223": "422",
+    "4224": "422",
+    "4225": "422",
+    "4226": "422",
+    "4227": "422",
+    "4229": "422",
+    "4311": "431",
+    "4312": "431",
+    "4313": "431",
+    "4321": "432",
+    "4322": "432",
+    "4323": "432",
+    "4411": "441",
+    "4412": "441",
+    "4413": "441",
+    "4414": "441",
+    "4415": "441",
+    "4416": "441",
+    "4419": "441",
+    "5111": "511",
+    "5112": "511",
+    "5113": "511",
+    "5120": "512",
+    "5131": "513",
+    "5132": "513",
+    "5141": "514",
+    "5142": "514",
+    "5151": "515",
+    "5152": "515",
+    "5153": "515",
+    "5161": "516",
+    "5162": "516",
+    "5163": "516",
+    "5164": "516",
+    "5165": "516",
+    "5168": "516",
+    "5169": "516",
+    "5211": "521",
+    "5212": "521",
+    "5221": "522",
+    "5222": "522",
+    "5223": "522",
+    "5230": "523",
+    "5241": "524",
+    "5242": "524",
+    "5243": "524",
+    "5244": "524",
+    "5245": "524",
+    "5246": "524",
+    "5249": "524",
+    "5311": "531",
+    "5312": "531",
+    "5321": "532",
+    "5322": "532",
+    "5329": "532",
+    "5411": "541",
+    "5412": "541",
+    "5413": "541",
+    "5414": "541",
+    "5419": "541",
+    "6111": "611",
+    "6112": "611",
+    "6114": "611",
+    "6121": "612",
+    "6122": "612",
+    "6123": "612",
+    "6129": "612",
+    "6130": "613",
+    "6210": "621",
+    "6221": "622",
+    "6224": "622",
+    "6225": "622",
+    "7111": "711",
+    "7112": "711",
+    "7113": "711",
+    "7114": "711",
+    "7115": "711",
+    "7119": "711",
+    "7121": "712",
+    "7122": "712",
+    "7123": "712",
+    "7124": "712",
+    "7125": "712",
+    "7126": "712",
+    "7127": "712",
+    "7131": "713",
+    "7132": "713",
+    "7133": "713",
+    "7211": "721",
+    "7212": "721",
+    "7213": "721",
+    "7214": "721",
+    "7215": "721",
+    "7221": "722",
+    "7222": "722",
+    "7223": "722",
+    "7224": "722",
+    "7231": "723",
+    "7232": "723",
+    "7233": "723",
+    "7234": "723",
+    "7311": "731",
+    "7312": "731",
+    "7313": "731",
+    "7314": "731",
+    "7315": "731",
+    "7316": "731",
+    "7317": "731",
+    "7318": "731",
+    "7319": "731",
+    "7321": "732",
+    "7322": "732",
+    "7323": "732",
+    "7411": "741",
+    "7412": "741",
+    "7413": "741",
+    "7421": "742",
+    "7422": "742",
+    "7511": "751",
+    "7512": "751",
+    "7513": "751",
+    "7514": "751",
+    "7515": "751",
+    "7516": "751",
+    "7521": "752",
+    "7522": "752",
+    "7523": "752",
+    "7531": "753",
+    "7532": "753",
+    "7533": "753",
+    "7534": "753",
+    "7535": "753",
+    "7536": "753",
+    "7541": "754",
+    "7542": "754",
+    "7543": "754",
+    "7544": "754",
+    "7549": "754",
+    "8111": "811",
+    "8112": "811",
+    "8113": "811",
+    "8114": "811",
+    "8121": "812",
+    "8122": "812",
+    "8131": "813",
+    "8132": "813",
+    "8141": "814",
+    "8142": "814",
+    "8143": "814",
+    "8151": "815",
+    "8152": "815",
+    "8153": "815",
+    "8154": "815",
+    "8155": "815",
+    "8156": "815",
+    "8157": "815",
+    "8159": "815",
+    "8160": "816",
+    "8171": "817",
+    "8172": "817",
+    "8181": "818",
+    "8182": "818",
+    "8183": "818",
+    "8189": "818",
+    "8211": "821",
+    "8212": "821",
+    "8219": "821",
+    "8311": "831",
+    "8312": "831",
+    "8321": "832",
+    "8322": "832",
+    "8331": "833",
+    "8332": "833",
+    "8341": "834",
+    "8342": "834",
+    "8343": "834",
+    "8344": "834",
+    "8350": "835",
+    "9111": "911",
+    "9112": "911",
+    "9121": "912",
+    "9122": "912",
+    "9123": "912",
+    "9129": "912",
+    "9211": "921",
+    "9212": "921",
+    "9213": "921",
+    "9214": "921",
+    "9215": "921",
+    "9216": "921",
+    "9311": "931",
+    "9312": "931",
+    "9313": "931",
+    "9321": "932",
+    "9329": "932",
+    "9331": "933",
+    "9332": "933",
+    "9333": "933",
+    "9334": "933",
+    "9411": "941",
+    "9412": "941",
+    "9510": "951",
+    "9520": "952",
+    "9611": "961",
+    "9612": "961",
+    "9613": "961",
+    "9621": "962",
+    "9622": "962",
+    "9623": "962",
+    "9624": "962",
+    "9629": "962",
+    "0110": "11",
+    "0210": "21",
+    "0411": "41",
+    "0412": "41",
+    "0511": "51",
+    "0512": "51"
+  }
+}

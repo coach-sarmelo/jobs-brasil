@@ -1,0 +1,49 @@
+{
+  "description": "Logit ponderado da probabilidade de estar em ocupação de alta exposição (acima do percentil 75).",
+  "p75_exposure_threshold": 4.1,
+  "variables": [
+    "intercept",
+    "informality",
+    "region_Centro-Oeste",
+    "region_Nordeste",
+    "region_Norte",
+    "region_Sul"
+  ],
+  "results": {
+    "beta": [
+      0.6594169216343381,
+      -0.05736155307814372,
+      -0.11424930856958754,
+      0.24188029359143712,
+      0.11892579787854936,
+      -0.3692683958274308
+    ],
+    "se": [
+      0.39995426705380127,
+      0.009286868792475199,
+      0.4810137673307963,
+      0.5109700799333798,
+      0.5893118382123548,
+      0.44506863270642255
+    ],
+    "t": [
+      1.6487308073791203,
+      -6.176630074134528,
+      -0.2375177517341568,
+      0.4733746712194448,
+      0.20180452888797257,
+      -0.8296886562909247
+    ],
+    "p_value": [
+      0.09920279577277813,
+      6.548426245700512e-10,
+      0.8122551492798433,
+      0.6359458971443548,
+      0.8400695408538539,
+      0.4067148366968669
+    ],
+    "n": 468,
+    "iterations": 7,
+    "disclaimer": "O coeficiente de informalidade descreve COMPOSIÇÃO (células mais informais estão mais ou menos presentes em ocupações substituíveis), não risco individual de substituição."
+  }
+}

@@ -1,0 +1,57 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # O site é estático e já vem commitado (safra 2026Q1); o CI apenas
+      # valida o artefato antes de publicar — nada é compilado aqui.
+      - name: Smoke check do artefato commitado
+        run: |
+          python - <<'EOF'
+          import json
+          with open("site/data.json", encoding="utf-8") as f:
+              d = json.load(f)
+          m = d["meta"]
+          assert m["n"] == 227629, m["n"]
+          assert m["n_occupations"] == 122
+          assert len(d["occupations"]) == 124
+          assert len(d["robustness"]) == 13
+          assert len(d["ufs"]) == 27
+          assert len(d["regions"]) == 5
+          print("site/data.json OK:", m["vintage"]["label"])
+          EOF
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  test:
+    name: Python Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        # dev deps fornecem numpy (scripts/stats, compute_econometrics);
+        # scipy/statsmodels são só para crossval local (excluído via pytest.ini).
+        # scipy 1.17.1 = última versão compatível com Python 3.11.
+        run: pip install -r requirements.txt -r requirements-dev.txt
+
+      # pytest.ini sets addopts = -m "not crossval", so crossval-marked
+      # tests (which need requirements-dev.txt but are opt-in only) are
+      # excluded by default here.
+      - name: Run pytest
+        run: python3 -m pytest

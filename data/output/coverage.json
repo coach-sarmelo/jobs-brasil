@@ -1,0 +1,191 @@
+{
+  "brazil": {
+    "covered_employment": 101620558,
+    "eligible_employment": 101960877,
+    "uncovered_employment": 340319,
+    "coverage_rate": 0.9966622618252671
+  },
+  "ufs": {
+    "AC": {
+      "covered_employment": 320811,
+      "eligible_employment": 322163,
+      "uncovered_employment": 1352,
+      "coverage_rate": 0.9958048770261829
+    },
+    "AL": {
+      "covered_employment": 1185692,
+      "eligible_employment": 1186818,
+      "uncovered_employment": 1126,
+      "coverage_rate": 0.9990513272496939
+    },
+    "AM": {
+      "covered_employment": 1748632,
+      "eligible_employment": 1762178,
+      "uncovered_employment": 13546,
+      "coverage_rate": 0.9923127167504474
+    },
+    "AP": {
+      "covered_employment": 342939,
+      "eligible_employment": 343608,
+      "uncovered_employment": 669,
+      "coverage_rate": 0.9980521965189607
+    },
+    "BA": {
+      "covered_employment": 6444539,
+      "eligible_employment": 6450133,
+      "uncovered_employment": 5593,
+      "coverage_rate": 0.9991328534350091
+    },
+    "CE": {
+      "covered_employment": 3601550,
+      "eligible_employment": 3602567,
+      "uncovered_employment": 1016,
+      "coverage_rate": 0.9997179373455122
+    },
+    "DF": {
+      "covered_employment": 1515454,
+      "eligible_employment": 1560762,
+      "uncovered_employment": 45308,
+      "coverage_rate": 0.970970697148237
+    },
+    "ES": {
+      "covered_employment": 2006716,
+      "eligible_employment": 2008004,
+      "uncovered_employment": 1288,
+      "coverage_rate": 0.9993583819996485
+    },
+    "GO": {
+      "covered_employment": 3819926,
+      "eligible_employment": 3838103,
+      "uncovered_employment": 18177,
+      "coverage_rate": 0.9952640647401305
+    },
+    "MA": {
+      "covered_employment": 2653671,
+      "eligible_employment": 2656982,
+      "uncovered_employment": 3311,
+      "coverage_rate": 0.9987536703804154
+    },
+    "MG": {
+      "covered_employment": 10745897,
+      "eligible_employment": 10758117,
+      "uncovered_employment": 12219,
+      "coverage_rate": 0.9988641617623986
+    },
+    "MS": {
+      "covered_employment": 1412545,
+      "eligible_employment": 1425937,
+      "uncovered_employment": 13392,
+      "coverage_rate": 0.990608365339378
+    },
+    "MT": {
+      "covered_employment": 1995678,
+      "eligible_employment": 1998630,
+      "uncovered_employment": 2952,
+      "coverage_rate": 0.9985231338889158
+    },
+    "PA": {
+      "covered_employment": 3658475,
+      "eligible_employment": 3667222,
+      "uncovered_employment": 8747,
+      "coverage_rate": 0.9976149112126025
+    },
+    "PB": {
+      "covered_employment": 1706660,
+      "eligible_employment": 1708729,
+      "uncovered_employment": 2069,
+      "coverage_rate": 0.9987891885626549
+    },
+    "PE": {
+      "covered_employment": 3708233,
+      "eligible_employment": 3716922,
+      "uncovered_employment": 8689,
+      "coverage_rate": 0.99766232949041
+    },
+    "PI": {
+      "covered_employment": 1332870,
+      "eligible_employment": 1336661,
+      "uncovered_employment": 3791,
+      "coverage_rate": 0.9971639980059788
+    },
+    "PR": {
+      "covered_employment": 6249706,
+      "eligible_employment": 6256853,
+      "uncovered_employment": 7147,
+      "coverage_rate": 0.9988577518350421
+    },
+    "RJ": {
+      "covered_employment": 8086017,
+      "eligible_employment": 8191244,
+      "uncovered_employment": 105226,
+      "coverage_rate": 0.9871538099364064
+    },
+    "RN": {
+      "covered_employment": 1370345,
+      "eligible_employment": 1374184,
+      "uncovered_employment": 3839,
+      "coverage_rate": 0.9972061750473408
+    },
+    "RO": {
+      "covered_employment": 810871,
+      "eligible_employment": 812583,
+      "uncovered_employment": 1712,
+      "coverage_rate": 0.9978930314363458
+    },
+    "RR": {
+      "covered_employment": 303667,
+      "eligible_employment": 307304,
+      "uncovered_employment": 3637,
+      "coverage_rate": 0.9881645686899992
+    },
+    "RS": {
+      "covered_employment": 5865377,
+      "eligible_employment": 5894711,
+      "uncovered_employment": 29333,
+      "coverage_rate": 0.9950237607581166
+    },
+    "SC": {
+      "covered_employment": 4502029,
+      "eligible_employment": 4505761,
+      "uncovered_employment": 3732,
+      "coverage_rate": 0.9991716791573202
+    },
+    "SE": {
+      "covered_employment": 958024,
+      "eligible_employment": 959278,
+      "uncovered_employment": 1255,
+      "coverage_rate": 0.9986920035523679
+    },
+    "SP": {
+      "covered_employment": 24511716,
+      "eligible_employment": 24552908,
+      "uncovered_employment": 41191,
+      "coverage_rate": 0.9983223469492641
+    },
+    "TO": {
+      "covered_employment": 762517,
+      "eligible_employment": 762517,
+      "uncovered_employment": 0,
+      "coverage_rate": 1.0
+    }
+  },
+  "validation": {
+    "n_ufs": 27,
+    "coverage_bounded_0_1": true,
+    "null_never_zero": true
+  },
+  "meta": {
+    "survey_year": 2026,
+    "survey_quarter": 1,
+    "source": "/home/sarmelo/jobs-brasil/data/microdata/PNADC_012026.txt",
+    "generated_at": "2026-08-19T00:29:32.859782+00:00",
+    "coverage_definition": "cobertura = emprego em ocupacoes com exposicao nao-nula / emprego total agregado pela estrutura COD; exposicao null fica fora do numerador (nunca vira zero) e permanece no denominador",
+    "state_estimates_include_suppressed_cells": "Estimativas por UF usam todos os registros cobertos validos, incluindo celulas ocupacao x UF suprimidas no detalhe publico (amostra nao ponderada < MIN_SAMPLE_OCUPACAO).",
+    "sample_suppression_thresholds": {
+      "min_sample_ocupacao": 20,
+      "min_sample_grupo": 15
+    },
+    "exposure_index_source": "eloundou-2024-dv-beta",
+    "input_coverage_definition": "Ocupacoes sem correspondencia O*NET-SOC ficam com exposicao null"
+  }
+}

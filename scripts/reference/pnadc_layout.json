@@ -1,0 +1,46 @@
+{
+  "UF": {
+    "start": 6,
+    "length": 2
+  },
+  "V1028": {
+    "start": 50,
+    "length": 15
+  },
+  "V2007": {
+    "start": 95,
+    "length": 1
+  },
+  "V2009": {
+    "start": 104,
+    "length": 3
+  },
+  "V2010": {
+    "start": 107,
+    "length": 1
+  },
+  "V4010": {
+    "start": 152,
+    "length": 4
+  },
+  "V4019": {
+    "start": 186,
+    "length": 1
+  },
+  "VD3005": {
+    "start": 406,
+    "length": 2
+  },
+  "VD4009": {
+    "start": 417,
+    "length": 2
+  },
+  "VD4010": {
+    "start": 419,
+    "length": 2
+  },
+  "VD4016": {
+    "start": 427,
+    "length": 8
+  }
+}

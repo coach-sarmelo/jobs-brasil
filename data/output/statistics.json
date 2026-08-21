@@ -1,0 +1,2982 @@
+{
+  "per_occupation": {
+    "522": {
+      "income_ci": {
+        "estimate": 3112.04,
+        "se": 50.88,
+        "ci_low": 3012.32,
+        "ci_high": 3211.76
+      },
+      "informality_ci": {
+        "estimate": 31.1,
+        "se": 0.5,
+        "ci_low": 30.0,
+        "ci_high": 32.1
+      },
+      "gender_gap_significance": {
+        "z": 8.488301727400964,
+        "p_value": 0.0,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 5.942144915106254,
+        "p_value": 2.813165478343649e-09,
+        "significant": true
+      }
+    },
+    "911": {
+      "income_ci": {
+        "estimate": 1547.66,
+        "se": 10.88,
+        "ci_low": 1526.33,
+        "ci_high": 1568.99
+      },
+      "informality_ci": {
+        "estimate": 54.3,
+        "se": 0.6,
+        "ci_low": 53.2,
+        "ci_high": 55.4
+      },
+      "gender_gap_significance": {
+        "z": 4.509628341537948,
+        "p_value": 6.4941297224230254e-06,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 4.228715606034681,
+        "p_value": 2.3502921488116613e-05,
+        "significant": true
+      }
+    },
+    "411": {
+      "income_ci": {
+        "estimate": 2956.11,
+        "se": 41.14,
+        "ci_low": 2875.46,
+        "ci_high": 3036.75
+      },
+      "informality_ci": {
+        "estimate": 18.6,
+        "se": 0.6,
+        "ci_low": 17.5,
+        "ci_high": 19.7
+      },
+      "gender_gap_significance": {
+        "z": 3.409909663934478,
+        "p_value": 0.0006498440027788988,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 3.6680369233724655,
+        "p_value": 0.0002444198930935393,
+        "significant": true
+      }
+    },
+    "832": {
+      "income_ci": {
+        "estimate": 2649.61,
+        "se": 31.54,
+        "ci_low": 2587.8,
+        "ci_high": 2711.42
+      },
+      "informality_ci": {
+        "estimate": 67.4,
+        "se": 0.8,
+        "ci_low": 65.9,
+        "ci_high": 68.9
+      },
+      "gender_gap_significance": {
+        "z": -0.3958171305198423,
+        "p_value": 0.6922399384430631,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 4.669380253898489,
+        "p_value": 3.021097326083577e-06,
+        "significant": true
+      }
+    },
+    "711": {
+      "income_ci": {
+        "estimate": 2668.29,
+        "se": 39.07,
+        "ci_low": 2591.72,
+        "ci_high": 2744.86
+      },
+      "informality_ci": {
+        "estimate": 72.2,
+        "se": 0.7,
+        "ci_low": 70.7,
+        "ci_high": 73.6
+      },
+      "gender_gap_significance": {
+        "z": -0.059715862066131074,
+        "p_value": 0.9523819381787122,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 3.013651888770977,
+        "p_value": 0.002581237964931926,
+        "significant": true
+      }
+    },
+    "524": {
+      "income_ci": {
+        "estimate": 2584.59,
+        "se": 65.59,
+        "ci_low": 2456.03,
+        "ci_high": 2713.15
+      },
+      "informality_ci": {
+        "estimate": 50.8,
+        "se": 0.9,
+        "ci_low": 49.0,
+        "ci_high": 52.6
+      },
+      "gender_gap_significance": {
+        "z": 7.837645963656415,
+        "p_value": 4.440892098500626e-15,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 5.830770175736061,
+        "p_value": 5.517212908756619e-09,
+        "significant": true
+      }
+    },
+    "611": {
+      "income_ci": {
+        "estimate": 2406.71,
+        "se": 64.8,
+        "ci_low": 2279.71,
+        "ci_high": 2533.71
+      },
+      "informality_ci": {
+        "estimate": 84.9,
+        "se": 0.5,
+        "ci_low": 84.0,
+        "ci_high": 85.8
+      },
+      "gender_gap_significance": {
+        "z": 2.3596381285976418,
+        "p_value": 0.018292769379004703,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 7.666541802485872,
+        "p_value": 1.7763568394002505e-14,
+        "significant": true
+      }
+    },
+    "514": {
+      "income_ci": {
+        "estimate": 2366.3,
+        "se": 48.7,
+        "ci_low": 2270.85,
+        "ci_high": 2461.75
+      },
+      "informality_ci": {
+        "estimate": 69.1,
+        "se": 0.9,
+        "ci_low": 67.3,
+        "ci_high": 71.0
+      },
+      "gender_gap_significance": {
+        "z": 3.4519859881906703,
+        "p_value": 0.0005564766235539587,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 5.261126335912757,
+        "p_value": 1.4317561158883052e-07,
+        "significant": true
+      }
+    },
+    "833": {
+      "income_ci": {
+        "estimate": 3531.95,
+        "se": 60.35,
+        "ci_low": 3413.68,
+        "ci_high": 3650.23
+      },
+      "informality_ci": {
+        "estimate": 26.1,
+        "se": 0.8,
+        "ci_low": 24.6,
+        "ci_high": 27.7
+      },
+      "race_gap_significance": {
+        "z": 3.4741139052274965,
+        "p_value": 0.0005125434040964549,
+        "significant": true
+      }
+    },
+    "234": {
+      "income_ci": {
+        "estimate": 4193.05,
+        "se": 52.68,
+        "ci_low": 4089.8,
+        "ci_high": 4296.29
+      },
+      "informality_ci": {
+        "estimate": 20.2,
+        "se": 0.8,
+        "ci_low": 18.6,
+        "ci_high": 21.7
+      },
+      "gender_gap_significance": {
+        "z": 1.6178886119088938,
+        "p_value": 0.10568660494697069,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 4.012644184068291,
+        "p_value": 6.00423823091667e-05,
+        "significant": true
+      }
+    },
+    "921": {
+      "income_ci": {
+        "estimate": 1284.89,
+        "se": 15.57,
+        "ci_low": 1254.37,
+        "ci_high": 1315.4
+      },
+      "informality_ci": {
+        "estimate": 79.9,
+        "se": 0.6,
+        "ci_low": 78.7,
+        "ci_high": 81.2
+      },
+      "gender_gap_significance": {
+        "z": 0.12367308589278991,
+        "p_value": 0.9015741223772114,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.883463597524607,
+        "p_value": 0.0039332810469372426,
+        "significant": true
+      }
+    },
+    "723": {
+      "income_ci": {
+        "estimate": 3274.37,
+        "se": 61.92,
+        "ci_low": 3153.01,
+        "ci_high": 3395.73
+      },
+      "informality_ci": {
+        "estimate": 37.9,
+        "se": 1.0,
+        "ci_low": 35.9,
+        "ci_high": 39.9
+      },
+      "gender_gap_significance": {
+        "z": -0.06923211841943062,
+        "p_value": 0.9448048576320831,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 4.671160585307664,
+        "p_value": 2.995026716856586e-06,
+        "significant": true
+      }
+    },
+    "422": {
+      "income_ci": {
+        "estimate": 2199.31,
+        "se": 44.45,
+        "ci_low": 2112.18,
+        "ci_high": 2286.44
+      },
+      "informality_ci": {
+        "estimate": 17.9,
+        "se": 0.9,
+        "ci_low": 16.2,
+        "ci_high": 19.6
+      },
+      "gender_gap_significance": {
+        "z": 1.2437635499283488,
+        "p_value": 0.21358659918655754,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 3.753681302991002,
+        "p_value": 0.00017425638985368863,
+        "significant": true
+      }
+    },
+    "931": {
+      "income_ci": {
+        "estimate": 1622.44,
+        "se": 28.48,
+        "ci_low": 1566.63,
+        "ci_high": 1678.26
+      },
+      "informality_ci": {
+        "estimate": 81.5,
+        "se": 0.9,
+        "ci_low": 79.7,
+        "ci_high": 83.2
+      },
+      "race_gap_significance": {
+        "z": 1.723469565737395,
+        "p_value": 0.08480364423767206,
+        "significant": false
+      }
+    },
+    "541": {
+      "income_ci": {
+        "estimate": 3372.07,
+        "se": 68.19,
+        "ci_low": 3238.42,
+        "ci_high": 3505.71
+      },
+      "informality_ci": {
+        "estimate": 15.8,
+        "se": 0.8,
+        "ci_low": 14.1,
+        "ci_high": 17.4
+      },
+      "gender_gap_significance": {
+        "z": -0.4633761904098513,
+        "p_value": 0.6430947420075743,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 4.17554753099043,
+        "p_value": 2.972701735792782e-05,
+        "significant": true
+      }
+    },
+    "751": {
+      "income_ci": {
+        "estimate": 2106.13,
+        "se": 31.45,
+        "ci_low": 2044.48,
+        "ci_high": 2167.77
+      },
+      "informality_ci": {
+        "estimate": 39.9,
+        "se": 1.0,
+        "ci_low": 37.8,
+        "ci_high": 41.9
+      },
+      "gender_gap_significance": {
+        "z": 5.301724460334247,
+        "p_value": 1.1471389127493126e-07,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 4.437991516302441,
+        "p_value": 9.080219722124028e-06,
+        "significant": true
+      }
+    },
+    "933": {
+      "income_ci": {
+        "estimate": 1931.82,
+        "se": 69.97,
+        "ci_low": 1794.67,
+        "ci_high": 2068.97
+      },
+      "informality_ci": {
+        "estimate": 35.1,
+        "se": 1.1,
+        "ci_low": 32.8,
+        "ci_high": 37.3
+      },
+      "gender_gap_significance": {
+        "z": 0.20520887669279325,
+        "p_value": 0.837408934428582,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.363733293736613,
+        "p_value": 0.17265152146794582,
+        "significant": false
+      }
+    },
+    "612": {
+      "income_ci": {
+        "estimate": 2957.77,
+        "se": 101.45,
+        "ci_low": 2758.93,
+        "ci_high": 3156.61
+      },
+      "informality_ci": {
+        "estimate": 75.7,
+        "se": 0.7,
+        "ci_low": 74.4,
+        "ci_high": 77.0
+      },
+      "gender_gap_significance": {
+        "z": 0.2703393667436531,
+        "p_value": 0.7868991821404365,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 5.389793927130653,
+        "p_value": 7.053852235650027e-08,
+        "significant": true
+      }
+    },
+    "512": {
+      "income_ci": {
+        "estimate": 2147.9,
+        "se": 48.47,
+        "ci_low": 2052.89,
+        "ci_high": 2242.9
+      },
+      "informality_ci": {
+        "estimate": 42.5,
+        "se": 1.1,
+        "ci_low": 40.3,
+        "ci_high": 44.7
+      },
+      "gender_gap_significance": {
+        "z": 2.3263288521933587,
+        "p_value": 0.020001013968402592,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.899738389756421,
+        "p_value": 0.0037347422693772003,
+        "significant": true
+      }
+    },
+    "531": {
+      "income_ci": {
+        "estimate": 1732.65,
+        "se": 30.8,
+        "ci_low": 1672.28,
+        "ci_high": 1793.02
+      },
+      "informality_ci": {
+        "estimate": 55.1,
+        "se": 1.2,
+        "ci_low": 52.8,
+        "ci_high": 57.4
+      },
+      "gender_gap_significance": {
+        "z": 0.8840352527484414,
+        "p_value": 0.3766771829905786,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 3.0074304583386997,
+        "p_value": 0.0026346639748784373,
+        "significant": true
+      }
+    },
+    "432": {
+      "income_ci": {
+        "estimate": 2407.37,
+        "se": 38.34,
+        "ci_low": 2332.22,
+        "ci_high": 2482.52
+      },
+      "informality_ci": {
+        "estimate": 7.9,
+        "se": 0.7,
+        "ci_low": 6.5,
+        "ci_high": 9.4
+      },
+      "gender_gap_significance": {
+        "z": 2.4603335680011713,
+        "p_value": 0.013880793605127728,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.8296629128074864,
+        "p_value": 0.004659706994011081,
+        "significant": true
+      }
+    },
+    "261": {
+      "income_ci": {
+        "estimate": 9930.08,
+        "se": 322.71,
+        "ci_low": 9297.58,
+        "ci_high": 10562.57
+      },
+      "informality_ci": {
+        "estimate": 44.4,
+        "se": 1.4,
+        "ci_low": 41.7,
+        "ci_high": 47.1
+      },
+      "gender_gap_significance": {
+        "z": 3.8216691619430683,
+        "p_value": 0.00013255144071022684,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 3.0212999235669025,
+        "p_value": 0.0025169191639506927,
+        "significant": true
+      }
+    },
+    "226": {
+      "income_ci": {
+        "estimate": 6129.07,
+        "se": 172.15,
+        "ci_low": 5791.67,
+        "ci_high": 6466.47
+      },
+      "informality_ci": {
+        "estimate": 36.4,
+        "se": 1.3,
+        "ci_low": 33.7,
+        "ci_high": 39.0
+      },
+      "gender_gap_significance": {
+        "z": 1.4705030657628413,
+        "p_value": 0.14142555597409556,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 3.54147799487331,
+        "p_value": 0.00039789204592022287,
+        "significant": true
+      }
+    },
+    "322": {
+      "income_ci": {
+        "estimate": 3152.25,
+        "se": 44.92,
+        "ci_low": 3064.2,
+        "ci_high": 3240.3
+      },
+      "informality_ci": {
+        "estimate": 17.6,
+        "se": 1.0,
+        "ci_low": 15.6,
+        "ci_high": 19.6
+      },
+      "gender_gap_significance": {
+        "z": 1.622612527806884,
+        "p_value": 0.10467226074325353,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.6900025773823415,
+        "p_value": 0.0910274615558988,
+        "significant": false
+      }
+    },
+    "523": {
+      "income_ci": {
+        "estimate": 1859.45,
+        "se": 17.78,
+        "ci_low": 1824.61,
+        "ci_high": 1894.29
+      },
+      "informality_ci": {
+        "estimate": 15.6,
+        "se": 1.0,
+        "ci_low": 13.6,
+        "ci_high": 17.6
+      },
+      "gender_gap_significance": {
+        "z": 0.15020266206354596,
+        "p_value": 0.8806047257004319,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 3.1498828042142324,
+        "p_value": 0.0016333596971844777,
+        "significant": true
+      }
+    },
+    "834": {
+      "income_ci": {
+        "estimate": 2959.48,
+        "se": 45.67,
+        "ci_low": 2869.96,
+        "ci_high": 3049.0
+      },
+      "informality_ci": {
+        "estimate": 12.7,
+        "se": 0.9,
+        "ci_low": 10.9,
+        "ci_high": 14.5
+      },
+      "gender_gap_significance": {
+        "z": 0.6031235661892609,
+        "p_value": 0.5464264901529992,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.4715507792536864,
+        "p_value": 0.1411422254805108,
+        "significant": false
+      }
+    },
+    "311": {
+      "income_ci": {
+        "estimate": 4062.34,
+        "se": 103.7,
+        "ci_low": 3859.1,
+        "ci_high": 4265.58
+      },
+      "informality_ci": {
+        "estimate": 18.4,
+        "se": 1.2,
+        "ci_low": 16.0,
+        "ci_high": 20.9
+      },
+      "gender_gap_significance": {
+        "z": 1.5731277310065757,
+        "p_value": 0.11568924496307309,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 3.398970371783458,
+        "p_value": 0.0006764004328216888,
+        "significant": true
+      }
+    },
+    "941": {
+      "income_ci": {
+        "estimate": 1781.31,
+        "se": 39.41,
+        "ci_low": 1704.07,
+        "ci_high": 1858.55
+      },
+      "informality_ci": {
+        "estimate": 46.4,
+        "se": 1.6,
+        "ci_low": 43.1,
+        "ci_high": 49.6
+      },
+      "gender_gap_significance": {
+        "z": 1.7197031557854694,
+        "p_value": 0.0854864139068674,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.7730964870325412,
+        "p_value": 0.07621272000952528,
+        "significant": false
+      }
+    },
+    "815": {
+      "income_ci": {
+        "estimate": 2065.9,
+        "se": 55.25,
+        "ci_low": 1957.61,
+        "ci_high": 2174.19
+      },
+      "informality_ci": {
+        "estimate": 42.8,
+        "se": 1.5,
+        "ci_low": 39.8,
+        "ci_high": 45.7
+      },
+      "gender_gap_significance": {
+        "z": 1.8064544472627186,
+        "p_value": 0.07084738341235175,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.840096218352077,
+        "p_value": 0.004509992828868992,
+        "significant": true
+      }
+    },
+    "515": {
+      "income_ci": {
+        "estimate": 2275.17,
+        "se": 37.62,
+        "ci_low": 2201.44,
+        "ci_high": 2348.9
+      },
+      "informality_ci": {
+        "estimate": 10.2,
+        "se": 1.1,
+        "ci_low": 8.1,
+        "ci_high": 12.3
+      },
+      "gender_gap_significance": {
+        "z": 1.4796537575554154,
+        "p_value": 0.13896567227569712,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.5570270432808404,
+        "p_value": 0.11946406487573835,
+        "significant": false
+      }
+    },
+    "932": {
+      "income_ci": {
+        "estimate": 2183.64,
+        "se": 36.07,
+        "ci_low": 2112.95,
+        "ci_high": 2254.32
+      },
+      "informality_ci": {
+        "estimate": 12.5,
+        "se": 1.1,
+        "ci_low": 10.4,
+        "ci_high": 14.6
+      },
+      "gender_gap_significance": {
+        "z": 1.6458666090834553,
+        "p_value": 0.09979122489358616,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.1231650343625312,
+        "p_value": 0.033740024864918006,
+        "significant": true
+      }
+    },
+    "721": {
+      "income_ci": {
+        "estimate": 2928.06,
+        "se": 76.44,
+        "ci_low": 2778.24,
+        "ci_high": 3077.88
+      },
+      "informality_ci": {
+        "estimate": 37.0,
+        "se": 1.5,
+        "ci_low": 34.1,
+        "ci_high": 39.9
+      },
+      "gender_gap_significance": {
+        "z": -0.09163925160504953,
+        "p_value": 0.926984664371455,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.9603212170045132,
+        "p_value": 0.04995825766316431,
+        "significant": true
+      }
+    },
+    "241": {
+      "income_ci": {
+        "estimate": 7997.42,
+        "se": 352.44,
+        "ci_low": 7306.65,
+        "ci_high": 8688.18
+      },
+      "informality_ci": {
+        "estimate": 14.3,
+        "se": 1.4,
+        "ci_low": 11.5,
+        "ci_high": 17.0
+      },
+      "gender_gap_significance": {
+        "z": 3.4848396654856346,
+        "p_value": 0.0004924320172654539,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.070438526607005,
+        "p_value": 0.03841129714675917,
+        "significant": true
+      }
+    },
+    "325": {
+      "income_ci": {
+        "estimate": 3486.08,
+        "se": 76.77,
+        "ci_low": 3335.61,
+        "ci_high": 3636.54
+      },
+      "informality_ci": {
+        "estimate": 19.4,
+        "se": 1.1,
+        "ci_low": 17.2,
+        "ci_high": 21.6
+      },
+      "gender_gap_significance": {
+        "z": 3.5448049308531195,
+        "p_value": 0.000392903745292994,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 1.2637911584129624,
+        "p_value": 0.20630499549754644,
+        "significant": false
+      }
+    },
+    "334": {
+      "income_ci": {
+        "estimate": 5036.84,
+        "se": 159.31,
+        "ci_low": 4724.6,
+        "ci_high": 5349.07
+      },
+      "informality_ci": {
+        "estimate": 24.0,
+        "se": 1.3,
+        "ci_low": 21.4,
+        "ci_high": 26.6
+      },
+      "gender_gap_significance": {
+        "z": 2.085307831311328,
+        "p_value": 0.03704136701965277,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 3.6854600965188298,
+        "p_value": 0.00022828984993417123,
+        "significant": true
+      }
+    },
+    "753": {
+      "income_ci": {
+        "estimate": 1845.33,
+        "se": 58.83,
+        "ci_low": 1730.03,
+        "ci_high": 1960.63
+      },
+      "informality_ci": {
+        "estimate": 61.8,
+        "se": 1.5,
+        "ci_low": 59.0,
+        "ci_high": 64.7
+      },
+      "gender_gap_significance": {
+        "z": 3.9041039564979654,
+        "p_value": 9.457512519461808e-05,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.800423490743701,
+        "p_value": 0.005103560393387774,
+        "significant": true
+      }
+    },
+    "242": {
+      "income_ci": {
+        "estimate": 7460.18,
+        "se": 346.71,
+        "ci_low": 6780.64,
+        "ci_high": 8139.71
+      },
+      "informality_ci": {
+        "estimate": 12.4,
+        "se": 1.4,
+        "ci_low": 9.6,
+        "ci_high": 15.2
+      },
+      "gender_gap_significance": {
+        "z": 3.494120701408827,
+        "p_value": 0.00047562592872552045,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 3.0819953054013896,
+        "p_value": 0.002056180802482377,
+        "significant": true
+      }
+    },
+    "532": {
+      "income_ci": {
+        "estimate": 1788.7,
+        "se": 33.46,
+        "ci_low": 1723.12,
+        "ci_high": 1854.28
+      },
+      "informality_ci": {
+        "estimate": 68.9,
+        "se": 1.5,
+        "ci_low": 65.9,
+        "ci_high": 71.8
+      },
+      "gender_gap_significance": {
+        "z": 1.0506159208841441,
+        "p_value": 0.2934350258954126,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.221820019766355,
+        "p_value": 0.02629547121672049,
+        "significant": true
+      }
+    },
+    "333": {
+      "income_ci": {
+        "estimate": 5045.12,
+        "se": 174.28,
+        "ci_low": 4703.53,
+        "ci_high": 5386.7
+      },
+      "informality_ci": {
+        "estimate": 49.5,
+        "se": 1.7,
+        "ci_low": 46.2,
+        "ci_high": 52.8
+      },
+      "gender_gap_significance": {
+        "z": 1.9861814423919655,
+        "p_value": 0.047013180673460386,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 3.033051258409921,
+        "p_value": 0.0024209447429794917,
+        "significant": true
+      }
+    },
+    "741": {
+      "income_ci": {
+        "estimate": 2935.77,
+        "se": 66.26,
+        "ci_low": 2805.9,
+        "ci_high": 3065.64
+      },
+      "informality_ci": {
+        "estimate": 41.2,
+        "se": 1.6,
+        "ci_low": 38.1,
+        "ci_high": 44.3
+      },
+      "race_gap_significance": {
+        "z": 2.3916333604206406,
+        "p_value": 0.016773588963709063,
+        "significant": true
+      }
+    },
+    "713": {
+      "income_ci": {
+        "estimate": 2630.38,
+        "se": 59.16,
+        "ci_low": 2514.43,
+        "ci_high": 2746.33
+      },
+      "informality_ci": {
+        "estimate": 66.3,
+        "se": 1.5,
+        "ci_low": 63.4,
+        "ci_high": 69.3
+      },
+      "gender_gap_significance": {
+        "z": -0.06454989618578384,
+        "p_value": 0.9485323785075208,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 3.012374241902018,
+        "p_value": 0.0025921281356371395,
+        "significant": true
+      }
+    },
+    "235": {
+      "income_ci": {
+        "estimate": 4126.18,
+        "se": 146.04,
+        "ci_low": 3839.94,
+        "ci_high": 4412.41
+      },
+      "informality_ci": {
+        "estimate": 40.1,
+        "se": 1.5,
+        "ci_low": 37.1,
+        "ci_high": 43.1
+      },
+      "gender_gap_significance": {
+        "z": 1.2157808421030178,
+        "p_value": 0.22406841864689397,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.5496531421581676,
+        "p_value": 0.010783014103452615,
+        "significant": true
+      }
+    },
+    "121": {
+      "income_ci": {
+        "estimate": 10424.24,
+        "se": 448.18,
+        "ci_low": 9545.82,
+        "ci_high": 11302.65
+      },
+      "informality_ci": {
+        "estimate": 14.5,
+        "se": 1.2,
+        "ci_low": 12.2,
+        "ci_high": 16.8
+      },
+      "gender_gap_significance": {
+        "z": 1.5782069236617677,
+        "p_value": 0.11451808017285581,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.309389852903398,
+        "p_value": 0.1904023269003008,
+        "significant": false
+      }
+    },
+    "251": {
+      "income_ci": {
+        "estimate": 9363.42,
+        "se": 326.1,
+        "ci_low": 8724.28,
+        "ci_high": 10002.56
+      },
+      "informality_ci": {
+        "estimate": 15.7,
+        "se": 1.4,
+        "ci_low": 12.9,
+        "ci_high": 18.5
+      },
+      "gender_gap_significance": {
+        "z": 0.47425228867648994,
+        "p_value": 0.635320010161555,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.002782290731897,
+        "p_value": 0.045200661506009876,
+        "significant": true
+      }
+    },
+    "263": {
+      "income_ci": {
+        "estimate": 5518.76,
+        "se": 190.87,
+        "ci_low": 5144.67,
+        "ci_high": 5892.85
+      },
+      "informality_ci": {
+        "estimate": 42.6,
+        "se": 1.8,
+        "ci_low": 39.0,
+        "ci_high": 46.2
+      },
+      "gender_gap_significance": {
+        "z": 1.3793454853472997,
+        "p_value": 0.16778825867267644,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 3.543247193675146,
+        "p_value": 0.00039523204665226075,
+        "significant": true
+      }
+    },
+    "521": {
+      "income_ci": {
+        "estimate": 1823.65,
+        "se": 78.52,
+        "ci_low": 1669.76,
+        "ci_high": 1977.54
+      },
+      "informality_ci": {
+        "estimate": 86.3,
+        "se": 1.2,
+        "ci_low": 84.0,
+        "ci_high": 88.6
+      },
+      "gender_gap_significance": {
+        "z": 2.342338789387005,
+        "p_value": 0.01916331077604827,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.10979288134618,
+        "p_value": 0.03487619990523827,
+        "significant": true
+      }
+    },
+    "233": {
+      "income_ci": {
+        "estimate": 5510.41,
+        "se": 109.63,
+        "ci_low": 5295.54,
+        "ci_high": 5725.28
+      },
+      "informality_ci": {
+        "estimate": 16.9,
+        "se": 1.3,
+        "ci_low": 14.4,
+        "ci_high": 19.3
+      },
+      "gender_gap_significance": {
+        "z": 2.3239100460329998,
+        "p_value": 0.0201303157249082,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 1.1203183099835734,
+        "p_value": 0.26257814219070097,
+        "significant": false
+      }
+    },
+    "513": {
+      "income_ci": {
+        "estimate": 1784.75,
+        "se": 60.7,
+        "ci_low": 1665.78,
+        "ci_high": 1903.72
+      },
+      "informality_ci": {
+        "estimate": 56.8,
+        "se": 2.0,
+        "ci_low": 52.8,
+        "ci_high": 60.7
+      },
+      "gender_gap_significance": {
+        "z": 2.434138465452358,
+        "p_value": 0.014927283581004147,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 1.494014851849732,
+        "p_value": 0.13517173745718858,
+        "significant": false
+      }
+    },
+    "712": {
+      "income_ci": {
+        "estimate": 3094.71,
+        "se": 191.54,
+        "ci_low": 2719.28,
+        "ci_high": 3470.13
+      },
+      "informality_ci": {
+        "estimate": 45.8,
+        "se": 1.9,
+        "ci_low": 42.1,
+        "ci_high": 49.5
+      },
+      "race_gap_significance": {
+        "z": 0.8873450726251191,
+        "p_value": 0.37489314596746093,
+        "significant": false
+      }
+    },
+    "332": {
+      "income_ci": {
+        "estimate": 5830.54,
+        "se": 267.89,
+        "ci_low": 5305.49,
+        "ci_high": 6355.59
+      },
+      "informality_ci": {
+        "estimate": 27.1,
+        "se": 2.0,
+        "ci_low": 23.3,
+        "ci_high": 30.9
+      },
+      "gender_gap_significance": {
+        "z": 2.1087364376472446,
+        "p_value": 0.03496733779678207,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.8665788409672333,
+        "p_value": 0.004149347921350355,
+        "significant": true
+      }
+    },
+    "221": {
+      "income_ci": {
+        "estimate": 16762.43,
+        "se": 600.66,
+        "ci_low": 15585.15,
+        "ci_high": 17939.71
+      },
+      "informality_ci": {
+        "estimate": 44.1,
+        "se": 2.0,
+        "ci_low": 40.1,
+        "ci_high": 48.1
+      },
+      "gender_gap_significance": {
+        "z": 3.472660887894574,
+        "p_value": 0.0005153260360062362,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 0.6834481627315243,
+        "p_value": 0.49432369517536423,
+        "significant": false
+      }
+    },
+    "351": {
+      "income_ci": {
+        "estimate": 4102.72,
+        "se": 156.87,
+        "ci_low": 3795.26,
+        "ci_high": 4410.18
+      },
+      "informality_ci": {
+        "estimate": 24.5,
+        "se": 1.8,
+        "ci_low": 21.1,
+        "ci_high": 28.0
+      },
+      "gender_gap_significance": {
+        "z": 0.46709403342524747,
+        "p_value": 0.6404326028160152,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.011122553567559,
+        "p_value": 0.311957777044777,
+        "significant": false
+      }
+    },
+    "214": {
+      "income_ci": {
+        "estimate": 10560.67,
+        "se": 376.31,
+        "ci_low": 9823.12,
+        "ci_high": 11298.22
+      },
+      "informality_ci": {
+        "estimate": 21.5,
+        "se": 1.7,
+        "ci_low": 18.2,
+        "ci_high": 24.9
+      },
+      "gender_gap_significance": {
+        "z": 1.9619570365976942,
+        "p_value": 0.04976748645151097,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.757248199784179,
+        "p_value": 0.005829008799314028,
+        "significant": true
+      }
+    },
+    "222": {
+      "income_ci": {
+        "estimate": 5580.16,
+        "se": 158.98,
+        "ci_low": 5268.57,
+        "ci_high": 5891.75
+      },
+      "informality_ci": {
+        "estimate": 17.3,
+        "se": 1.7,
+        "ci_low": 14.1,
+        "ci_high": 20.6
+      },
+      "gender_gap_significance": {
+        "z": 0.8310537747649844,
+        "p_value": 0.4059432516175667,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 3.0904203055049067,
+        "p_value": 0.0019987343462863905,
+        "significant": true
+      }
+    },
+    "961": {
+      "income_ci": {
+        "estimate": 1762.89,
+        "se": 143.53,
+        "ci_low": 1481.59,
+        "ci_high": 2044.19
+      },
+      "informality_ci": {
+        "estimate": 58.9,
+        "se": 1.8,
+        "ci_low": 55.4,
+        "ci_high": 62.3
+      },
+      "gender_gap_significance": {
+        "z": 1.9467279919605036,
+        "p_value": 0.051567353854139686,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.9561950118181005,
+        "p_value": 0.3389737196092746,
+        "significant": false
+      }
+    },
+    "243": {
+      "income_ci": {
+        "estimate": 6195.24,
+        "se": 315.03,
+        "ci_low": 5577.8,
+        "ci_high": 6812.69
+      },
+      "informality_ci": {
+        "estimate": 28.5,
+        "se": 2.1,
+        "ci_low": 24.4,
+        "ci_high": 32.7
+      },
+      "gender_gap_significance": {
+        "z": 1.342707865366024,
+        "p_value": 0.17936658686394513,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.9324681187974595,
+        "p_value": 0.053301753383568684,
+        "significant": false
+      }
+    },
+    "142": {
+      "income_ci": {
+        "estimate": 5965.29,
+        "se": 257.33,
+        "ci_low": 5460.92,
+        "ci_high": 6469.66
+      },
+      "informality_ci": {
+        "estimate": 11.0,
+        "se": 1.2,
+        "ci_low": 8.7,
+        "ci_high": 13.3
+      },
+      "gender_gap_significance": {
+        "z": 3.2323015187036708,
+        "p_value": 0.0012279740958081042,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 1.9802280274252808,
+        "p_value": 0.047677911872211265,
+        "significant": true
+      }
+    },
+    "134": {
+      "income_ci": {
+        "estimate": 9796.78,
+        "se": 411.21,
+        "ci_low": 8990.82,
+        "ci_high": 10602.75
+      },
+      "informality_ci": {
+        "estimate": 9.9,
+        "se": 1.2,
+        "ci_low": 7.5,
+        "ci_high": 12.3
+      },
+      "gender_gap_significance": {
+        "z": 3.7844268074891074,
+        "p_value": 0.00015406323791533616,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.914683468500253,
+        "p_value": 0.003560494604833986,
+        "significant": true
+      }
+    },
+    "341": {
+      "income_ci": {
+        "estimate": 6320.72,
+        "se": 324.71,
+        "ci_low": 5684.29,
+        "ci_high": 6957.15
+      },
+      "informality_ci": {
+        "estimate": 37.3,
+        "se": 1.9,
+        "ci_low": 33.6,
+        "ci_high": 41.0
+      },
+      "gender_gap_significance": {
+        "z": 2.693589265096902,
+        "p_value": 0.007068721422097024,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.4310931345950997,
+        "p_value": 0.015053344536343438,
+        "significant": true
+      }
+    },
+    "342": {
+      "income_ci": {
+        "estimate": 5734.83,
+        "se": 1097.09,
+        "ci_low": 3584.58,
+        "ci_high": 7885.09
+      },
+      "informality_ci": {
+        "estimate": 55.0,
+        "se": 2.3,
+        "ci_low": 50.5,
+        "ci_high": 59.5
+      },
+      "gender_gap_significance": {
+        "z": 1.723515329343586,
+        "p_value": 0.08479537547658467,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.19644605774753018,
+        "p_value": 0.844261049620376,
+        "significant": false
+      }
+    },
+    "412": {
+      "income_ci": {
+        "estimate": 2702.01,
+        "se": 86.85,
+        "ci_low": 2531.79,
+        "ci_high": 2872.23
+      },
+      "informality_ci": {
+        "estimate": 20.8,
+        "se": 1.7,
+        "ci_low": 17.5,
+        "ci_high": 24.1
+      },
+      "gender_gap_significance": {
+        "z": 1.1829751110336877,
+        "p_value": 0.23681901153085327,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.3669289047782398,
+        "p_value": 0.17164759093496373,
+        "significant": false
+      }
+    },
+    "752": {
+      "income_ci": {
+        "estimate": 3105.54,
+        "se": 159.89,
+        "ci_low": 2792.17,
+        "ci_high": 3418.91
+      },
+      "informality_ci": {
+        "estimate": 46.2,
+        "se": 2.2,
+        "ci_low": 41.9,
+        "ci_high": 50.5
+      },
+      "gender_gap_significance": {
+        "z": 0.1096555356507416,
+        "p_value": 0.9126825650926693,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.4864227966189933,
+        "p_value": 0.1371673236601194,
+        "significant": false
+      }
+    },
+    "731": {
+      "income_ci": {
+        "estimate": 1735.07,
+        "se": 74.22,
+        "ci_low": 1589.59,
+        "ci_high": 1880.54
+      },
+      "informality_ci": {
+        "estimate": 64.1,
+        "se": 2.0,
+        "ci_low": 60.2,
+        "ci_high": 68.0
+      },
+      "gender_gap_significance": {
+        "z": 3.781789724029847,
+        "p_value": 0.00015570486399818506,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.19598502823643,
+        "p_value": 0.028093015016966483,
+        "significant": true
+      }
+    },
+    "312": {
+      "income_ci": {
+        "estimate": 4781.91,
+        "se": 159.03,
+        "ci_low": 4470.22,
+        "ci_high": 5093.6
+      },
+      "informality_ci": {
+        "estimate": 8.3,
+        "se": 1.3,
+        "ci_low": 5.7,
+        "ci_high": 10.8
+      },
+      "gender_gap_significance": {
+        "z": 0.026577568099967253,
+        "p_value": 0.9787966650018658,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.223458371216204,
+        "p_value": 0.02618490745395885,
+        "significant": true
+      }
+    },
+    "122": {
+      "income_ci": {
+        "estimate": 12307.2,
+        "se": 785.64,
+        "ci_low": 10767.38,
+        "ci_high": 13847.02
+      },
+      "informality_ci": {
+        "estimate": 19.0,
+        "se": 1.9,
+        "ci_low": 15.4,
+        "ci_high": 22.6
+      },
+      "gender_gap_significance": {
+        "z": 2.020147737931512,
+        "p_value": 0.043368065386682364,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 1.006119493146064,
+        "p_value": 0.31435809279314864,
+        "significant": false
+      }
+    },
+    "431": {
+      "income_ci": {
+        "estimate": 3742.3,
+        "se": 156.09,
+        "ci_low": 3436.37,
+        "ci_high": 4048.23
+      },
+      "informality_ci": {
+        "estimate": 12.4,
+        "se": 1.9,
+        "ci_low": 8.7,
+        "ci_high": 16.1
+      },
+      "gender_gap_significance": {
+        "z": 2.197089431142412,
+        "p_value": 0.028014059781487743,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 1.4068582863829848,
+        "p_value": 0.15946941492684785,
+        "significant": false
+      }
+    },
+    "912": {
+      "income_ci": {
+        "estimate": 2116.64,
+        "se": 96.13,
+        "ci_low": 1928.23,
+        "ci_high": 2305.05
+      },
+      "informality_ci": {
+        "estimate": 64.1,
+        "se": 2.1,
+        "ci_low": 59.9,
+        "ci_high": 68.2
+      },
+      "gender_gap_significance": {
+        "z": 0.5927561159546793,
+        "p_value": 0.553344380474293,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.776788302266759,
+        "p_value": 0.07560307723757353,
+        "significant": false
+      }
+    },
+    "41": {
+      "income_ci": {
+        "estimate": 7825.87,
+        "se": 219.89,
+        "ci_low": 7394.89,
+        "ci_high": 8256.84
+      },
+      "informality_ci": {
+        "estimate": 0.0,
+        "se": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "gender_gap_significance": {
+        "z": 0.38945658297159885,
+        "p_value": 0.6969384221308244,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.20696049172700798,
+        "p_value": 0.8360407134838683,
+        "significant": false
+      }
+    },
+    "821": {
+      "income_ci": {
+        "estimate": 2529.29,
+        "se": 103.2,
+        "ci_low": 2327.03,
+        "ci_high": 2731.55
+      },
+      "informality_ci": {
+        "estimate": 19.8,
+        "se": 2.8,
+        "ci_low": 14.3,
+        "ci_high": 25.3
+      },
+      "gender_gap_significance": {
+        "z": 1.5434498039606948,
+        "p_value": 0.12272167765760944,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.7139041196607898,
+        "p_value": 0.47528646976084254,
+        "significant": false
+      }
+    },
+    "722": {
+      "income_ci": {
+        "estimate": 3163.96,
+        "se": 107.28,
+        "ci_low": 2953.7,
+        "ci_high": 3374.23
+      },
+      "informality_ci": {
+        "estimate": 13.5,
+        "se": 1.8,
+        "ci_low": 9.9,
+        "ci_high": 17.1
+      },
+      "gender_gap_significance": {
+        "z": 0.43453661934709037,
+        "p_value": 0.6638988088797915,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.5423483807888507,
+        "p_value": 0.12298895806644339,
+        "significant": false
+      }
+    },
+    "132": {
+      "income_ci": {
+        "estimate": 9331.32,
+        "se": 439.67,
+        "ci_low": 8469.59,
+        "ci_high": 10193.06
+      },
+      "informality_ci": {
+        "estimate": 8.5,
+        "se": 1.3,
+        "ci_low": 5.9,
+        "ci_high": 11.1
+      },
+      "gender_gap_significance": {
+        "z": 2.380786919054403,
+        "p_value": 0.017275701646166652,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.077954445173431,
+        "p_value": 0.03771355514134078,
+        "significant": true
+      }
+    },
+    "216": {
+      "income_ci": {
+        "estimate": 5936.07,
+        "se": 299.54,
+        "ci_low": 5348.98,
+        "ci_high": 6523.17
+      },
+      "informality_ci": {
+        "estimate": 37.1,
+        "se": 2.4,
+        "ci_low": 32.4,
+        "ci_high": 41.8
+      },
+      "gender_gap_significance": {
+        "z": 0.9564591093363277,
+        "p_value": 0.33884033372059497,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.6341368829742309,
+        "p_value": 0.10223011188134357,
+        "significant": false
+      }
+    },
+    "814": {
+      "income_ci": {
+        "estimate": 2558.23,
+        "se": 89.9,
+        "ci_low": 2382.03,
+        "ci_high": 2734.44
+      },
+      "informality_ci": {
+        "estimate": 24.3,
+        "se": 2.2,
+        "ci_low": 19.9,
+        "ci_high": 28.7
+      },
+      "gender_gap_significance": {
+        "z": 1.1805598924362883,
+        "p_value": 0.23777760455366237,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.6455057440005076,
+        "p_value": 0.09986555910666217,
+        "significant": false
+      }
+    },
+    "962": {
+      "income_ci": {
+        "estimate": 1585.93,
+        "se": 85.23,
+        "ci_low": 1418.88,
+        "ci_high": 1752.98
+      },
+      "informality_ci": {
+        "estimate": 61.1,
+        "se": 2.1,
+        "ci_low": 57.0,
+        "ci_high": 65.3
+      },
+      "gender_gap_significance": {
+        "z": -0.4755574523746417,
+        "p_value": 0.6343896934991062,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.1447168557776546,
+        "p_value": 0.2523264667449183,
+        "significant": false
+      }
+    },
+    "742": {
+      "income_ci": {
+        "estimate": 2760.48,
+        "se": 117.68,
+        "ci_low": 2529.83,
+        "ci_high": 2991.14
+      },
+      "informality_ci": {
+        "estimate": 36.3,
+        "se": 2.5,
+        "ci_low": 31.5,
+        "ci_high": 41.2
+      },
+      "gender_gap_significance": {
+        "z": 0.11375441908119506,
+        "p_value": 0.9094324722670721,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.9542477594335246,
+        "p_value": 0.0506719236538169,
+        "significant": false
+      }
+    },
+    "331": {
+      "income_ci": {
+        "estimate": 5551.57,
+        "se": 302.02,
+        "ci_low": 4959.62,
+        "ci_high": 6143.52
+      },
+      "informality_ci": {
+        "estimate": 18.1,
+        "se": 2.2,
+        "ci_low": 13.7,
+        "ci_high": 22.5
+      },
+      "gender_gap_significance": {
+        "z": 2.86545545934235,
+        "p_value": 0.004164098474702005,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 1.1276596302585757,
+        "p_value": 0.25946369292244365,
+        "significant": false
+      }
+    },
+    "231": {
+      "income_ci": {
+        "estimate": 12046.96,
+        "se": 321.87,
+        "ci_low": 11416.11,
+        "ci_high": 12677.8
+      },
+      "informality_ci": {
+        "estimate": 13.6,
+        "se": 1.6,
+        "ci_low": 10.5,
+        "ci_high": 16.7
+      },
+      "gender_gap_significance": {
+        "z": 2.409005660847569,
+        "p_value": 0.015996049863862494,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.1514127612263407,
+        "p_value": 0.03144363483310997,
+        "significant": true
+      }
+    },
+    "343": {
+      "income_ci": {
+        "estimate": 3868.75,
+        "se": 308.48,
+        "ci_low": 3264.14,
+        "ci_high": 4473.36
+      },
+      "informality_ci": {
+        "estimate": 43.8,
+        "se": 4.3,
+        "ci_low": 35.3,
+        "ci_high": 52.3
+      },
+      "gender_gap_significance": {
+        "z": 0.5803466186942156,
+        "p_value": 0.5616808955525343,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.7298062548839963,
+        "p_value": 0.08366489654782105,
+        "significant": false
+      }
+    },
+    "622": {
+      "income_ci": {
+        "estimate": 1114.89,
+        "se": 100.59,
+        "ci_low": 917.73,
+        "ci_high": 1312.05
+      },
+      "informality_ci": {
+        "estimate": 96.1,
+        "se": 0.8,
+        "ci_low": 94.7,
+        "ci_high": 97.6
+      },
+      "gender_gap_significance": {
+        "z": 1.8540224901652165,
+        "p_value": 0.06373594248325531,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.9067454887768406,
+        "p_value": 0.36454140222043185,
+        "significant": false
+      }
+    },
+    "264": {
+      "income_ci": {
+        "estimate": 5174.03,
+        "se": 375.57,
+        "ci_low": 4437.93,
+        "ci_high": 5910.13
+      },
+      "informality_ci": {
+        "estimate": 48.3,
+        "se": 2.9,
+        "ci_low": 42.6,
+        "ci_high": 54.0
+      },
+      "gender_gap_significance": {
+        "z": 0.710091316166927,
+        "p_value": 0.47764751098225,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.6042878982800661,
+        "p_value": 0.1086506073746436,
+        "significant": false
+      }
+    },
+    "816": {
+      "income_ci": {
+        "estimate": 1902.64,
+        "se": 89.44,
+        "ci_low": 1727.34,
+        "ci_high": 2077.94
+      },
+      "informality_ci": {
+        "estimate": 50.0,
+        "se": 2.3,
+        "ci_low": 45.5,
+        "ci_high": 54.5
+      },
+      "gender_gap_significance": {
+        "z": 1.4222557079749742,
+        "p_value": 0.15495203188879958,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.3597917272158533,
+        "p_value": 0.01828519762908365,
+        "significant": true
+      }
+    },
+    "754": {
+      "income_ci": {
+        "estimate": 3009.97,
+        "se": 138.02,
+        "ci_low": 2739.46,
+        "ci_high": 3280.48
+      },
+      "informality_ci": {
+        "estimate": 11.4,
+        "se": 1.8,
+        "ci_low": 7.9,
+        "ci_high": 14.9
+      },
+      "gender_gap_significance": {
+        "z": 0.3757992346949936,
+        "p_value": 0.7070661567984142,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.538682994533693,
+        "p_value": 0.12388170586725034,
+        "significant": false
+      }
+    },
+    "141": {
+      "income_ci": {
+        "estimate": 6251.87,
+        "se": 369.86,
+        "ci_low": 5526.96,
+        "ci_high": 6976.79
+      },
+      "informality_ci": {
+        "estimate": 15.0,
+        "se": 2.0,
+        "ci_low": 11.0,
+        "ci_high": 18.9
+      },
+      "gender_gap_significance": {
+        "z": 1.5038615819945973,
+        "p_value": 0.13261701081043276,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.522875940456533,
+        "p_value": 0.1277897461578137,
+        "significant": false
+      }
+    },
+    "321": {
+      "income_ci": {
+        "estimate": 3247.07,
+        "se": 140.46,
+        "ci_low": 2971.78,
+        "ci_high": 3522.37
+      },
+      "informality_ci": {
+        "estimate": 20.9,
+        "se": 2.4,
+        "ci_low": 16.3,
+        "ci_high": 25.6
+      },
+      "gender_gap_significance": {
+        "z": 2.289321769034443,
+        "p_value": 0.022060663782588863,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 2.182844073505274,
+        "p_value": 0.029047294752382324,
+        "significant": true
+      }
+    },
+    "818": {
+      "income_ci": {
+        "estimate": 2575.69,
+        "se": 86.81,
+        "ci_low": 2405.55,
+        "ci_high": 2745.83
+      },
+      "informality_ci": {
+        "estimate": 12.6,
+        "se": 1.9,
+        "ci_low": 8.8,
+        "ci_high": 16.3
+      },
+      "gender_gap_significance": {
+        "z": 1.755578312745289,
+        "p_value": 0.07916043799409556,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.3609401942964157,
+        "p_value": 0.1735325899827056,
+        "significant": false
+      }
+    },
+    "516": {
+      "income_ci": {
+        "estimate": 2958.82,
+        "se": 150.37,
+        "ci_low": 2664.1,
+        "ci_high": 3253.53
+      },
+      "informality_ci": {
+        "estimate": 36.9,
+        "se": 2.8,
+        "ci_low": 31.4,
+        "ci_high": 42.4
+      },
+      "gender_gap_significance": {
+        "z": 0.35652209454396105,
+        "p_value": 0.7214496086573852,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.6092960865126142,
+        "p_value": 0.10755161441803729,
+        "significant": false
+      }
+    },
+    "21": {
+      "income_ci": {
+        "estimate": 4368.51,
+        "se": 172.57,
+        "ci_low": 4030.29,
+        "ci_high": 4706.74
+      },
+      "informality_ci": {
+        "estimate": 0.0,
+        "se": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "gender_gap_significance": {
+        "z": -1.541174935963312,
+        "p_value": 0.12327421583367126,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.4275941692294797,
+        "p_value": 0.6689466117848268,
+        "significant": false
+      }
+    },
+    "265": {
+      "income_ci": {
+        "estimate": 3785.99,
+        "se": 240.62,
+        "ci_low": 3314.38,
+        "ci_high": 4257.61
+      },
+      "informality_ci": {
+        "estimate": 60.3,
+        "se": 3.5,
+        "ci_low": 53.4,
+        "ci_high": 67.2
+      },
+      "gender_gap_significance": {
+        "z": -0.325488349138177,
+        "p_value": 0.7448114990393893,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.368188898537804,
+        "p_value": 0.017875406655457837,
+        "significant": true
+      }
+    },
+    "352": {
+      "income_ci": {
+        "estimate": 3777.65,
+        "se": 216.93,
+        "ci_low": 3352.46,
+        "ci_high": 4202.83
+      },
+      "informality_ci": {
+        "estimate": 30.7,
+        "se": 3.2,
+        "ci_low": 24.5,
+        "ci_high": 36.9
+      },
+      "gender_gap_significance": {
+        "z": 0.2719819746922296,
+        "p_value": 0.7856358791906202,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.4251634256656964,
+        "p_value": 0.15410996597169424,
+        "significant": false
+      }
+    },
+    "952": {
+      "income_ci": {
+        "estimate": 2026.33,
+        "se": 141.82,
+        "ci_low": 1748.37,
+        "ci_high": 2304.29
+      },
+      "informality_ci": {
+        "estimate": 80.8,
+        "se": 2.7,
+        "ci_low": 75.4,
+        "ci_high": 86.1
+      },
+      "gender_gap_significance": {
+        "z": 0.3137168406944588,
+        "p_value": 0.7537361090213035,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.6390261930192709,
+        "p_value": 0.10120780476453284,
+        "significant": false
+      }
+    },
+    "213": {
+      "income_ci": {
+        "estimate": 7801.61,
+        "se": 639.66,
+        "ci_low": 6547.9,
+        "ci_high": 9055.32
+      },
+      "informality_ci": {
+        "estimate": 16.6,
+        "se": 2.3,
+        "ci_low": 12.2,
+        "ci_high": 21.1
+      },
+      "gender_gap_significance": {
+        "z": -0.0035736070697436418,
+        "p_value": 0.9971486801615532,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.0268567797138883,
+        "p_value": 0.30448790835001716,
+        "significant": false
+      }
+    },
+    "441": {
+      "income_ci": {
+        "estimate": 3298.26,
+        "se": 161.01,
+        "ci_low": 2982.69,
+        "ci_high": 3613.82
+      },
+      "informality_ci": {
+        "estimate": 11.2,
+        "se": 2.4,
+        "ci_low": 6.5,
+        "ci_high": 16.0
+      },
+      "gender_gap_significance": {
+        "z": 1.996957584989173,
+        "p_value": 0.04582979078352034,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 0.261520107025019,
+        "p_value": 0.7936914457336854,
+        "significant": false
+      }
+    },
+    "421": {
+      "income_ci": {
+        "estimate": 2790.5,
+        "se": 369.25,
+        "ci_low": 2066.78,
+        "ci_high": 3514.21
+      },
+      "informality_ci": {
+        "estimate": 41.3,
+        "se": 6.0,
+        "ci_low": 29.4,
+        "ci_high": 53.1
+      },
+      "gender_gap_significance": {
+        "z": 0.5926280716830877,
+        "p_value": 0.5534300881823433,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.5694444693239635,
+        "p_value": 0.5690545456529255,
+        "significant": false
+      }
+    },
+    "335": {
+      "income_ci": {
+        "estimate": 11312.39,
+        "se": 677.46,
+        "ci_low": 9984.6,
+        "ci_high": 12640.18
+      },
+      "informality_ci": {
+        "estimate": 5.0,
+        "se": 1.6,
+        "ci_low": 1.8,
+        "ci_high": 8.1
+      },
+      "gender_gap_significance": {
+        "z": 0.16057518012952368,
+        "p_value": 0.8724280045797239,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.6295247188545047,
+        "p_value": 0.5290055910513534,
+        "significant": false
+      }
+    },
+    "133": {
+      "income_ci": {
+        "estimate": 13569.75,
+        "se": 853.24,
+        "ci_low": 11897.43,
+        "ci_high": 15242.08
+      },
+      "informality_ci": {
+        "estimate": 18.7,
+        "se": 3.4,
+        "ci_low": 12.1,
+        "ci_high": 25.3
+      },
+      "gender_gap_significance": {
+        "z": 1.2966455389522784,
+        "p_value": 0.19475317599184772,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.8240676500015753,
+        "p_value": 0.06814184549422864,
+        "significant": false
+      }
+    },
+    "225": {
+      "income_ci": {
+        "estimate": 6610.38,
+        "se": 706.4,
+        "ci_low": 5225.85,
+        "ci_high": 7994.9
+      },
+      "informality_ci": {
+        "estimate": 41.0,
+        "se": 3.7,
+        "ci_low": 33.7,
+        "ci_high": 48.2
+      },
+      "gender_gap_significance": {
+        "z": 1.2246883167766343,
+        "p_value": 0.22069267775193513,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.38589100932586523,
+        "p_value": 0.699577389420571,
+        "significant": false
+      }
+    },
+    "812": {
+      "income_ci": {
+        "estimate": 2996.3,
+        "se": 80.23,
+        "ci_low": 2839.04,
+        "ci_high": 3153.55
+      },
+      "informality_ci": {
+        "estimate": 2.7,
+        "se": 1.3,
+        "ci_low": 0.1,
+        "ci_high": 5.3
+      },
+      "gender_gap_significance": {
+        "z": 2.033884612777648,
+        "p_value": 0.04196323072955099,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 0.7550206201309695,
+        "p_value": 0.45023660996822334,
+        "significant": false
+      }
+    },
+    "111": {
+      "income_ci": {
+        "estimate": 8338.32,
+        "se": 556.26,
+        "ci_low": 7248.07,
+        "ci_high": 9428.57
+      },
+      "informality_ci": {
+        "estimate": 64.4,
+        "se": 3.3,
+        "ci_low": 58.0,
+        "ci_high": 70.8
+      },
+      "gender_gap_significance": {
+        "z": 0.6636012773592803,
+        "p_value": 0.5069455395392124,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.241196638132395,
+        "p_value": 0.809402716378947,
+        "significant": false
+      }
+    },
+    "215": {
+      "income_ci": {
+        "estimate": 11543.98,
+        "se": 732.99,
+        "ci_low": 10107.34,
+        "ci_high": 12980.63
+      },
+      "informality_ci": {
+        "estimate": 11.3,
+        "se": 2.6,
+        "ci_low": 6.1,
+        "ci_high": 16.4
+      },
+      "gender_gap_significance": {
+        "z": 0.6490801576862644,
+        "p_value": 0.516286566474057,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.137976681791512,
+        "p_value": 0.2551302193487168,
+        "significant": false
+      }
+    },
+    "252": {
+      "income_ci": {
+        "estimate": 8317.29,
+        "se": 642.18,
+        "ci_low": 7058.64,
+        "ci_high": 9575.95
+      },
+      "informality_ci": {
+        "estimate": 4.3,
+        "se": 2.1,
+        "ci_low": 0.1,
+        "ci_high": 8.5
+      },
+      "gender_gap_significance": {
+        "z": 0.06803320509993549,
+        "p_value": 0.945759201662218,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.8228282937505199,
+        "p_value": 0.4106056444323274,
+        "significant": false
+      }
+    },
+    "732": {
+      "income_ci": {
+        "estimate": 2518.77,
+        "se": 150.0,
+        "ci_low": 2224.78,
+        "ci_high": 2812.75
+      },
+      "informality_ci": {
+        "estimate": 37.8,
+        "se": 4.3,
+        "ci_low": 29.4,
+        "ci_high": 46.2
+      },
+      "gender_gap_significance": {
+        "z": 2.1910231491742063,
+        "p_value": 0.028450117302517786,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": 0.8954719383065837,
+        "p_value": 0.37053486003844216,
+        "significant": false
+      }
+    },
+    "232": {
+      "income_ci": {
+        "estimate": 4450.92,
+        "se": 491.1,
+        "ci_low": 3488.39,
+        "ci_high": 5413.46
+      },
+      "informality_ci": {
+        "estimate": 27.9,
+        "se": 4.1,
+        "ci_low": 19.8,
+        "ci_high": 36.0
+      },
+      "gender_gap_significance": {
+        "z": 0.9812046188403791,
+        "p_value": 0.3264918469202813,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.9210595885463189,
+        "p_value": 0.054724195544815224,
+        "significant": false
+      }
+    },
+    "511": {
+      "income_ci": {
+        "estimate": 3418.79,
+        "se": 243.56,
+        "ci_low": 2941.42,
+        "ci_high": 3896.15
+      },
+      "informality_ci": {
+        "estimate": 22.6,
+        "se": 3.8,
+        "ci_low": 15.3,
+        "ci_high": 30.0
+      },
+      "gender_gap_significance": {
+        "z": 0.01823786174605573,
+        "p_value": 0.9854490983477535,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.2253961777458473,
+        "p_value": 0.026054653912116033,
+        "significant": true
+      }
+    },
+    "112": {
+      "income_ci": {
+        "estimate": 22415.83,
+        "se": 2738.62,
+        "ci_low": 17048.23,
+        "ci_high": 27783.43
+      },
+      "informality_ci": {
+        "estimate": 7.6,
+        "se": 2.4,
+        "ci_low": 3.0,
+        "ci_high": 12.2
+      },
+      "gender_gap_significance": {
+        "z": 2.2599891583918947,
+        "p_value": 0.02382192371743308,
+        "significant": true
+      },
+      "race_gap_significance": {
+        "z": -0.35848757340267945,
+        "p_value": 0.7199784657842419,
+        "significant": false
+      }
+    },
+    "817": {
+      "income_ci": {
+        "estimate": 2505.9,
+        "se": 112.77,
+        "ci_low": 2284.86,
+        "ci_high": 2726.93
+      },
+      "informality_ci": {
+        "estimate": 26.3,
+        "se": 3.6,
+        "ci_low": 19.3,
+        "ci_high": 33.3
+      },
+      "gender_gap_significance": {
+        "z": 0.41501799907301345,
+        "p_value": 0.6781287269171015,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 2.6173611676555018,
+        "p_value": 0.008861252685144594,
+        "significant": true
+      }
+    },
+    "313": {
+      "income_ci": {
+        "estimate": 4038.1,
+        "se": 409.55,
+        "ci_low": 3235.4,
+        "ci_high": 4840.8
+      },
+      "informality_ci": {
+        "estimate": 6.1,
+        "se": 2.7,
+        "ci_low": 0.8,
+        "ci_high": 11.4
+      },
+      "race_gap_significance": {
+        "z": 0.5196366209322131,
+        "p_value": 0.6033168687872617,
+        "significant": false
+      }
+    },
+    "143": {
+      "income_ci": {
+        "estimate": 7673.13,
+        "se": 1143.27,
+        "ci_low": 5432.35,
+        "ci_high": 9913.91
+      },
+      "informality_ci": {
+        "estimate": 13.9,
+        "se": 5.9,
+        "ci_low": 2.3,
+        "ci_high": 25.5
+      },
+      "gender_gap_significance": {
+        "z": 0.545707782535934,
+        "p_value": 0.5852668214193575,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.5100287553771795,
+        "p_value": 0.610031316392577,
+        "significant": false
+      }
+    },
+    "811": {
+      "income_ci": {
+        "estimate": 2957.32,
+        "se": 216.03,
+        "ci_low": 2533.91,
+        "ci_high": 3380.72
+      },
+      "informality_ci": {
+        "estimate": 9.8,
+        "se": 2.9,
+        "ci_low": 4.2,
+        "ci_high": 15.4
+      },
+      "race_gap_significance": {
+        "z": -0.021208374507444196,
+        "p_value": 0.9830794338950526,
+        "significant": false
+      }
+    },
+    "621": {
+      "income_ci": {
+        "estimate": 2347.14,
+        "se": 221.43,
+        "ci_low": 1913.14,
+        "ci_high": 2781.14
+      },
+      "informality_ci": {
+        "estimate": 73.3,
+        "se": 3.7,
+        "ci_low": 66.0,
+        "ci_high": 80.6
+      },
+      "race_gap_significance": {
+        "z": 1.3162080313742601,
+        "p_value": 0.18810422880170696,
+        "significant": false
+      }
+    },
+    "51": {
+      "income_ci": {
+        "estimate": 9222.04,
+        "se": 517.75,
+        "ci_low": 8207.27,
+        "ci_high": 10236.82
+      },
+      "informality_ci": {
+        "estimate": 0.0,
+        "se": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "gender_gap_significance": {
+        "z": 0.24209591666008398,
+        "p_value": 0.8087058421418645,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.5784806293303794,
+        "p_value": 0.5629396716271984,
+        "significant": false
+      }
+    },
+    "11": {
+      "income_ci": {
+        "estimate": 10723.1,
+        "se": 604.37,
+        "ci_low": 9538.57,
+        "ci_high": 11907.64
+      },
+      "informality_ci": {
+        "estimate": 0.0,
+        "se": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "gender_gap_significance": {
+        "z": 0.2137894500985698,
+        "p_value": 0.8307112523622657,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.26704635403455373,
+        "p_value": 0.7894334712418547,
+        "significant": false
+      }
+    },
+    "835": {
+      "income_ci": {
+        "estimate": 3887.18,
+        "se": 345.64,
+        "ci_low": 3209.75,
+        "ci_high": 4564.62
+      },
+      "informality_ci": {
+        "estimate": 42.9,
+        "se": 5.0,
+        "ci_low": 33.1,
+        "ci_high": 52.7
+      },
+      "race_gap_significance": {
+        "z": 0.6200835294845024,
+        "p_value": 0.535202795228906,
+        "significant": false
+      }
+    },
+    "131": {
+      "income_ci": {
+        "estimate": 7934.73,
+        "se": 720.96,
+        "ci_low": 6521.67,
+        "ci_high": 9347.8
+      },
+      "informality_ci": {
+        "estimate": 21.9,
+        "se": 4.0,
+        "ci_low": 14.1,
+        "ci_high": 29.7
+      },
+      "gender_gap_significance": {
+        "z": -0.07119438728824584,
+        "p_value": 0.9432430483785303,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.8328337291078733,
+        "p_value": 0.06682730152493943,
+        "significant": false
+      }
+    },
+    "813": {
+      "income_ci": {
+        "estimate": 2944.19,
+        "se": 446.65,
+        "ci_low": 2068.77,
+        "ci_high": 3819.61
+      },
+      "informality_ci": {
+        "estimate": 7.3,
+        "se": 3.3,
+        "ci_low": 0.9,
+        "ci_high": 13.8
+      },
+      "gender_gap_significance": {
+        "z": 0.8934340515194665,
+        "p_value": 0.37162477417025563,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.9067478971029412,
+        "p_value": 0.36454012836788907,
+        "significant": false
+      }
+    },
+    "314": {
+      "income_ci": {
+        "estimate": 4161.19,
+        "se": 357.19,
+        "ci_low": 3461.1,
+        "ci_high": 4861.27
+      },
+      "informality_ci": {
+        "estimate": 29.0,
+        "se": 4.8,
+        "ci_low": 19.6,
+        "ci_high": 38.4
+      },
+      "gender_gap_significance": {
+        "z": 1.91969506386357,
+        "p_value": 0.05489642812048956,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.12287819747127078,
+        "p_value": 0.9022035506689969,
+        "significant": false
+      }
+    },
+    "315": {
+      "income_ci": {
+        "estimate": 10936.62,
+        "se": 1389.12,
+        "ci_low": 8213.98,
+        "ci_high": 13659.25
+      },
+      "informality_ci": {
+        "estimate": 13.0,
+        "se": 4.4,
+        "ci_low": 4.4,
+        "ci_high": 21.5
+      },
+      "race_gap_significance": {
+        "z": 1.369571450621182,
+        "p_value": 0.17082071663138776,
+        "significant": false
+      }
+    },
+    "211": {
+      "income_ci": {
+        "estimate": 7979.27,
+        "se": 871.25,
+        "ci_low": 6271.64,
+        "ci_high": 9686.89
+      },
+      "informality_ci": {
+        "estimate": 10.3,
+        "se": 4.4,
+        "ci_low": 1.6,
+        "ci_high": 19.0
+      },
+      "gender_gap_significance": {
+        "z": 0.7131194581216822,
+        "p_value": 0.47577183979776283,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.003471048552326,
+        "p_value": 0.31563363889734175,
+        "significant": false
+      }
+    },
+    "262": {
+      "income_ci": {
+        "estimate": 5405.44,
+        "se": 715.61,
+        "ci_low": 4002.87,
+        "ci_high": 6808.01
+      },
+      "informality_ci": {
+        "estimate": 9.8,
+        "se": 5.0,
+        "ci_low": 0.1,
+        "ci_high": 19.5
+      },
+      "gender_gap_significance": {
+        "z": -0.25162161912047537,
+        "p_value": 0.8013335465266027,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.1596138322648187,
+        "p_value": 0.8731852821137918,
+        "significant": false
+      }
+    },
+    "323": {
+      "income_ci": {
+        "estimate": 2817.89,
+        "se": 382.34,
+        "ci_low": 2068.52,
+        "ci_high": 3567.26
+      },
+      "informality_ci": {
+        "estimate": 47.6,
+        "se": 7.9,
+        "ci_low": 32.1,
+        "ci_high": 63.2
+      },
+      "gender_gap_significance": {
+        "z": 0.6611437218895725,
+        "p_value": 0.5085201485374491,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": -0.1471680518721514,
+        "p_value": 0.8829993768990787,
+        "significant": false
+      }
+    },
+    "951": {
+      "income_ci": {
+        "estimate": 1329.65,
+        "se": 214.39,
+        "ci_low": 909.46,
+        "ci_high": 1749.83
+      },
+      "informality_ci": {
+        "estimate": 83.2,
+        "se": 6.6,
+        "ci_low": 70.2,
+        "ci_high": 96.2
+      },
+      "gender_gap_significance": {
+        "z": -0.7013675710276372,
+        "p_value": 0.4830736545118366,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 0.2768188802276974,
+        "p_value": 0.7819191831492265,
+        "significant": false
+      }
+    },
+    "831": {
+      "income_ci": {
+        "estimate": 3744.19,
+        "se": 317.99,
+        "ci_low": 3120.94,
+        "ci_high": 4367.44
+      },
+      "informality_ci": {
+        "estimate": 0.0,
+        "se": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0
+      },
+      "race_gap_significance": {
+        "z": -0.3228656183777882,
+        "p_value": 0.7467970155405774,
+        "significant": false
+      }
+    },
+    "413": {
+      "income_ci": {
+        "estimate": 2234.79,
+        "se": 234.09,
+        "ci_low": 1775.99,
+        "ci_high": 2693.59
+      },
+      "informality_ci": {
+        "estimate": 24.7,
+        "se": 7.3,
+        "ci_low": 10.3,
+        "ci_high": 39.1
+      },
+      "gender_gap_significance": {
+        "z": 0.4673907336980339,
+        "p_value": 0.6402203510026505,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": 1.0259294906043088,
+        "p_value": 0.30492482070261073,
+        "significant": false
+      }
+    },
+    "324": {
+      "income_ci": {
+        "estimate": 1718.96,
+        "se": 185.8,
+        "ci_low": 1354.79,
+        "ci_high": 2083.12
+      },
+      "informality_ci": {
+        "estimate": 67.1,
+        "se": 9.3,
+        "ci_low": 48.9,
+        "ci_high": 85.4
+      },
+      "gender_gap_significance": {
+        "z": 0.3731367325760591,
+        "p_value": 0.7090466810533855,
+        "significant": false
+      },
+      "race_gap_significance": {
+        "z": -0.536792706470042,
+        "p_value": 0.5914108102378157,
+        "significant": false
+      }
+    },
+    "613": {
+      "income_ci": {
+        "estimate": 3380.86,
+        "se": 460.8,
+        "ci_low": 2477.71,
+        "ci_high": 4284.0
+      },
+      "informality_ci": {
+        "estimate": 60.4,
+        "se": 11.5,
+        "ci_low": 37.8,
+        "ci_high": 83.0
+      },
+      "race_gap_significance": {
+        "z": 1.7159568114451207,
+        "p_value": 0.08616994740377448,
+        "significant": false
+      }
+    }
+  },
+  "correlations": {
+    "pairs": {
+      "ai_exposure_vs_informality": {
+        "r": -0.3839,
+        "n": 122,
+        "significance": {
+          "z": -4.413713542101959,
+          "p_value": 1.0161239250461307e-05,
+          "significant": true
+        },
+        "regression": {
+          "slope": -4.561823747329402,
+          "intercept": 48.65804198309976
+        }
+      },
+      "ai_exposure_vs_gender_gap": {
+        "r": 0.249,
+        "n": 116,
+        "significance": {
+          "z": 2.703329482104809,
+          "p_value": 0.006864866074988152,
+          "significant": true
+        },
+        "regression": {
+          "slope": 2.398080800451687,
+          "intercept": 7.2182712722928
+        }
+      },
+      "ai_exposure_vs_race_gap": {
+        "r": 0.0779,
+        "n": 120,
+        "significance": {
+          "z": 0.8448663470212692,
+          "p_value": 0.39818546581725145,
+          "significant": false
+        },
+        "regression": {
+          "slope": 0.48598414552592756,
+          "intercept": 18.62901714800764
+        }
+      },
+      "ai_exposure_vs_income": {
+        "r": 0.4925,
+        "n": 122,
+        "significance": {
+          "z": 5.883960534545042,
+          "p_value": 4.005634046677642e-09,
+          "significant": true
+        },
+        "regression": {
+          "slope": 870.860496803798,
+          "intercept": 1841.685053039425
+        }
+      }
+    },
+    "disclaimer": "Correlação, não causalidade — ver metodologia (F3)."
+  }
+}
