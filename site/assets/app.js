@@ -414,6 +414,22 @@ function chartUfs(data, container) {
   drawXAxis(g, x, ih, "Formalidade do emprego (%)", small ? 10 : 11.5, (v) => fmtInt.format(v));
   drawYAxis(g, y, "Exposição média θ", small ? 10 : 11.5, (v) => fmt1.format(v));
 
+  // ajuste linear das 27 UFs, ponderado por empregos
+  const wSum = d3.sum(ufs, (u) => u.jobs);
+  const cx = d3.sum(ufs, (u) => u.jobs * u.formality) / wSum;
+  const cy = d3.sum(ufs, (u) => u.jobs * u.mean_exposure) / wSum;
+  const bUf = d3.sum(ufs, (u) => u.jobs * (u.formality - cx) * (u.mean_exposure - cy))
+    / d3.sum(ufs, (u) => u.jobs * (u.formality - cx) ** 2);
+
+  const clipUf = "clip-uf";
+  g.append("clipPath").attr("id", clipUf)
+    .append("rect").attr("width", iw).attr("height", ih);
+  g.append("path")
+    .attr("clip-path", `url(#${clipUf})`)
+    .attr("fill", "none").attr("stroke", STEEL)
+    .attr("stroke-width", 2).attr("stroke-opacity", 0.8)
+    .attr("d", linePath(x, y, x.domain()[0], x.domain()[1], (d) => cy + bUf * (d - cx)));
+
   g.append("g")
     .selectAll("circle.uf")
     .data(ufs, (u) => u.uf)
@@ -444,7 +460,7 @@ function chartUfs(data, container) {
     .attr("transform", `translate(${iw * 0.02},${ih * 0.04})`);
   ann.append("rect")
     .attr("width", small ? iw * 0.9 : iw * 0.52)
-    .attr("height", 40)
+    .attr("height", 56)
     .attr("rx", 6)
     .attr("fill", "#f2efe8");
   ann.append("text")
@@ -457,6 +473,12 @@ function chartUfs(data, container) {
     .attr("font-size", small ? 9.5 : 11)
     .attr("font-family", "system-ui, sans-serif").attr("fill", MUTED)
     .text("derivada marginal nula em e ≈ 11 anos de estudo");
+  ann.append("text")
+    .attr("x", 10).attr("y", 46)
+    .attr("font-size", small ? 9.5 : 11)
+    .attr("font-family", "system-ui, sans-serif").attr("fill", STEEL)
+    .attr("font-weight", 600)
+    .text(`ajuste ponderado: ${bUf >= 0 ? "+" : "\u2212"}${fmt3.format(Math.abs(bUf))} θ p.p.`);
 }
 
 /* ============================================================
@@ -631,6 +653,30 @@ function initExplorer(data) {
 
     drawXAxis(g, x, ih, "Exposição θ", small ? 10 : 11.5);
     drawYAxis(g, y, "Informalidade (%)", small ? 10 : 11.5);
+
+    // inclinações de referência do Exemplo 2 (S3a e S3), tracejadas
+    const jobs = d3.sum(occ, (o) => o.jobs);
+    const mx = d3.sum(occ, (o) => o.jobs * o.exposure) / jobs;
+    const my = d3.sum(occ, (o) => o.jobs * o.informality) / jobs;
+    const ref = [
+      { slope: data.specs.S3a.beta, color: ACCENT, label: `S3a ${fmt1.format(-data.specs.S3a.beta)} p.p.` },
+      { slope: data.specs.S3.exposure.beta, color: STEEL, label: `S3 ${fmt1.format(-data.specs.S3.exposure.beta)} p.p.` },
+    ];
+    ref.forEach((L) => {
+      g.append("path")
+        .attr("fill", "none").attr("stroke", L.color)
+        .attr("stroke-width", 1.6).attr("stroke-opacity", 0.55)
+        .attr("stroke-dasharray", "5 4")
+        .attr("d", linePath(x, y, x.domain()[0], x.domain()[1], (d) => my + L.slope * (d - mx)));
+    });
+    ref.forEach((L, i) => {
+      g.append("text")
+        .attr("x", 6).attr("y", 14 + i * 16)
+        .attr("font-size", small ? 9.5 : 10.5)
+        .attr("font-family", "system-ui, sans-serif")
+        .attr("font-weight", 600).attr("fill", L.color).attr("fill-opacity", 0.85)
+        .text(L.label);
+    });
 
     const sel = occ.find((o) => o.code === state.selected);
     const plain = occ.filter((o) => o.code !== state.selected);
