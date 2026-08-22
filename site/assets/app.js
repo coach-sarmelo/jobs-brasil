@@ -616,6 +616,8 @@ function initExplorer(data) {
       const tr = document.createElement("tr");
       tr.dataset.code = o.code;
       if (state.selected === o.code) tr.className = "sel";
+      tr.setAttribute("tabindex", "0");
+      tr.setAttribute("aria-selected", state.selected === o.code ? "true" : "false");
       tr.innerHTML = `
         <td class="occ-name">${o.name}<span class="occ-group">${o.group}</span></td>
         <td class="num">${fmtInt.format(o.jobs)}</td>
@@ -624,6 +626,9 @@ function initExplorer(data) {
         <td class="num">${fmt1.format(o.schooling)}</td>
         <td class="num">R$ ${fmtInt.format(o.income)}</td>`;
       tr.addEventListener("click", () => select(o.code));
+      tr.addEventListener("keydown", (ev) => {
+        if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(o.code); }
+      });
       tbody.appendChild(tr);
     });
     countEl.textContent = `Exibindo ${fmtInt.format(list.length)} de ${fmtInt.format(data.occupations.length)} ocupações`;
@@ -732,7 +737,9 @@ function initExplorer(data) {
     renderDetail();
     renderScatter();
     $$("tr", tbody).forEach((tr) => {
-      tr.classList.toggle("sel", tr.dataset.code === String(code));
+      const active = tr.dataset.code === String(code);
+      tr.classList.toggle("sel", active);
+      tr.setAttribute("aria-selected", active ? "true" : "false");
     });
   }
 

@@ -24,7 +24,8 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; color-scheme: light; }
+html { scroll-behavior: smooth; color-scheme: light; scroll-padding-top: 84px; }
+[id] { scroll-margin-top: 84px; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
@@ -42,6 +43,10 @@ body {
 img, svg { display: block; max-width: 100%; }
 a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 a:hover { text-decoration-thickness: 2px; }
+.btn, #search, .check, #occ-table th, #occ-table tbody tr {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
 
 code, pre, .num { font-family: var(--mono); font-size: 0.92em; }
 .num { font-variant-numeric: tabular-nums; }
@@ -93,7 +98,7 @@ code, pre, .num { font-family: var(--mono); font-size: 0.92em; }
   font-family: var(--serif); font-weight: 700;
   font-size: clamp(1.9rem, 5vw, 3.3rem);
   line-height: 1.12; letter-spacing: -0.015em;
-  margin: 0 0 18px; max-width: 17em;
+  margin: 0 0 18px; max-width: 17em; text-wrap: balance;
 }
 .hero-sub {
   font-family: var(--serif); font-size: clamp(1.05rem, 2vw, 1.25rem);
@@ -138,7 +143,7 @@ code, pre, .num { font-family: var(--mono); font-size: 0.92em; }
 .sec-title {
   font-family: var(--serif); font-weight: 700;
   font-size: clamp(1.5rem, 3vw, 2.1rem); line-height: 1.15;
-  margin: 0 0 26px; letter-spacing: -0.01em;
+  margin: 0 0 26px; letter-spacing: -0.01em; text-wrap: balance;
 }
 .kicker {
   font-size: 0.75rem; font-weight: 600; letter-spacing: 0.16em;
@@ -207,7 +212,7 @@ code, pre, .num { font-family: var(--mono); font-size: 0.92em; }
 .exhibit-full { grid-template-columns: 1fr; }
 .exhibit-alt .exhibit-copy { order: 2; }
 .exhibit-alt .exhibit-chart { order: 1; }
-.exhibit h3 { font-family: var(--serif); font-size: clamp(1.15rem, 2vw, 1.4rem); margin: 0 0 12px; line-height: 1.25; }
+.exhibit h3 { font-family: var(--serif); font-size: clamp(1.15rem, 2vw, 1.4rem); margin: 0 0 12px; line-height: 1.25; text-wrap: balance; }
 .exhibit p { font-family: var(--serif); font-size: 0.99rem; line-height: 1.62; margin: 0 0 14px; color: color-mix(in srgb, var(--ink) 92%, var(--muted)); }
 .big-num {
   font-family: var(--serif); font-weight: 700; font-size: clamp(1.9rem, 3.4vw, 2.7rem);
@@ -264,7 +269,7 @@ code, pre, .num { font-family: var(--mono); font-size: 0.92em; }
   margin-top: 14px; border-top: 1px solid var(--hair); padding-top: 12px;
   font-size: 0.9rem;
 }
-.occ-detail h3 { font-family: var(--serif); font-size: 1.05rem; margin: 0 0 8px; }
+.occ-detail h3 { font-family: var(--serif); font-size: 1.05rem; margin: 0 0 8px; text-wrap: balance; }
 .occ-detail dl { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 0; }
 .occ-detail dt { font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
 .occ-detail dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: 0.95rem; }
