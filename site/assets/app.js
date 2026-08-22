@@ -12,6 +12,7 @@ const fmtInt = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 0 });
 const fmt1 = new Intl.NumberFormat("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
 const fmt2 = new Intl.NumberFormat("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const fmt3 = new Intl.NumberFormat("pt-BR", { minimumFractionDigits: 3, maximumFractionDigits: 3 });
+const ptBrCollator = new Intl.Collator("pt-BR");
 
 const norm = (s) =>
   (s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -587,6 +588,12 @@ function initExplorer(data) {
   const groups = Array.from(new Set(data.occupations.map((o) => o.group))).sort();
   const groupColor = new Map(groups.map((gr, i) => [gr, GROUP_COLORS[i % GROUP_COLORS.length]]));
 
+  // ⚡ Bolt: Cache normalized strings to avoid expensive repeated norm() calls during search
+  data.occupations.forEach((o) => {
+    o._normName = norm(o.name);
+    o._normGroup = norm(o.group);
+  });
+
   const state = { sortKey: "jobs", sortDir: -1, query: "", selected: null };
 
   function rows() {
@@ -595,13 +602,13 @@ function initExplorer(data) {
     if (state.query) {
       const q = norm(state.query);
       list = list.filter((o) =>
-        norm(o.name).includes(q) || norm(o.group).includes(q));
+        o._normName.includes(q) || o._normGroup.includes(q));
     }
     const dir = state.sortDir;
     const key = state.sortKey;
     list = list.slice().sort((a, b) => {
       let va = a[key], vb = b[key];
-      if (typeof va === "string") return dir * va.localeCompare(vb, "pt-BR");
+      if (typeof va === "string") return dir * ptBrCollator.compare(va, vb);
       if (va == null) return 1;
       if (vb == null) return -1;
       return dir * (va - vb);
