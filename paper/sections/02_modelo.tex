@@ -1,0 +1,91 @@
+% ==================================================================
+% MODELO — Princípios: modelo mais simples que gera o insight;
+% ambiente em texto corrido ANTES da matemática; suposições numeradas
+% com conteúdo econômico explícito; proposições com intuição ANTES da
+% demonstração; provas no apêndice. Cada proposição gera uma previsão
+% testável mapeada a uma regressão da Seção 4.
+% ==================================================================
+\section{Modelo}
+\label{sec:modelo}
+
+\subsection{Ambiente}
+
+Apresento um modelo estático de designação ocupacional em equilíbrio parcial com dois setores contratuais --- formal ($F$) e informal ($I$) --- e um contínuo de trabalhadores com escolaridade heterogênea $e \in [e_{\min}, e_{\max}]$, distribuídos segundo uma função de densidade contínua $f(e)$. A economia dispõe de $J$ ocupações distintas, indexadas por $j \in \{1, \dots, J\}$. Cada ocupação é caracterizada por um vetor fixo de tarefas com índice de exposição tecnológica à inteligência artificial $\theta_j \in [0, 10]$, determinado exogenamente pelas características intrínsecas das rotinas informacionais \citep{eloundou2024gpts}. 
+
+Os trabalhadores escolhem simultaneamente a ocupação $j$ e o arranjo contratual $s \in \{F, I\}$ para maximizar sua remuneração líquida, tomando os parâmetros tecnológicos e os custos regulatórios como dados. Firmas do setor formal incorrem em um custo fixo de conformidade tributária e institucional $c > 0$ por trabalhador \citep{ulyssea2018firms}, mas fornecem infraestrutura corporativa, capital de dados proprietários e governança que potencializam os ganhos de produtividade proporcionados pela IA. No setor informal, os trabalhadores acessam livremente ferramentas individuais de IA (como assistentes generativos em dispositivos pessoais), mas não dispõem do capital complementar organizacional necessário para converter a tecnologia em ganhos corporativos de escala.
+
+Em termos econômicos, a IA opera como uma tecnologia de tarefas informacionais. Embora aplicativos generativos sejam universalmente acessíveis a qualquer indivíduo com conexão digital, a escala de integração corporativa --- integração a fluxos de trabalho estruturados, segurança da informação e governança de dados --- requer formalização. Assim, a informalidade amortece a exposição à automação não por erguer uma barreira física de acesso à ferramenta, mas por limitar a rentabilidade econômica da integração tecnológica corporativa.
+
+\subsection{Primitivos de produção e salários}
+
+Um trabalhador com escolaridade $e$ alocado à ocupação $j$ sob o arranjo contratual $s \in \{F, I\}$ gera produto
+\begin{equation}
+    y_{j s}(e) = g(e) \, \big(1 + \kappa_s \, \theta_j\big),
+    \label{eq:produto}
+\end{equation}
+onde $g(e)$ (com $g' > 0$ e $g'' \le 0$) representa o componente básico de capital humano, e $\kappa_s > 0$ parametriza a eficácia da IA sob o arranjo $s$. Defino a estrutura de retorno tecnológico por:
+\begin{equation}
+    \kappa_s = \kappa_{\text{ind}} + \Delta\kappa \, \mathbb{1}[s = F], \quad \text{com } \Delta\kappa \equiv \kappa_{\text{org}} - \kappa_{\text{ind}} > 0,
+\end{equation}
+em que $\kappa_{\text{ind}} \ge 0$ captura o ganho da IA individual autônoma (disponível universalmente) e $\Delta\kappa > 0$ reflete o \emph{prêmio de capital organizacional} restrito às empresas do setor formal.
+
+Sob concorrência perfeita no mercado de trabalho e preços de tarefas normalizados a um, a remuneração de equilíbrio iguala a produtividade líquida do custo de conformidade regulatória:
+\begin{equation}
+    w_{jF}(e) = y_{jF}(e) - c = g(e)\big(1 + \kappa_{\text{org}}\,\theta_j\big) - c, \qquad w_{jI}(e) = y_{jI}(e) = g(e)\big(1 + \kappa_{\text{ind}}\,\theta_j\big).
+    \label{eq:salarios}
+\end{equation}
+
+\noindent O arcabouço assenta-se em três hipóteses estruturais:
+\begin{itemize}
+    \item \textbf{H1 (Exogeneidade tecnológica de $\theta_j$).} O escore de exposição $\theta_j$ reflete atributos intrínsecos ao conteúdo de tarefas da ocupação \citep{eloundou2024gpts}, predeterminado em relação aos choques locais do mercado de trabalho brasileiro.
+    \item \textbf{H2 (Prêmio de capital organizacional $\Delta\kappa > 0$).} O retorno produtivo da IA sob integração corporativa supera o uso individual informal ($\kappa_{\text{org}} > \kappa_{\text{ind}}$).
+    \item \textbf{H3 (Custo de conformidade institucional $c > 0$).} A formalização de postos de trabalho impõe encargos regulatórios e parafiscais por trabalhador \citep{ulyssea2018firms}.
+\end{itemize}
+
+\subsection{Equilíbrio de designação e previsões testáveis}
+
+Um \emph{equilíbrio de designação} em equilíbrio parcial é definido por uma função de alocação $\sigma: [e_{\min}, e_{\max}] \to \{1, \dots, J\} \times \{F, I\}$ e um envelope salarial $w^*(e) = \max_{j, s} w_{js}(e)$ tais que cada trabalhador escolhe a ocupação e o regime contratual ótimos.
+
+Dentro de qualquer ocupação $j$, a escolha entre formalidade e informalidade obedece à regra de arbitragem líquida:
+\begin{equation}
+    w_{jF}(e) \ge w_{jI}(e) \iff g(e) \, \Delta\kappa \, \theta_j \ \ge \ c.
+    \label{eq:corte}
+\end{equation}
+Sendo $g(\cdot)$ estritamente crescente e invertível, a condição \eqref{eq:corte} determina um limiar único de escolaridade para formalização na ocupação $j$:
+\begin{equation}
+    e^*_j = g^{-1}\!\left(\frac{c}{\Delta\kappa \, \theta_j}\right),
+    \label{eq:limiar}
+\end{equation}
+onde trabalhadores com $e \ge e^*_j$ inserem-se no setor formal e aqueles com $e < e^*_j$ operam na informalidade.
+
+\begin{proposicao}[Gradiente escolaridade--exposição]
+\label{prop:gradiente}
+No equilíbrio de designação, a escolaridade média dos trabalhadores é estritamente crescente na exposição da ocupação: $\partial \bar{e}_j / \partial \theta_j > 0$.
+\end{proposicao}
+
+\textit{Intuição econômica.} A função de remuneração líquida $w^*(e, j) \equiv \max_{s \in \{F, I\}} w_{js}(e)$ é estritamente supermodular em $(e, \theta_j)$, uma vez que a derivada cruzada $\partial^2 y / \partial e \partial \theta > 0$ é estritamente positiva em ambos os regimes contratuais e o limiar de formalização $e_j^*$ é estritamente decrescente em $\theta_j$. Pelo teorema de pareamento seletivo positivo (\emph{positive assortative matching}) de \citet{becker1973theory}, trabalhadores com maior capital humano possuem vantagem comparativa em ocupações de alta exposição tecnológica, concentrando-se no topo da distribuição de $\theta_j$. \emph{Previsão empírica:} coeficiente $\beta_1 > 0$ na regressão de exposição sobre escolaridade (especificação S1).
+
+\begin{proposicao}[Complementaridade exposição--formalidade]
+\label{prop:formalidade}
+A taxa de formalidade dentro da ocupação é estritamente crescente na exposição: $\partial \, \text{formal}_j / \partial \theta_j > 0$.
+\end{proposicao}
+
+\textit{Intuição econômica.} Pela equação \eqref{eq:limiar}, o limiar de formalização $e^*_j$ decresce estritamente em $\theta_j$: em ocupações altamente expostas, o prêmio de produtividade organizacional compensa com folga o custo regulatório $c$ para uma faixa mais ampla de escolaridade, expandindo a massa de postos formais. \emph{Previsão empírica:} coeficiente negativo e significante da exposição sobre a probabilidade de informalidade na relação incondicional (especificação S3a).
+
+\begin{corolario}[Mediação parcial pela composição educacional]
+\label{cor:mediacao}
+A associação negativa bruta entre exposição à IA e probabilidade de informalidade é substancialmente atenuada quando se condiciona na escolaridade individual do trabalhador, retendo uma associação residual autônoma decorrente de complementaridades organizacionais de tarefas.
+\end{corolario}
+
+\textit{Intuição econômica.} Como o limiar $e_j^*$ é decrescente em $\theta_j$, ocupações mais expostas atraem sistematicamente trabalhadores mais escolarizados pelo pareamento positivo da Proposição~\ref{prop:gradiente}. Consequentemente, a composição educacional responde por parcela substantiva da menor taxa de informalidade observada em ocupações expostas. No entanto, porque a integração da tecnologia requer conformidade e ativos corporativos específicos à ocupação (representados pelo termo $\Delta\kappa \theta_j$), a exposição à IA mantém um canal autônomo de formalização mesmo para um nível dado de escolaridade individual. \emph{Previsão empírica:} na especificação S3, ao incluir os anos de estudo, o coeficiente de exposição atenua-se expressivamente em relação à especificação incondicional S3a, mas permanece estatisticamente significante e negativo ($\delta_1 < 0$).
+
+\begin{proposicao}[Heterogeneidade regional]
+\label{prop:regiao}
+O gradiente escolaridade--exposição é mais acentuado nas Unidades da Federação com setor formal mais profundo (maior $\Delta\kappa_u$), onde o retorno ao capital humano em tarefas expostas é superior.
+\end{proposicao}
+
+\textit{Intuição econômica.} Em mercados regionais onde a infraestrutura corporativa é mais desenvolvida e a densidade formal é mais elevada ($\Delta\kappa_u$), a supermodularidade entre escolaridade e exposição é amplificada. \emph{Previsão empírica:} interação positiva entre escolaridade individual e a taxa de formalidade média da UF (especificação S4).
+
+\subsection{Discussão teórica}
+
+A modelagem proposta resolve uma tensão analítica fundamental na literatura recente sobre inteligência artificial e desenvolvimento: a ampla difusão de aplicativos generativos na era digital não anula o papel da informalidade como amortecedor do mercado de trabalho. Enquanto o uso autônomo de ferramentas pontuais de IA aumenta a produtividade em tarefas isoladas, a recombinação produtiva que gera ganhos sustentados e transforma processos produtivos depende de ativos organizacionais complementares, cuja viabilidade econômica está restrita ao ambiente formal.

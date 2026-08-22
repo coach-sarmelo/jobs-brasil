@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+
+% ------------------------------------------------------------------
+% Exposição à IA em um Mercado de Trabalho Informal
+% Artigo misto teoria-empírica — esqueleto de trabalho
+% Compilar: latexmk -pdf main.tex  (ou pdflatex + bibtex + pdflatex x2)
+% ------------------------------------------------------------------
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage[round,authoryear]{natbib}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+\captionsetup{font=small,labelfont=bf}
+\newtheorem{proposicao}{Proposição}
+\newtheorem{corolario}{Corolário}
+
+% Nota de rodapé de título (agradecimentos, dados, contato)
+\title{Exposição à Inteligência Artificial em um Mercado de Trabalho Informal: Teoria e Evidências para o Brasil\thanks{Bacharel em Economia pela Universidade de Coimbra. Os microdados da PNAD Contínua são públicos (IBGE); o código de replicação e o painel de dados estão disponíveis no repositório do projeto.}}
+\author{Marcelo Moura Freire}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/00_resumo}
+
+\input{sections/01_introducao}
+
+\input{sections/02_modelo}
+
+\input{sections/03_dados}
+
+\input{sections/04_estrategia_empirica}
+
+\input{sections/05_resultados}
+
+\input{sections/06_conclusao}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\appendix
+\input{sections/apendice}
+
+\end{document}

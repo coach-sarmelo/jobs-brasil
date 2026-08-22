@@ -1,0 +1,33 @@
+\section{Estratégia empírica}
+\label{sec:estrategia}
+
+Estimo quatro especificações econométricas no nível do indivíduo ($N = 227.629$), utilizando Mínimos Quadrados Ponderados (WLS) pelos pesos amostrais da PNAD Contínua. Como o índice de exposição $\theta_{j(i)}$ varia no nível da ocupação $j \in \{1, \dots, 122\}$, todos os erros-padrão são agrupados por ocupação (122 \emph{clusters}), corrigindo para correlação intra-grupo e refletindo a identificação do sorting entre ocupações ponderado pelo emprego. Todas as especificações incorporam um vetor $\mathbf{X}_i$ de controles mincerianos (idade, idade ao quadrado, gênero e dummies de raça).
+
+\paragraph{S1 --- Gradiente escolaridade--exposição (Proposição~\ref{prop:gradiente}).}
+\begin{equation}
+    \theta_{j(i)} = \alpha + \beta_1 \, e_i + \mathbf{X}_i' \boldsymbol{\gamma} + \varepsilon_i,
+    \label{eq:s1}
+\end{equation}
+onde $e_i$ são os anos de estudo do trabalhador $i$. A previsão teórica é $\beta_1 > 0$. A fonte de variação advém do pareamento seletivo de equilíbrio entre qualificação e conteúdo de tarefas; $\beta_1$ quantifica o gradiente educacional após expurgar a composição demográfica.
+
+\paragraph{S2 --- Controle de rendimento.}
+Acrescento o rendimento habitual $w_i$ a \eqref{eq:s1}:
+\begin{equation}
+    \theta_{j(i)} = \alpha + \beta_1 \, e_i + \beta_2 \, w_i + \mathbf{X}_i' \boldsymbol{\gamma} + \varepsilon_i.
+    \label{eq:s2}
+\end{equation}
+A previsão é que $\beta_1$ permaneça positivo e estável, indicando que a exposição captura conteúdo de tarefas cognitivas, e não um mero efeito de renda.
+
+\paragraph{S3 --- Mediação pela escolaridade e complementaridade com formalidade (Proposição~\ref{prop:formalidade} e Corolário~\ref{cor:mediacao}).}
+\begin{equation}
+    \text{informal}_i = \alpha + \delta_1 \, \theta_{j(i)} + \delta_2 \, e_i + \mathbf{X}_i' \boldsymbol{\gamma} + \varepsilon_i.
+    \label{eq:s3}
+\end{equation}
+Estimo a relação incondicional (S3a, sem $e_i$; previsão $\delta_1 < 0$) e a relação condicional à escolaridade (S3; previsão $\delta_2 < 0$ e atenuação parcial expressiva de $\delta_1$). A comparação entre as colunas testa a hipótese de mediação parcial formulada no Corolário~\ref{cor:mediacao}: ao controlar pelos anos de escolaridade individual, quantifica-se em que medida a composição de capital humano responde pela menor informalidade em ocupações expostas versus o canal residual autônomo de tarefas corporativas.
+
+\paragraph{S4 --- Heterogeneidade regional nas 27 UFs (Proposição~\ref{prop:regiao}).}
+\begin{equation}
+    \theta_{j(i)} = \alpha + \beta_1 \, e_i + \beta_2 \, \big(e_i \times \text{formal}_{u(i)}^{\text{LOO}}\big) + \beta_3 \, \text{formal}_{u(i)}^{\text{LOO}} + \mathbf{X}_i' \boldsymbol{\gamma} + \varepsilon_i,
+    \label{eq:s4}
+\end{equation}
+onde $\text{formal}_{u(i)}^{\text{LOO}} \in [0,1]$ é a taxa de formalidade da Unidade da Federação $u$ calculada via \emph{leave-one-out} (excluindo a observação $i$). Previsão: $\beta_2 > 0$, refletindo maior inclinação do gradiente onde o setor formal é mais maduro.

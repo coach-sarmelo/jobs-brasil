@@ -1,0 +1,80 @@
+\section{Apêndice}
+
+% Tabelas do apêndice numeradas A1, A2...
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+
+\subsection{Prova da Proposição~\ref{prop:gradiente} (Pareamento Seletivo Positivo)}
+
+Considere duas ocupações $H$ e $L$ com $\theta_H > \theta_L$ e dois trabalhadores com escolaridades $e_H > e_L$. Em qualquer ocupação $j$, o trabalhador escolhe o setor formal se $e \ge e_j^*$ e o informal se $e < e_j^*$, onde o limiar de formalização $e_j^* = g^{-1}\big(c / (\Delta\kappa \theta_j)\big)$ é estritamente decrescente em $\theta_j$. A função de remuneração ótima (função envelope de valor) é dada por:
+\begin{equation}
+    w^*(e, j) \equiv \max_{s \in \{F, I\}} w_{js}(e) = g(e)\big(1 + \kappa_{\text{ind}}\theta_j\big) + \max\big\{0, \, g(e)\Delta\kappa\theta_j - c\big\}.
+    \label{eq:envelope}
+\end{equation}
+
+O ganho de eficiência social de alocar $(e_H, e_L)$ às ocupações $(H, L)$ em vez da alocação invertida $(L, H)$ corresponde ao teste de supermodularidade de Becker:
+\begin{equation}
+    \Delta \equiv \big[w^*(e_H, H) + w^*(e_L, L)\big] - \big[w^*(e_H, L) + w^*(e_L, H)\big].
+\end{equation}
+
+Decompondo $w^*(e, j) = \phi_1(e, \theta_j) + \phi_2(e, \theta_j)$, onde $\phi_1(e, \theta_j) = g(e)(1 + \kappa_{\text{ind}}\theta_j)$ e $\phi_2(e, \theta_j) = \max\{0, g(e)\Delta\kappa\theta_j - c\}$:
+\begin{enumerate}
+    \item Para $\phi_1$, como $g'(e) > 0$ e $\kappa_{\text{ind}} \ge 0$, temos:
+    \begin{equation}
+        \Delta_1 = \kappa_{\text{ind}}(\theta_H - \theta_L)\big[g(e_H) - g(e_L)\big] \ge 0.
+    \end{equation}
+    \item Para $\phi_2$, a função $h(e, \theta_j) \equiv g(e)\Delta\kappa\theta_j - c$ é estritamente supermodular em $(e, \theta_j)$, pois $\frac{\partial^2 h}{\partial e \partial \theta_j} = g'(e)\Delta\kappa > 0$. Como a operação $\max\{0, \cdot\}$ preserva a supermodularidade de funções coordenadas crescentes \citep[Teorema 2.6.1]{topkis1998supermodularity}, $\phi_2(e, \theta_j)$ é supermodular em $(e, \theta_j)$, garantindo $\Delta_2 \ge 0$.
+\end{enumerate}
+
+Para analisar os regimes contratuais, note que como $\theta_H > \theta_L$, tem-se $e_H^* < e_L^*$. Se os trabalhadores operam no mesmo regime contratual (ambos formais ou ambos informais), a derivada cruzada satisfaz $\frac{\partial^2 w_{js}}{\partial e \partial \theta_j} = g'(e)\kappa_s > 0$. Se o trabalhador $e_H$ formaliza-se na ocupação $H$ enquanto $e_L$ permanece informal na ocupação $L$ (arranjo ótimo de equilíbrio), o ganho estrito é:
+\begin{equation}
+    \Delta = \big(\kappa_{\text{org}}\theta_H - \kappa_{\text{ind}}\theta_L\big)\big[g(e_H) - g(e_L)\big] + \big[g(e_H)\Delta\kappa\theta_L - c\big]_+ > 0,
+\end{equation}
+pois $\kappa_{\text{org}} > \kappa_{\text{ind}}$, $\theta_H > \theta_L$ e $g(e_H) > g(e_L)$.
+
+Sendo $w^*(e, j)$ estritamente supermodular no reticulado $[e_{\min}, e_{\max}] \times \{\theta_1, \dots, \theta_J\}$, pelo teorema clássico de pareamento seletivo de \citet{becker1973theory}, a alocação de equilíbrio $\sigma(e)$ é estritamente crescente, estabelecendo que a escolaridade média é crescente na exposição: $\partial \bar{e}_j / \partial \theta_j > 0$. \qed
+
+\subsection{Prova da Proposição~\ref{prop:formalidade} e do Corolário~\ref{cor:mediacao}}
+
+Na ocupação $j$, o trabalhador com escolaridade $e$ opta pelo setor formal se e somente se $g(e)\Delta\kappa\theta_j \ge c$. Sendo $g(\cdot)$ estritamente crescente e contínua, o limiar de escolaridade para formalização é $e^*_j = g^{-1}\big(c / (\Delta\kappa \theta_j)\big)$.
+
+A taxa de informalidade na ocupação $j$ é dada por $I_j = F_j(e^*_j) = \int_{e_{\min}}^{e^*_j} f_j(e) \, de$, onde $F_j$ é a distribuição acumulada de escolaridade na ocupação. Diferenciando $I_j$ em relação a $\theta_j$:
+\begin{equation}
+    \frac{d I_j}{d \theta_j} = f_j(e^*_j) \, \frac{\partial e^*_j}{\partial \theta_j} + \int_{e_{\min}}^{e^*_j} \frac{\partial f_j(e)}{\partial \theta_j} \, de.
+    \label{eq:decomp_informal}
+\end{equation}
+Como $\frac{\partial e^*_j}{\partial \theta_j} = -\frac{c}{\Delta\kappa \, \theta_j^2 \, g'(e^*_j)} < 0$ e, pelo pareamento seletivo da Proposição~\ref{prop:gradiente}, a distribuição $F_j$ domina estocasticamente em primeira ordem ocupações de menor exposição ($\int_{e_{\min}}^{e^*_j} \frac{\partial f_j(e)}{\partial \theta_j} de \le 0$), ambos os termos em \eqref{eq:decomp_informal} são negativos. Logo, $\frac{d I_j}{d \theta_j} < 0$, o que comprova que a taxa de informalidade é estritamente decrescente em $\theta_j$ (e a taxa de formalidade é crescente em $\theta_j$), demonstrando a Proposição~\ref{prop:formalidade}.
+
+Para o Corolário~\ref{cor:mediacao}, observe que a regressão incondicional (S3a) captura a derivada total $\frac{d I_j}{d \theta_j}$. Ao estimar a especificação condicional (S3), o controle individual pela escolaridade $e_i$ absorve o efeito de composição educacional $\int_{e_{\min}}^{e^*_j} \frac{\partial f_j(e)}{\partial \theta_j} de$. No entanto, o termo de corte tecnológico individual $\mathbb{1}[g(e_i)\Delta\kappa\theta_j < c]$ permanece dependente de $\theta_j$, gerando uma associação residual direta $\delta_1 < 0$ que retém magnitude estatisticamente significante, caracterizando a mediação parcial. \qed
+
+\subsection{Prova da Proposição~\ref{prop:regiao}}
+
+Seja $\Delta\kappa_u$ o prêmio de produtividade organizacional da IA na UF $u$. A complementaridade marginal de tarefas expressa-se por $\frac{\partial^2 w^*}{\partial e \, \partial \theta_j} = g'(e)\kappa_{\text{ind}} + g'(e)\Delta\kappa_u \mathbb{1}[e \ge e_{ju}^*]$. 
+
+Diferenciando em relação à maturidade formal regional $\Delta\kappa_u$:
+\begin{equation}
+    \frac{\partial^3 w^*}{\partial e \, \partial \theta_j \, \partial \Delta\kappa_u} = g'(e) \, \mathbb{1}[e \ge e_{ju}^*] - g'(e)\Delta\kappa_u \, \delta(e - e_{ju}^*) \, \frac{\partial e_{ju}^*}{\partial \Delta\kappa_u} \ > \ 0,
+\end{equation}
+onde $\delta(\cdot)$ é o delta de Dirac e $\frac{\partial e_{ju}^*}{\partial \Delta\kappa_u} < 0$. Em UFs com maior densidade formal, a supermodularidade entre escolaridade e exposição tecnológica é estritamente mais forte. Pelo teorema de comparativa estática de \citet{becker1973theory}, a inclinação do gradiente educacional $\partial \bar{e}_j / \partial \theta_j$ é estritamente crescente na profundidade formal regional $\Delta\kappa_u$. \qed
+
+\subsection{Cobertura do cruzamento \texorpdfstring{COD$\to$O*NET-SOC}{COD para O*NET-SOC}}
+
+Dos microdados da PNAD Contínua de 2026Q1, 122 das 127 ocupações COD observadas na amostra possuem escore de exposição válido, cobrindo 99{,}7\% da força de trabalho ocupada. Os cinco subgrupos remanescentes --- as Forças Armadas (códigos 11 e 21) e mais três subgrupos sem correspondência direta nas classificações ocupacionais civis do O*NET-SOC --- representam conjuntamente $0{,}3\%$ do emprego e são tratados como ausentes (\texttt{null}), sem imputação artificial.
+
+\subsection{Robustez adicional}
+\label{ap:robustez}
+
+A Tabela~\ref{tab:robustezgrupos} apresenta os testes de sensibilidade excluindo cada um dos 9 grandes grupos ocupacionais da COD (1 dígito), aplicando a especificação em nível de microdados individuais com controles mincerianos completos (idade, idade ao quadrado, gênero e raça). O coeficiente de escolaridade permanece estatisticamente estável e significativo a 1\% em todas as subamostras (variando entre 0,19 e 0,26), confirmando que o gradiente não é puxado por nenhuma categoria profissional isolada.
+
+\begin{table}[htbp]
+\centering
+\caption{Gradiente e mediação excluindo cada grande grupo ocupacional (microdados individuais). Coluna (1): coeficiente da escolaridade em S1; Coluna (2): coeficiente de exposição em S3. Erros-padrão agrupados por ocupação entre parênteses. Controles mincerianos completos incluídos. * 10\%, ** 5\%, *** 1\%.}
+\label{tab:robustezgrupos}
+\begin{tabular}{lcc}
+\toprule
+Grupo excluído & (1) Escolaridade, S1 & (2) Exposição, S3 \\
+\midrule
+\input{tables/tab_robustez_grupos} \\
+\bottomrule
+\end{tabular}
+\end{table}

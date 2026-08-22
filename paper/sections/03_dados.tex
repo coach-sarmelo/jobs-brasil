@@ -1,0 +1,60 @@
+\section{Dados}
+\label{sec:dados}
+
+\subsection{Fontes}
+
+Uso três fontes de dados. Primeira: os microdados trimestrais da Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua) do IBGE \citep{ibgepnad}, referentes ao 1º trimestre de 2026 (2026Q1), totalizando mais de 228 mil indivíduos ocupados com pesos amostrais oficiais ($V1028$). Extraio ocupação (COD a 3 dígitos), condição de formalidade/informalidade, rendimento habitual do trabalho principal, anos de escolaridade, idade, sexo, cor/raça e unidade federativa (27 UFs). Segunda: o índice de exposição ocupacional à IA de \citet{eloundou2024gpts}, construído a partir das tarefas detalhadas da taxonomia americana O*NET-SOC. Terceira: os cruzamentos ocupacionais oficiais ISCO-08$\leftrightarrow$SOC publicados pelo Bureau of Labor Statistics \citep{blscrosswalk}, que conectam a COD (compatível com a ISCO-08) ao sistema O*NET-SOC.
+
+\subsection{Construção do cruzamento e do índice}
+
+A exposição $\theta_j \in [0,10]$ de cada ocupação brasileira corresponde à média ponderada dos escores \texttt{dv\_rating\_beta} de \citet{eloundou2024gpts} dos códigos SOC mapeados, calibrada pela estrutura de postos de trabalho observada. O cálculo é estritamente determinístico, reproduzível por rotinas públicas em Python e sem geração probabilística de conteúdo por LLMs. Ocupações não cobertas pelo escopo original (como forças armadas) recebem valor nulo (\texttt{null}) de forma explícita, sem imputações artificiais.
+
+\subsection{Amostra e variáveis}
+
+A amostra econométrica final é composta por $227.629$ indivíduos ocupados em 122 ocupações com escore válido de exposição e informações completas para todas as covariáveis mincerianas. A taxa de cobertura atinge 99{,}7\% do emprego brasileiro observado. As variáveis centrais são:
+\begin{itemize}
+    \item \textbf{Exposição à IA ($\theta_j$):} índice de 0 a 10 atribuído à ocupação do trabalhador.
+    \item \textbf{Escolaridade ($e_i$):} anos completos de estudo do indivíduo ($0$ a $16$).
+    \item \textbf{Informalidade ($\text{informal}_i$):} variável indicadora ($1$ se sem carteira assinada, sem CNPJ no conta-própria/empregador ou trabalhador familiar auxiliar; $0$ caso contrário), conforme o critério metodológico oficial do IBGE.
+    \item \textbf{Controles mincerianos:} idade, idade ao quadrado, gênero ($1$ para feminino) e variáveis indicadoras para categorias de cor/raça (preta, parda, amarela, indígena; base branca).
+    \item \textbf{Formalidade regional:} taxa de formalidade média da UF do trabalhador, calculada pelo método \emph{leave-one-out} (excluindo a observação do próprio trabalhador) para evitar circularidade mecânica.
+\end{itemize}
+
+\subsection{Estatísticas descritivas}
+
+A Tabela~\ref{tab:descritivas} resume as características descritivas da amostra de indivíduos ocupados em 2026Q1, ponderadas pelos pesos amostrais da PNAD Contínua. A exposição média é de 2{,}86 (escala 0--10) e 35,2\% da força de trabalho ocupada (35{,}7 milhões de trabalhadores) situa-se em ocupações com $\theta \le 2$. A escolaridade média alcança 11,6 anos e a taxa de informalidade 40,5\%.
+
+\begin{table}[htbp]
+\centering
+\caption{Estatísticas descritivas da amostra de indivíduos ocupados (PNAD Contínua, 2026Q1; $N = 227.629$). Médias, desvios-padrão, mínimos e máximos ponderados pelos pesos amostrais. Escolaridade em anos completos de estudo; informalidade em porcentagem; rendimento habitual mensal em reais.}
+\label{tab:descritivas}
+\begin{tabular}{lccccc}
+\toprule
+Variável & N & Média & DP & Mín & Máx \\
+\midrule
+\input{tables/tab_descritivas} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A Tabela~\ref{tab:maiores} detalha as dez maiores ocupações do país, evidenciando o contraste estrutural: enquanto serviços domésticos combinam exposição quase nula ($0{,}1$) e informalidade de 54{,}3\%, ocupações de apoio administrativo registram exposição elevada ($5{,}8$) e baixa informalidade ($18{,}6\%$).
+
+\begin{table}[htbp]
+\centering
+\caption{As dez maiores ocupações do Brasil (2026Q1): emprego em milhões, exposição à IA, escolaridade média (anos), informalidade (\%) e rendimento médio (R\$).}
+\label{tab:maiores}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+Ocupação & Empregos & Exposição & Anos est. & Informal. & Renda \\
+\midrule
+\input{tables/tab_maiores} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Limitações metodológicas e intensidade de capital}
+
+Três limitações merecem explicitação transparente no corpo do texto. Primeira: a exposição é mensurada no nível ocupacional, não refletindo a heterogeneidade intra-ocupacional de tarefas entre trabalhadores com a mesma COD. Segunda: o índice de \citet{eloundou2024gpts} reflete a estrutura tecnológica da economia americana. Em países em desenvolvimento como o Brasil, onde a relação capital-trabalho é substancialmente menor, ocupações formais homônimas podem incorporar mais rotinas manuais ou analógicas de suporte (\emph{task downgrading}), fazendo com que o escore O*NET represente um teto superior para a verdadeira exposição efetiva brasileira. Terceira: os dados capturam equilíbrios transversais de alocação (\emph{sorting}), não identificando impactos causais da difusão tecnológica sobre salários ou transições ocupacionais.
