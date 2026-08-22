@@ -1,0 +1,3 @@
+## 2025-02-21 - Optimize String sorting and normalize operations
+**Learning:** In Javascript, `String.prototype.localeCompare` creates a new `Intl.Collator` instance (or its internal equivalent) on every single call. For sorting arrays, this is a massive hidden bottleneck (~10x slower). Also, repetitive regex and unicode normalization (`NFD`) calls in render loops/search filters take up measurable time and should be cached on initialization if the data doesn't mutate.
+**Action:** Always instantiate a single `Intl.Collator` (e.g. `const collator = new Intl.Collator(locale);`) and use `collator.compare(a, b)` for array sorting. Pre-compute and cache normalized strings for search filters on load.
