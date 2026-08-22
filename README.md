@@ -1,34 +1,30 @@
 # Mapa do Trabalho Brasileiro
 
-Projeto de análise econômica que mede a **exposição ocupacional à inteligência
-artificial, níveis de informalidade e qualificação** no mercado de trabalho
-brasileiro, a partir de mais de **227 mil observações** de microdados da
-**PNAD Contínua (IBGE)** e do índice de exposição à IA de
+Em 2026, 35 milhões de brasileiros trabalham em ocupações com exposição quase
+nula à inteligência artificial. Este projeto investiga por quê — estimando
+regressões ponderadas sobre 227.629 observações de microdados da **PNAD
+Contínua (IBGE)**, cruzadas com o índice de exposição ocupacional de
 [Eloundou et al. (2024)](https://doi.org/10.1126/science.adj0998).
 
-> 🖥️ **Explore o resultado interativo:** [Mapa do Trabalho Brasileiro — site](https://coach-sarmelo.github.io/jobs-brasil/)
+> 🖥️ **Ver os resultados:** [Mapa do Trabalho Brasileiro — site interativo](https://coach-sarmelo.github.io/jobs-brasil/)
 
-## Sobre o projeto
+## O que este projeto mostra
 
-Este projeto foi estruturado como um **estudo replicável de ponta a ponta**, do
-dado bruto à publicação:
-
-- **Dados confiáveis e auditáveis** — microdados oficiais da PNAD Contínua
-  (IBGE), peso amostral oficial `V1028`, safra 2026Q1.
-- **Metodologia transparente** — exposição à IA usando o índice acadêmico de
+- **Dados auditáveis** — microdados oficiais da PNAD Contínua (IBGE), peso
+  amostral oficial `V1028`, safra 2026Q1.
+- **Índice externo verificado** — exposição à IA pelo índice de
   Eloundou et al. (2024) (escala 0–10), combinado à informalidade e à
   qualificação.
-- **Análise econométrica rigorosa** — estimação determinística por regressões
-  ponderadas (WLS), especificações principais (S1–S4) e bateria de robustez
-  (R1–R7), sem uso de LLM em nenhuma etapa do cálculo.
-- **Cobertura nacional** — resultados para **12 grandes grupos ocupacionais**,
-  todas as **27 UF** e as **5 regiões** do país.
-- **Comunicação em camadas** — artigo técnico em PDF e um **site interativo**
-  que traduz os achados para um público não acadêmico.
+- **Econometria reproduzível** — regressões ponderadas (WLS), especificações
+  principais (S1–S4), bateria de robustez (R1–R7), estimação determinística
+  sem LLM.
+- **Cobertura nacional** — 12 grandes grupos ocupacionais, 27 UF e 5 regiões.
+- **Disseminação em duas camadas** — artigo técnico em PDF e um site
+  interativo que traduz os achados para leitores não acadêmicos.
 
-## Repositório
+## Estrutura do repositório
 
-| Componente | Descrição |
+| Componente | Conteúdo |
 |---|---|
 | `scripts/` | Pipeline de download dos microdados, estimação (WLS, robustez), tabelas e figuras |
 | `tests/` | Suíte de testes do pipeline (`pytest`) |
