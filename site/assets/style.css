@@ -159,14 +159,20 @@ code, pre, .num { font-family: var(--mono); font-size: 0.92em; }
 .contrast {
   max-width: 42em; margin: 28px 0 22px;
   border-top: 1px solid var(--ink);
+  border-collapse: collapse;
+  width: 100%;
 }
-.contrast-row {
-  display: grid; grid-template-columns: 1fr 130px 90px;
-  gap: 12px; padding: 10px 2px; border-bottom: 1px solid var(--hair);
-  font-size: 0.97rem;
+.contrast th, .contrast td {
+  padding: 10px 2px; border-bottom: 1px solid var(--hair);
+  font-size: 0.97rem; text-align: left; font-weight: 400;
 }
-.contrast-head { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); font-family: var(--ui); }
-.contrast-row .num { text-align: right; }
+.contrast thead th {
+  font-size: 0.74rem; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--muted);
+  font-family: var(--ui);
+}
+.contrast th[scope="row"] { font-family: var(--serif); }
+.contrast .num { text-align: right; font-variant-numeric: tabular-nums; }
 
 /* fórmula do limiar */
 .formula {
@@ -241,6 +247,11 @@ code, pre, .num { font-family: var(--mono); font-size: 0.92em; }
 }
 #search:focus { border-color: var(--focus); outline: none; box-shadow: 0 0 0 2px color-mix(in srgb, var(--focus) 25%, transparent); }
 .check { font-size: 0.85rem; color: var(--muted); display: flex; gap: 8px; align-items: center; }
+.check input[type="checkbox"] {
+  width: 24px; height: 24px; margin: 0;
+  accent-color: var(--accent);
+  flex: none;
+}
 
 .table-wrap {
   max-height: 480px; overflow: auto;
@@ -249,13 +260,25 @@ code, pre, .num { font-family: var(--mono); font-size: 0.92em; }
 #occ-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
 #occ-table th {
   position: sticky; top: 0; background: var(--paper-2); z-index: 1;
-  text-align: left; padding: 10px 12px; font-size: 0.74rem;
+  text-align: left; padding: 0; font-size: 0.74rem;
   letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
-  cursor: pointer; user-select: none; white-space: nowrap;
+  white-space: nowrap;
 }
 #occ-table th.num { text-align: right; }
-#occ-table th:hover { color: var(--ink); }
-#occ-table th.sorted { color: var(--accent); }
+.sort-btn {
+  display: inline-flex; align-items: center; gap: 4px;
+  min-height: 24px; padding: 10px 12px;
+  font: inherit; letter-spacing: inherit; text-transform: inherit;
+  color: inherit; background: none; border: 0;
+  cursor: pointer; user-select: none;
+}
+.sort-btn:hover { color: var(--ink); }
+/* indicador de direção: símbolo (não só cor) + cor */
+#occ-table th[aria-sort] .sort-btn::after { content: "↕"; font-size: 0.85em; opacity: 0.6; }
+#occ-table th[aria-sort="ascending"] .sort-btn::after { content: "↑"; opacity: 1; }
+#occ-table th[aria-sort="descending"] .sort-btn::after { content: "↓"; opacity: 1; }
+#occ-table th[aria-sort="ascending"] .sort-btn,
+#occ-table th[aria-sort="descending"] .sort-btn { color: var(--accent); font-weight: 600; }
 #occ-table td { padding: 8px 12px; border-top: 1px solid var(--hair); vertical-align: top; }
 #occ-table td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 #occ-table tbody tr { cursor: pointer; }
@@ -316,6 +339,6 @@ code, pre, .num { font-family: var(--mono); font-size: 0.92em; }
   .stats { grid-template-columns: 1fr; }
   .stat { border-left: 0; border-top: 1px solid var(--ink); padding: 16px 0; }
   .stat:first-child { border-top: 0; }
-  .contrast-row { grid-template-columns: 1fr 90px 70px; font-size: 0.9rem; }
+  .contrast { font-size: 0.9rem; }
   .hero, .prose, .results, .explorer { padding-left: 16px; padding-right: 16px; }
 }

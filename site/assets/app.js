@@ -617,9 +617,8 @@ function initExplorer(data) {
       tr.dataset.code = o.code;
       if (state.selected === o.code) tr.className = "sel";
       tr.setAttribute("tabindex", "0");
-      tr.setAttribute("aria-selected", state.selected === o.code ? "true" : "false");
       tr.innerHTML = `
-        <td class="occ-name">${o.name}<span class="occ-group">${o.group}</span></td>
+        <td class="occ-name">${o.name}${state.selected === o.code ? ' <span class="visually-hidden">(selecionada)</span>' : ""}<span class="occ-group">${o.group}</span></td>
         <td class="num">${fmtInt.format(o.jobs)}</td>
         <td class="num">${o.exposure == null ? "n.d." : fmt1.format(o.exposure)}</td>
         <td class="num">${fmt1.format(o.informality)}%</td>
@@ -632,9 +631,10 @@ function initExplorer(data) {
       tbody.appendChild(tr);
     });
     countEl.textContent = `Exibindo ${fmtInt.format(list.length)} de ${fmtInt.format(data.occupations.length)} ocupações`;
-    $$("th", table).forEach((th) => {
+    $$(".sort-btn", table).forEach((btn) => {
+      const th = btn.closest("th");
       const active = th.dataset.sort === state.sortKey;
-      th.classList.toggle("sorted", active);
+      btn.setAttribute("aria-pressed", active ? "true" : "false");
       th.setAttribute("aria-sort",
         active ? (state.sortDir === 1 ? "ascending" : "descending") : "none");
     });
@@ -736,25 +736,19 @@ function initExplorer(data) {
     state.selected = code;
     renderDetail();
     renderScatter();
-    $$("tr", tbody).forEach((tr) => {
-      const active = tr.dataset.code === String(code);
-      tr.classList.toggle("sel", active);
-      tr.setAttribute("aria-selected", active ? "true" : "false");
-    });
+    renderTable();
+    // devolve o foco à linha selecionada (re-render recriou o DOM)
+    const tr = tbody.querySelector(`tr[data-code="${code}"]`);
+    if (tr) tr.focus();
   }
 
-  $$("th", table).forEach((th) => {
-    th.setAttribute("tabindex", "0");
-    th.setAttribute("role", "button");
-    const activate = () => {
+  $$(".sort-btn", table).forEach((btn) => {
+    const th = btn.closest("th");
+    btn.addEventListener("click", () => {
       const key = th.dataset.sort;
       if (state.sortKey === key) state.sortDir *= -1;
       else { state.sortKey = key; state.sortDir = key === "name" ? 1 : -1; }
       renderTable();
-    };
-    th.addEventListener("click", activate);
-    th.addEventListener("keydown", (ev) => {
-      if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); activate(); }
     });
   });
 

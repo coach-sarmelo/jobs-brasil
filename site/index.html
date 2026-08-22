@@ -67,37 +67,42 @@
     </section>
 
     <!-- ========================== A PERGUNTA ========================== -->
-    <section class="prose" id="pergunta">
+    <section class="prose" id="pergunta" tabindex="-1">
       <h2 class="sec-title">A pergunta</h2>
       <p class="lead">Trinta e cinco milhões de brasileiros trabalham em ocupações com exposição quase nula à inteligência artificial. Não é a sofisticação das tarefas que os isola, mas o caráter predominantemente manual, presencial e informal delas.</p>
       <p>Nos Estados Unidos, o índice de Eloundou et al. (2024) indica que cerca de 80% da força de trabalho tem ao menos 10% das tarefas afetadas por grandes modelos de linguagem. No Brasil, a mesma métrica revela um padrão assimétrico: a exposição é positivamente associada à escolaridade e à renda, concentrando-se no emprego formal. O mercado de trabalho brasileiro conta com um amortecedor ausente nas economias avançadas, a informalidade, e esse amortecedor situa-se exatamente na base do espectro de exposição.</p>
-      <div class="contrast" role="table" aria-label="Contraste entre grandes ocupações: emprego e exposição à IA">
-        <div class="contrast-row contrast-head" role="row">
-          <span role="columnheader">Ocupação</span>
-          <span role="columnheader">Empregos</span>
-          <span role="columnheader">Exposição θ</span>
-        </div>
-        <div class="contrast-row" role="row">
-          <span role="cell">Trabalhadores domésticos</span>
-          <span role="cell">6,73 mi</span>
-          <span role="cell" class="num">0,1</span>
-        </div>
-        <div class="contrast-row" role="row">
-          <span role="cell">Construção civil em obras estruturais</span>
-          <span role="cell">3,24 mi</span>
-          <span role="cell" class="num">0,9</span>
-        </div>
-        <div class="contrast-row" role="row">
-          <span role="cell">Desenvolvedores e analistas de software</span>
-          <span role="cell">0,75 mi</span>
-          <span role="cell" class="num">7,5</span>
-        </div>
-        <div class="contrast-row" role="row">
-          <span role="cell">Operadores de máquinas de escritório</span>
-          <span role="cell">26 mil</span>
-          <span role="cell" class="num">8,6</span>
-        </div>
-      </div>
+      <table class="contrast" aria-describedby="fn-contraste">
+        <caption class="visually-hidden">Contraste entre grandes ocupações: empregos e exposição à IA</caption>
+        <thead>
+          <tr>
+            <th scope="col">Ocupação</th>
+            <th scope="col" class="num">Empregos</th>
+            <th scope="col" class="num">Exposição θ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Trabalhadores domésticos</th>
+            <td class="num">6,73 mi</td>
+            <td class="num">0,1</td>
+          </tr>
+          <tr>
+            <th scope="row">Construção civil em obras estruturais</th>
+            <td class="num">3,24 mi</td>
+            <td class="num">0,9</td>
+          </tr>
+          <tr>
+            <th scope="row">Desenvolvedores e analistas de software</th>
+            <td class="num">0,75 mi</td>
+            <td class="num">7,5</td>
+          </tr>
+          <tr>
+            <th scope="row">Operadores de máquinas de escritório</th>
+            <td class="num">26 mil</td>
+            <td class="num">8,6</td>
+          </tr>
+        </tbody>
+      </table>
       <p class="footnote" id="fn-contraste">O trabalho doméstico e a construção estrutural somam mais empregos do que todas as ocupações de tecnologia, finanças e administração juntas, com exposição quase nula. A distância entre a base e o topo do espectro é o objeto deste estudo.</p>
     </section>
 
@@ -233,12 +238,12 @@
             <table id="occ-table" aria-label="Tabela de ocupações">
               <thead>
                 <tr>
-                  <th data-sort="name">Ocupação</th>
-                  <th data-sort="jobs" class="num">Empregos</th>
-                  <th data-sort="exposure" class="num">θ IA</th>
-                  <th data-sort="informality" class="num">Informal.</th>
-                  <th data-sort="schooling" class="num">Estudo</th>
-                  <th data-sort="income" class="num">Renda</th>
+                  <th data-sort="name" aria-sort="none"><button type="button" class="sort-btn">Ocupação</button></th>
+                  <th data-sort="jobs" class="num" aria-sort="none"><button type="button" class="sort-btn">Empregos</button></th>
+                  <th data-sort="exposure" class="num" aria-sort="none"><button type="button" class="sort-btn">θ IA</button></th>
+                  <th data-sort="informality" class="num" aria-sort="none"><button type="button" class="sort-btn">Informal.</button></th>
+                  <th data-sort="schooling" class="num" aria-sort="none"><button type="button" class="sort-btn">Estudo</button></th>
+                  <th data-sort="income" class="num" aria-sort="none"><button type="button" class="sort-btn">Renda</button></th>
                 </tr>
               </thead>
               <tbody></tbody>
@@ -274,7 +279,7 @@
   year   = {2026},
   note   = {Microdados da PNAD Contínua (IBGE), 1º trimestre}
 }</code></pre>
-      <button class="btn btn-small" id="copy-bib">Copiar citação</button>
+      <button class="btn btn-small" id="copy-bib" aria-live="polite">Copiar citação</button>
     </div>
     <div class="footer-meta">
       <p>Licença MIT. Dados públicos do IBGE (PNAD Contínua) e índice de exposição de Eloundou et al. (2024). As estimativas descrevem o sorting ocupacional de equilíbrio e não constituem evidência causal.</p>
